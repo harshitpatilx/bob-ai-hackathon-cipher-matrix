@@ -1,0 +1,2 @@
+call_id,timestamp,msisdn_a,msisdn_b,duration_sec,cell_id,imei_a,imei_b
+C0001,2024-03-06T09:50:00,9431100002,9431100001,48,CEL101,,

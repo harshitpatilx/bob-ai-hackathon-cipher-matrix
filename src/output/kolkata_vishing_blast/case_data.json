@@ -1,0 +1,6140 @@
+{
+  "case": {
+    "meta": {
+      "case_id": "kolkata_vishing_blast",
+      "title": "Kolkata Spoofed Customer Care Vishing Blast",
+      "police_station": "Cyber Crime Cell, Kolkata Police",
+      "district": "Kolkata",
+      "state": "West Bengal",
+      "complainant": "9 victims (aggregated)",
+      "occurred_on": "2024-03-06",
+      "reported_on": "2024-03-06",
+      "officer": "Investigating Officer, Cyber Crime Cell Kolkata",
+      "notes": "Mock dataset: vishing blast with broadcast caller, beneficiary mules and cashout."
+    },
+    "stats": {
+      "entities": 93,
+      "relations": 113,
+      "documents": 6,
+      "records": 82,
+      "entity_types": {
+        "account": 17,
+        "device": 14,
+        "ip": 13,
+        "location": 1,
+        "pan": 1,
+        "person": 15,
+        "phone": 15,
+        "upi_id": 17
+      },
+      "relation_types": {
+        "call": 12,
+        "co_occur": 11,
+        "device_used_msisdn": 14,
+        "located_at": 13,
+        "maps_to": 17,
+        "owns": 17,
+        "session_ip": 13,
+        "transfer": 16
+      },
+      "total_trail_amount": 2322271.0
+    },
+    "entities": [
+      {
+        "id": "account:5003000010001",
+        "type": "account",
+        "value": "5003000010001",
+        "raw": "5003000010001",
+        "labels": [
+          "victim"
+        ],
+        "sources": [
+          "02_transactions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {
+          "bank": "UCO"
+        }
+      },
+      {
+        "id": "upi_id:sourav.banerjee@ybl",
+        "type": "upi_id",
+        "value": "sourav.banerjee@ybl",
+        "raw": "sourav.banerjee@ybl",
+        "labels": [],
+        "sources": [
+          "02_transactions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {}
+      },
+      {
+        "id": "person:SOURAV BANERJEE",
+        "type": "person",
+        "value": "SOURAV BANERJEE",
+        "raw": "Sourav Banerjee",
+        "labels": [
+          "victim"
+        ],
+        "sources": [
+          "02_transactions.csv",
+          "06_victim_complaints.txt"
+        ],
+        "mentions": 3,
+        "attrs": {}
+      },
+      {
+        "id": "account:5003000020001",
+        "type": "account",
+        "value": "5003000020001",
+        "raw": "5003000020001",
+        "labels": [
+          "mule"
+        ],
+        "sources": [
+          "02_transactions.csv",
+          "01_incident_notes.txt"
+        ],
+        "mentions": 6,
+        "attrs": {
+          "bank": "SBI"
+        }
+      },
+      {
+        "id": "upi_id:bikash.mondal@ybl",
+        "type": "upi_id",
+        "value": "bikash.mondal@ybl",
+        "raw": "bikash.mondal@ybl",
+        "labels": [],
+        "sources": [
+          "02_transactions.csv"
+        ],
+        "mentions": 5,
+        "attrs": {}
+      },
+      {
+        "id": "person:BIKASH MONDAL",
+        "type": "person",
+        "value": "BIKASH MONDAL",
+        "raw": "Bikash Mondal",
+        "labels": [
+          "suspect"
+        ],
+        "sources": [
+          "02_transactions.csv",
+          "07_accused_statements.txt"
+        ],
+        "mentions": 6,
+        "attrs": {}
+      },
+      {
+        "id": "account:5003000010002",
+        "type": "account",
+        "value": "5003000010002",
+        "raw": "5003000010002",
+        "labels": [
+          "victim"
+        ],
+        "sources": [
+          "02_transactions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {
+          "bank": "SBI"
+        }
+      },
+      {
+        "id": "upi_id:priya.das@okaxis",
+        "type": "upi_id",
+        "value": "priya.das@okaxis",
+        "raw": "priya.das@okaxis",
+        "labels": [],
+        "sources": [
+          "02_transactions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {}
+      },
+      {
+        "id": "person:PRIYA DAS",
+        "type": "person",
+        "value": "PRIYA DAS",
+        "raw": "Priya Das",
+        "labels": [
+          "victim"
+        ],
+        "sources": [
+          "02_transactions.csv",
+          "06_victim_complaints.txt"
+        ],
+        "mentions": 3,
+        "attrs": {}
+      },
+      {
+        "id": "account:5003000020002",
+        "type": "account",
+        "value": "5003000020002",
+        "raw": "5003000020002",
+        "labels": [],
+        "sources": [
+          "02_transactions.csv",
+          "01_incident_notes.txt"
+        ],
+        "mentions": 6,
+        "attrs": {
+          "bank": "SBI"
+        }
+      },
+      {
+        "id": "upi_id:sneha.sarkar@ybl",
+        "type": "upi_id",
+        "value": "sneha.sarkar@ybl",
+        "raw": "sneha.sarkar@ybl",
+        "labels": [],
+        "sources": [
+          "02_transactions.csv"
+        ],
+        "mentions": 5,
+        "attrs": {}
+      },
+      {
+        "id": "person:SNEHA SARKAR",
+        "type": "person",
+        "value": "SNEHA SARKAR",
+        "raw": "Sneha Sarkar",
+        "labels": [
+          "suspect"
+        ],
+        "sources": [
+          "02_transactions.csv",
+          "07_accused_statements.txt"
+        ],
+        "mentions": 6,
+        "attrs": {}
+      },
+      {
+        "id": "account:5003000010003",
+        "type": "account",
+        "value": "5003000010003",
+        "raw": "5003000010003",
+        "labels": [
+          "victim"
+        ],
+        "sources": [
+          "02_transactions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {
+          "bank": "AXIS"
+        }
+      },
+      {
+        "id": "upi_id:imran.sheikh@ybl",
+        "type": "upi_id",
+        "value": "imran.sheikh@ybl",
+        "raw": "imran.sheikh@ybl",
+        "labels": [],
+        "sources": [
+          "02_transactions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {}
+      },
+      {
+        "id": "person:IMRAN SHEIKH",
+        "type": "person",
+        "value": "IMRAN SHEIKH",
+        "raw": "Imran Sheikh",
+        "labels": [
+          "victim"
+        ],
+        "sources": [
+          "02_transactions.csv",
+          "06_victim_complaints.txt"
+        ],
+        "mentions": 3,
+        "attrs": {}
+      },
+      {
+        "id": "account:5003000020003",
+        "type": "account",
+        "value": "5003000020003",
+        "raw": "5003000020003",
+        "labels": [],
+        "sources": [
+          "02_transactions.csv",
+          "01_incident_notes.txt"
+        ],
+        "mentions": 6,
+        "attrs": {
+          "bank": "SBI"
+        }
+      },
+      {
+        "id": "upi_id:javed.ansari@ybl",
+        "type": "upi_id",
+        "value": "javed.ansari@ybl",
+        "raw": "javed.ansari@ybl",
+        "labels": [],
+        "sources": [
+          "02_transactions.csv"
+        ],
+        "mentions": 5,
+        "attrs": {}
+      },
+      {
+        "id": "person:JAVED ANSARI",
+        "type": "person",
+        "value": "JAVED ANSARI",
+        "raw": "Javed Ansari",
+        "labels": [],
+        "sources": [
+          "02_transactions.csv"
+        ],
+        "mentions": 5,
+        "attrs": {}
+      },
+      {
+        "id": "account:5003000010004",
+        "type": "account",
+        "value": "5003000010004",
+        "raw": "5003000010004",
+        "labels": [
+          "victim"
+        ],
+        "sources": [
+          "02_transactions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {
+          "bank": "PNB"
+        }
+      },
+      {
+        "id": "upi_id:rupa.ghosh@paytm",
+        "type": "upi_id",
+        "value": "rupa.ghosh@paytm",
+        "raw": "rupa.ghosh@paytm",
+        "labels": [],
+        "sources": [
+          "02_transactions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {}
+      },
+      {
+        "id": "person:RUPA GHOSH",
+        "type": "person",
+        "value": "RUPA GHOSH",
+        "raw": "Rupa Ghosh",
+        "labels": [
+          "victim"
+        ],
+        "sources": [
+          "02_transactions.csv",
+          "06_victim_complaints.txt"
+        ],
+        "mentions": 3,
+        "attrs": {}
+      },
+      {
+        "id": "account:5003000010005",
+        "type": "account",
+        "value": "5003000010005",
+        "raw": "5003000010005",
+        "labels": [
+          "victim"
+        ],
+        "sources": [
+          "02_transactions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {
+          "bank": "UCO"
+        }
+      },
+      {
+        "id": "upi_id:tanmay.roy@ybl",
+        "type": "upi_id",
+        "value": "tanmay.roy@ybl",
+        "raw": "tanmay.roy@ybl",
+        "labels": [],
+        "sources": [
+          "02_transactions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {}
+      },
+      {
+        "id": "person:TANMAY ROY",
+        "type": "person",
+        "value": "TANMAY ROY",
+        "raw": "Tanmay Roy",
+        "labels": [
+          "victim"
+        ],
+        "sources": [
+          "02_transactions.csv",
+          "06_victim_complaints.txt"
+        ],
+        "mentions": 3,
+        "attrs": {}
+      },
+      {
+        "id": "account:5003000010006",
+        "type": "account",
+        "value": "5003000010006",
+        "raw": "5003000010006",
+        "labels": [
+          "victim"
+        ],
+        "sources": [
+          "02_transactions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {
+          "bank": "SBI"
+        }
+      },
+      {
+        "id": "upi_id:nazia.khan@okaxis",
+        "type": "upi_id",
+        "value": "nazia.khan@okaxis",
+        "raw": "nazia.khan@okaxis",
+        "labels": [],
+        "sources": [
+          "02_transactions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {}
+      },
+      {
+        "id": "person:NAZIA KHAN",
+        "type": "person",
+        "value": "NAZIA KHAN",
+        "raw": "Nazia Khan",
+        "labels": [
+          "victim"
+        ],
+        "sources": [
+          "02_transactions.csv",
+          "06_victim_complaints.txt"
+        ],
+        "mentions": 3,
+        "attrs": {}
+      },
+      {
+        "id": "account:5003000010007",
+        "type": "account",
+        "value": "5003000010007",
+        "raw": "5003000010007",
+        "labels": [
+          "victim"
+        ],
+        "sources": [
+          "02_transactions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {
+          "bank": "AXIS"
+        }
+      },
+      {
+        "id": "upi_id:arjun.dutta@ybl",
+        "type": "upi_id",
+        "value": "arjun.dutta@ybl",
+        "raw": "arjun.dutta@ybl",
+        "labels": [],
+        "sources": [
+          "02_transactions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {}
+      },
+      {
+        "id": "person:ARJUN DUTTA",
+        "type": "person",
+        "value": "ARJUN DUTTA",
+        "raw": "Arjun Dutta",
+        "labels": [
+          "victim"
+        ],
+        "sources": [
+          "02_transactions.csv",
+          "06_victim_complaints.txt"
+        ],
+        "mentions": 3,
+        "attrs": {}
+      },
+      {
+        "id": "account:5003000010008",
+        "type": "account",
+        "value": "5003000010008",
+        "raw": "5003000010008",
+        "labels": [
+          "victim"
+        ],
+        "sources": [
+          "02_transactions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {
+          "bank": "PNB"
+        }
+      },
+      {
+        "id": "upi_id:moumita.pal@paytm",
+        "type": "upi_id",
+        "value": "moumita.pal@paytm",
+        "raw": "moumita.pal@paytm",
+        "labels": [],
+        "sources": [
+          "02_transactions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {}
+      },
+      {
+        "id": "person:MOUMITA PAL",
+        "type": "person",
+        "value": "MOUMITA PAL",
+        "raw": "Moumita Pal",
+        "labels": [
+          "victim"
+        ],
+        "sources": [
+          "02_transactions.csv",
+          "06_victim_complaints.txt"
+        ],
+        "mentions": 3,
+        "attrs": {}
+      },
+      {
+        "id": "account:5003000010009",
+        "type": "account",
+        "value": "5003000010009",
+        "raw": "5003000010009",
+        "labels": [
+          "victim"
+        ],
+        "sources": [
+          "02_transactions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {
+          "bank": "UCO"
+        }
+      },
+      {
+        "id": "upi_id:rakesh.agarwal@ybl",
+        "type": "upi_id",
+        "value": "rakesh.agarwal@ybl",
+        "raw": "rakesh.agarwal@ybl",
+        "labels": [],
+        "sources": [
+          "02_transactions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {}
+      },
+      {
+        "id": "person:RAKESH AGARWAL",
+        "type": "person",
+        "value": "RAKESH AGARWAL",
+        "raw": "Rakesh Agarwal",
+        "labels": [
+          "victim"
+        ],
+        "sources": [
+          "02_transactions.csv",
+          "06_victim_complaints.txt"
+        ],
+        "mentions": 3,
+        "attrs": {}
+      },
+      {
+        "id": "account:5003000030001",
+        "type": "account",
+        "value": "5003000030001",
+        "raw": "5003000030001",
+        "labels": [],
+        "sources": [
+          "02_transactions.csv",
+          "01_incident_notes.txt"
+        ],
+        "mentions": 6,
+        "attrs": {
+          "bank": "AXIS"
+        }
+      },
+      {
+        "id": "upi_id:deepak.roy@ybl",
+        "type": "upi_id",
+        "value": "deepak.roy@ybl",
+        "raw": "deepak.roy@ybl",
+        "labels": [],
+        "sources": [
+          "02_transactions.csv"
+        ],
+        "mentions": 5,
+        "attrs": {}
+      },
+      {
+        "id": "person:DEEPAK ROY",
+        "type": "person",
+        "value": "DEEPAK ROY",
+        "raw": "Deepak Roy",
+        "labels": [
+          "suspect"
+        ],
+        "sources": [
+          "02_transactions.csv",
+          "07_accused_statements.txt"
+        ],
+        "mentions": 6,
+        "attrs": {}
+      },
+      {
+        "id": "account:5003000000001",
+        "type": "account",
+        "value": "5003000000001",
+        "raw": "5003000000001",
+        "labels": [
+          "kingpin"
+        ],
+        "sources": [
+          "02_transactions.csv",
+          "01_incident_notes.txt"
+        ],
+        "mentions": 3,
+        "attrs": {
+          "bank": "PNB"
+        }
+      },
+      {
+        "id": "upi_id:anup.saha@okaxis",
+        "type": "upi_id",
+        "value": "anup.saha@okaxis",
+        "raw": "anup.saha@okaxis",
+        "labels": [],
+        "sources": [
+          "02_transactions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {}
+      },
+      {
+        "id": "person:ANUP SAHA",
+        "type": "person",
+        "value": "ANUP SAHA",
+        "raw": "Anup Saha",
+        "labels": [
+          "kingpin",
+          "suspect"
+        ],
+        "sources": [
+          "02_transactions.csv",
+          "01_incident_notes.txt",
+          "07_accused_statements.txt"
+        ],
+        "mentions": 4,
+        "attrs": {}
+      },
+      {
+        "id": "account:5003000050000",
+        "type": "account",
+        "value": "5003000050000",
+        "raw": "5003000050000",
+        "labels": [],
+        "sources": [
+          "02_transactions.csv"
+        ],
+        "mentions": 3,
+        "attrs": {
+          "bank": "UCO"
+        }
+      },
+      {
+        "id": "upi_id:tea0@ybl",
+        "type": "upi_id",
+        "value": "tea0@ybl",
+        "raw": "tea0@ybl",
+        "labels": [],
+        "sources": [
+          "02_transactions.csv"
+        ],
+        "mentions": 3,
+        "attrs": {}
+      },
+      {
+        "id": "person:TEA STALL",
+        "type": "person",
+        "value": "TEA STALL",
+        "raw": "Tea Stall",
+        "labels": [],
+        "sources": [
+          "02_transactions.csv"
+        ],
+        "mentions": 7,
+        "attrs": {}
+      },
+      {
+        "id": "account:5003000050001",
+        "type": "account",
+        "value": "5003000050001",
+        "raw": "5003000050001",
+        "labels": [],
+        "sources": [
+          "02_transactions.csv"
+        ],
+        "mentions": 3,
+        "attrs": {
+          "bank": "UCO"
+        }
+      },
+      {
+        "id": "upi_id:tea1@ybl",
+        "type": "upi_id",
+        "value": "tea1@ybl",
+        "raw": "tea1@ybl",
+        "labels": [],
+        "sources": [
+          "02_transactions.csv"
+        ],
+        "mentions": 3,
+        "attrs": {}
+      },
+      {
+        "id": "account:5003000050002",
+        "type": "account",
+        "value": "5003000050002",
+        "raw": "5003000050002",
+        "labels": [],
+        "sources": [
+          "02_transactions.csv"
+        ],
+        "mentions": 3,
+        "attrs": {
+          "bank": "UCO"
+        }
+      },
+      {
+        "id": "upi_id:tea2@ybl",
+        "type": "upi_id",
+        "value": "tea2@ybl",
+        "raw": "tea2@ybl",
+        "labels": [],
+        "sources": [
+          "02_transactions.csv"
+        ],
+        "mentions": 3,
+        "attrs": {}
+      },
+      {
+        "id": "phone:9003199999",
+        "type": "phone",
+        "value": "9003199999",
+        "raw": "9003199999",
+        "labels": [
+          "victim"
+        ],
+        "sources": [
+          "03_call_logs.csv",
+          "01_incident_notes.txt"
+        ],
+        "mentions": 12,
+        "attrs": {}
+      },
+      {
+        "id": "phone:9003100001",
+        "type": "phone",
+        "value": "9003100001",
+        "raw": "9003100001",
+        "labels": [
+          "victim"
+        ],
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv",
+          "06_victim_complaints.txt"
+        ],
+        "mentions": 4,
+        "attrs": {
+          "loss_amount": 64000.0
+        }
+      },
+      {
+        "id": "device:356938035661101",
+        "type": "device",
+        "value": "356938035661101",
+        "raw": "356938035661101",
+        "labels": [],
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv"
+        ],
+        "mentions": 3,
+        "attrs": {
+          "app_version": "5.1.0"
+        }
+      },
+      {
+        "id": "phone:9003100002",
+        "type": "phone",
+        "value": "9003100002",
+        "raw": "9003100002",
+        "labels": [
+          "victim"
+        ],
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv",
+          "06_victim_complaints.txt"
+        ],
+        "mentions": 4,
+        "attrs": {
+          "loss_amount": 47500.0
+        }
+      },
+      {
+        "id": "device:356938035661102",
+        "type": "device",
+        "value": "356938035661102",
+        "raw": "356938035661102",
+        "labels": [],
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv"
+        ],
+        "mentions": 3,
+        "attrs": {
+          "app_version": "5.1.0"
+        }
+      },
+      {
+        "id": "phone:9003100003",
+        "type": "phone",
+        "value": "9003100003",
+        "raw": "9003100003",
+        "labels": [
+          "victim"
+        ],
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv",
+          "06_victim_complaints.txt"
+        ],
+        "mentions": 4,
+        "attrs": {
+          "loss_amount": 132000.0
+        }
+      },
+      {
+        "id": "device:356938035661103",
+        "type": "device",
+        "value": "356938035661103",
+        "raw": "356938035661103",
+        "labels": [],
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv"
+        ],
+        "mentions": 3,
+        "attrs": {
+          "app_version": "5.1.0"
+        }
+      },
+      {
+        "id": "phone:9003100004",
+        "type": "phone",
+        "value": "9003100004",
+        "raw": "9003100004",
+        "labels": [
+          "victim"
+        ],
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv",
+          "06_victim_complaints.txt"
+        ],
+        "mentions": 4,
+        "attrs": {
+          "loss_amount": 38000.0
+        }
+      },
+      {
+        "id": "device:356938035661104",
+        "type": "device",
+        "value": "356938035661104",
+        "raw": "356938035661104",
+        "labels": [],
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv"
+        ],
+        "mentions": 3,
+        "attrs": {
+          "app_version": "5.1.0"
+        }
+      },
+      {
+        "id": "phone:9003100005",
+        "type": "phone",
+        "value": "9003100005",
+        "raw": "9003100005",
+        "labels": [
+          "victim"
+        ],
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv",
+          "06_victim_complaints.txt"
+        ],
+        "mentions": 4,
+        "attrs": {
+          "loss_amount": 215000.0
+        }
+      },
+      {
+        "id": "device:356938035661105",
+        "type": "device",
+        "value": "356938035661105",
+        "raw": "356938035661105",
+        "labels": [],
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv"
+        ],
+        "mentions": 3,
+        "attrs": {
+          "app_version": "5.1.0"
+        }
+      },
+      {
+        "id": "phone:9003100006",
+        "type": "phone",
+        "value": "9003100006",
+        "raw": "9003100006",
+        "labels": [
+          "victim"
+        ],
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv",
+          "06_victim_complaints.txt"
+        ],
+        "mentions": 4,
+        "attrs": {
+          "loss_amount": 52000.0
+        }
+      },
+      {
+        "id": "device:356938035661106",
+        "type": "device",
+        "value": "356938035661106",
+        "raw": "356938035661106",
+        "labels": [],
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv"
+        ],
+        "mentions": 3,
+        "attrs": {
+          "app_version": "5.1.0"
+        }
+      },
+      {
+        "id": "phone:9003100007",
+        "type": "phone",
+        "value": "9003100007",
+        "raw": "9003100007",
+        "labels": [
+          "victim"
+        ],
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv",
+          "06_victim_complaints.txt"
+        ],
+        "mentions": 4,
+        "attrs": {
+          "loss_amount": 89000.0
+        }
+      },
+      {
+        "id": "device:356938035661107",
+        "type": "device",
+        "value": "356938035661107",
+        "raw": "356938035661107",
+        "labels": [],
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv"
+        ],
+        "mentions": 3,
+        "attrs": {
+          "app_version": "5.1.0"
+        }
+      },
+      {
+        "id": "phone:9003100008",
+        "type": "phone",
+        "value": "9003100008",
+        "raw": "9003100008",
+        "labels": [
+          "victim"
+        ],
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv",
+          "06_victim_complaints.txt"
+        ],
+        "mentions": 4,
+        "attrs": {
+          "loss_amount": 143000.0
+        }
+      },
+      {
+        "id": "device:356938035661108",
+        "type": "device",
+        "value": "356938035661108",
+        "raw": "356938035661108",
+        "labels": [],
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv"
+        ],
+        "mentions": 3,
+        "attrs": {
+          "app_version": "5.1.0"
+        }
+      },
+      {
+        "id": "phone:9003100009",
+        "type": "phone",
+        "value": "9003100009",
+        "raw": "9003100009",
+        "labels": [
+          "victim"
+        ],
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv",
+          "06_victim_complaints.txt"
+        ],
+        "mentions": 4,
+        "attrs": {
+          "loss_amount": 76000.0
+        }
+      },
+      {
+        "id": "device:356938035661109",
+        "type": "device",
+        "value": "356938035661109",
+        "raw": "356938035661109",
+        "labels": [],
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv"
+        ],
+        "mentions": 3,
+        "attrs": {
+          "app_version": "5.1.0"
+        }
+      },
+      {
+        "id": "phone:9003100021",
+        "type": "phone",
+        "value": "9003100021",
+        "raw": "9003100021",
+        "labels": [],
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv"
+        ],
+        "mentions": 3,
+        "attrs": {}
+      },
+      {
+        "id": "phone:9003100031",
+        "type": "phone",
+        "value": "9003100031",
+        "raw": "9003100031",
+        "labels": [],
+        "sources": [
+          "03_call_logs.csv"
+        ],
+        "mentions": 4,
+        "attrs": {}
+      },
+      {
+        "id": "device:356938035661201",
+        "type": "device",
+        "value": "356938035661201",
+        "raw": "356938035661201",
+        "labels": [],
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv"
+        ],
+        "mentions": 3,
+        "attrs": {
+          "app_version": "5.1.0"
+        }
+      },
+      {
+        "id": "device:356938035661211",
+        "type": "device",
+        "value": "356938035661211",
+        "raw": "356938035661211",
+        "labels": [],
+        "sources": [
+          "03_call_logs.csv"
+        ],
+        "mentions": 4,
+        "attrs": {}
+      },
+      {
+        "id": "phone:9003100022",
+        "type": "phone",
+        "value": "9003100022",
+        "raw": "9003100022",
+        "labels": [],
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv"
+        ],
+        "mentions": 3,
+        "attrs": {}
+      },
+      {
+        "id": "device:356938035661202",
+        "type": "device",
+        "value": "356938035661202",
+        "raw": "356938035661202",
+        "labels": [],
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv"
+        ],
+        "mentions": 3,
+        "attrs": {
+          "app_version": "5.1.0"
+        }
+      },
+      {
+        "id": "phone:9003100023",
+        "type": "phone",
+        "value": "9003100023",
+        "raw": "9003100023",
+        "labels": [],
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv"
+        ],
+        "mentions": 3,
+        "attrs": {}
+      },
+      {
+        "id": "device:356938035661203",
+        "type": "device",
+        "value": "356938035661203",
+        "raw": "356938035661203",
+        "labels": [],
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv"
+        ],
+        "mentions": 3,
+        "attrs": {
+          "app_version": "5.1.0"
+        }
+      },
+      {
+        "id": "ip:103.60.12.10",
+        "type": "ip",
+        "value": "103.60.12.10",
+        "raw": "103.60.12.10",
+        "labels": [],
+        "sources": [
+          "05_device_sessions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {}
+      },
+      {
+        "id": "location:22.57,88.36",
+        "type": "location",
+        "value": "22.57,88.36",
+        "raw": "22.57,88.36",
+        "labels": [],
+        "sources": [
+          "05_device_sessions.csv"
+        ],
+        "mentions": 14,
+        "attrs": {}
+      },
+      {
+        "id": "ip:103.60.12.11",
+        "type": "ip",
+        "value": "103.60.12.11",
+        "raw": "103.60.12.11",
+        "labels": [],
+        "sources": [
+          "05_device_sessions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {}
+      },
+      {
+        "id": "ip:103.60.12.12",
+        "type": "ip",
+        "value": "103.60.12.12",
+        "raw": "103.60.12.12",
+        "labels": [],
+        "sources": [
+          "05_device_sessions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {}
+      },
+      {
+        "id": "ip:103.60.12.13",
+        "type": "ip",
+        "value": "103.60.12.13",
+        "raw": "103.60.12.13",
+        "labels": [],
+        "sources": [
+          "05_device_sessions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {}
+      },
+      {
+        "id": "ip:103.60.12.14",
+        "type": "ip",
+        "value": "103.60.12.14",
+        "raw": "103.60.12.14",
+        "labels": [],
+        "sources": [
+          "05_device_sessions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {}
+      },
+      {
+        "id": "ip:103.60.12.15",
+        "type": "ip",
+        "value": "103.60.12.15",
+        "raw": "103.60.12.15",
+        "labels": [],
+        "sources": [
+          "05_device_sessions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {}
+      },
+      {
+        "id": "ip:103.60.12.16",
+        "type": "ip",
+        "value": "103.60.12.16",
+        "raw": "103.60.12.16",
+        "labels": [],
+        "sources": [
+          "05_device_sessions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {}
+      },
+      {
+        "id": "ip:103.60.12.17",
+        "type": "ip",
+        "value": "103.60.12.17",
+        "raw": "103.60.12.17",
+        "labels": [],
+        "sources": [
+          "05_device_sessions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {}
+      },
+      {
+        "id": "ip:103.60.12.18",
+        "type": "ip",
+        "value": "103.60.12.18",
+        "raw": "103.60.12.18",
+        "labels": [],
+        "sources": [
+          "05_device_sessions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {}
+      },
+      {
+        "id": "ip:103.60.12.60",
+        "type": "ip",
+        "value": "103.60.12.60",
+        "raw": "103.60.12.60",
+        "labels": [],
+        "sources": [
+          "05_device_sessions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {}
+      },
+      {
+        "id": "ip:103.60.12.61",
+        "type": "ip",
+        "value": "103.60.12.61",
+        "raw": "103.60.12.61",
+        "labels": [],
+        "sources": [
+          "05_device_sessions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {}
+      },
+      {
+        "id": "ip:103.60.12.62",
+        "type": "ip",
+        "value": "103.60.12.62",
+        "raw": "103.60.12.62",
+        "labels": [],
+        "sources": [
+          "05_device_sessions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {}
+      },
+      {
+        "id": "device:356938035661299",
+        "type": "device",
+        "value": "356938035661299",
+        "raw": "356938035661299",
+        "labels": [],
+        "sources": [
+          "05_device_sessions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {
+          "app_version": "5.1.0"
+        }
+      },
+      {
+        "id": "phone:9003100099",
+        "type": "phone",
+        "value": "9003100099",
+        "raw": "9003100099",
+        "labels": [],
+        "sources": [
+          "05_device_sessions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {}
+      },
+      {
+        "id": "ip:49.36.221.7",
+        "type": "ip",
+        "value": "49.36.221.7",
+        "raw": "49.36.221.7",
+        "labels": [],
+        "sources": [
+          "05_device_sessions.csv"
+        ],
+        "mentions": 2,
+        "attrs": {}
+      },
+      {
+        "id": "pan:ABBPS2291F",
+        "type": "pan",
+        "value": "ABBPS2291F",
+        "raw": "ABBPS2291F",
+        "labels": [
+          "suspect"
+        ],
+        "sources": [
+          "07_accused_statements.txt"
+        ],
+        "mentions": 2,
+        "attrs": {}
+      }
+    ],
+    "relations": [
+      {
+        "src": "upi_id:sourav.banerjee@ybl",
+        "dst": "account:5003000010001",
+        "type": "maps_to",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "sourav.banerjee@ybl maps to a/c 5003000010001"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "person:SOURAV BANERJEE",
+        "dst": "account:5003000010001",
+        "type": "owns",
+        "weight": 1.2,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "a/c 5003000010001 in name of Sourav Banerjee"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "upi_id:bikash.mondal@ybl",
+        "dst": "account:5003000020001",
+        "type": "maps_to",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 4,
+        "directed": true,
+        "evidence": [
+          "bikash.mondal@ybl maps to a/c 5003000020001"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "person:BIKASH MONDAL",
+        "dst": "account:5003000020001",
+        "type": "owns",
+        "weight": 1.2,
+        "amount": 0.0,
+        "count": 4,
+        "directed": true,
+        "evidence": [
+          "a/c 5003000020001 in name of Bikash Mondal"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "account:5003000010001",
+        "dst": "account:5003000020001",
+        "type": "transfer",
+        "weight": 1.0,
+        "amount": 64000.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "TXN00001: Rs.64,000.00 5003000010001 -> 5003000020001 [UPI debit after vishing call]"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "upi_id:priya.das@okaxis",
+        "dst": "account:5003000010002",
+        "type": "maps_to",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "priya.das@okaxis maps to a/c 5003000010002"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "person:PRIYA DAS",
+        "dst": "account:5003000010002",
+        "type": "owns",
+        "weight": 1.2,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "a/c 5003000010002 in name of Priya Das"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "upi_id:sneha.sarkar@ybl",
+        "dst": "account:5003000020002",
+        "type": "maps_to",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 4,
+        "directed": true,
+        "evidence": [
+          "sneha.sarkar@ybl maps to a/c 5003000020002"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "person:SNEHA SARKAR",
+        "dst": "account:5003000020002",
+        "type": "owns",
+        "weight": 1.2,
+        "amount": 0.0,
+        "count": 4,
+        "directed": true,
+        "evidence": [
+          "a/c 5003000020002 in name of Sneha Sarkar"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "account:5003000010002",
+        "dst": "account:5003000020002",
+        "type": "transfer",
+        "weight": 1.0,
+        "amount": 47500.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "TXN00002: Rs.47,500.00 5003000010002 -> 5003000020002 [UPI debit after vishing call]"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "upi_id:imran.sheikh@ybl",
+        "dst": "account:5003000010003",
+        "type": "maps_to",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "imran.sheikh@ybl maps to a/c 5003000010003"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "person:IMRAN SHEIKH",
+        "dst": "account:5003000010003",
+        "type": "owns",
+        "weight": 1.2,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "a/c 5003000010003 in name of Imran Sheikh"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "upi_id:javed.ansari@ybl",
+        "dst": "account:5003000020003",
+        "type": "maps_to",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 4,
+        "directed": true,
+        "evidence": [
+          "javed.ansari@ybl maps to a/c 5003000020003"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "person:JAVED ANSARI",
+        "dst": "account:5003000020003",
+        "type": "owns",
+        "weight": 1.2,
+        "amount": 0.0,
+        "count": 4,
+        "directed": true,
+        "evidence": [
+          "a/c 5003000020003 in name of Javed Ansari"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "account:5003000010003",
+        "dst": "account:5003000020003",
+        "type": "transfer",
+        "weight": 1.0,
+        "amount": 132000.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "TXN00003: Rs.132,000.00 5003000010003 -> 5003000020003 [UPI debit after vishing call]"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "upi_id:rupa.ghosh@paytm",
+        "dst": "account:5003000010004",
+        "type": "maps_to",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "rupa.ghosh@paytm maps to a/c 5003000010004"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "person:RUPA GHOSH",
+        "dst": "account:5003000010004",
+        "type": "owns",
+        "weight": 1.2,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "a/c 5003000010004 in name of Rupa Ghosh"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "account:5003000010004",
+        "dst": "account:5003000020001",
+        "type": "transfer",
+        "weight": 1.0,
+        "amount": 38000.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "TXN00004: Rs.38,000.00 5003000010004 -> 5003000020001 [UPI debit after vishing call]"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "upi_id:tanmay.roy@ybl",
+        "dst": "account:5003000010005",
+        "type": "maps_to",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "tanmay.roy@ybl maps to a/c 5003000010005"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "person:TANMAY ROY",
+        "dst": "account:5003000010005",
+        "type": "owns",
+        "weight": 1.2,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "a/c 5003000010005 in name of Tanmay Roy"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "account:5003000010005",
+        "dst": "account:5003000020002",
+        "type": "transfer",
+        "weight": 1.0,
+        "amount": 215000.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "TXN00005: Rs.215,000.00 5003000010005 -> 5003000020002 [UPI debit after vishing call]"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "upi_id:nazia.khan@okaxis",
+        "dst": "account:5003000010006",
+        "type": "maps_to",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "nazia.khan@okaxis maps to a/c 5003000010006"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "person:NAZIA KHAN",
+        "dst": "account:5003000010006",
+        "type": "owns",
+        "weight": 1.2,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "a/c 5003000010006 in name of Nazia Khan"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "account:5003000010006",
+        "dst": "account:5003000020003",
+        "type": "transfer",
+        "weight": 1.0,
+        "amount": 52000.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "TXN00006: Rs.52,000.00 5003000010006 -> 5003000020003 [UPI debit after vishing call]"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "upi_id:arjun.dutta@ybl",
+        "dst": "account:5003000010007",
+        "type": "maps_to",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "arjun.dutta@ybl maps to a/c 5003000010007"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "person:ARJUN DUTTA",
+        "dst": "account:5003000010007",
+        "type": "owns",
+        "weight": 1.2,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "a/c 5003000010007 in name of Arjun Dutta"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "account:5003000010007",
+        "dst": "account:5003000020001",
+        "type": "transfer",
+        "weight": 1.0,
+        "amount": 89000.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "TXN00007: Rs.89,000.00 5003000010007 -> 5003000020001 [UPI debit after vishing call]"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "upi_id:moumita.pal@paytm",
+        "dst": "account:5003000010008",
+        "type": "maps_to",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "moumita.pal@paytm maps to a/c 5003000010008"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "person:MOUMITA PAL",
+        "dst": "account:5003000010008",
+        "type": "owns",
+        "weight": 1.2,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "a/c 5003000010008 in name of Moumita Pal"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "account:5003000010008",
+        "dst": "account:5003000020002",
+        "type": "transfer",
+        "weight": 1.0,
+        "amount": 143000.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "TXN00008: Rs.143,000.00 5003000010008 -> 5003000020002 [UPI debit after vishing call]"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "upi_id:rakesh.agarwal@ybl",
+        "dst": "account:5003000010009",
+        "type": "maps_to",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "rakesh.agarwal@ybl maps to a/c 5003000010009"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "person:RAKESH AGARWAL",
+        "dst": "account:5003000010009",
+        "type": "owns",
+        "weight": 1.2,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "a/c 5003000010009 in name of Rakesh Agarwal"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "account:5003000010009",
+        "dst": "account:5003000020003",
+        "type": "transfer",
+        "weight": 1.0,
+        "amount": 76000.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "TXN00009: Rs.76,000.00 5003000010009 -> 5003000020003 [UPI debit after vishing call]"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "upi_id:deepak.roy@ybl",
+        "dst": "account:5003000030001",
+        "type": "maps_to",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 4,
+        "directed": true,
+        "evidence": [
+          "deepak.roy@ybl maps to a/c 5003000030001"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "person:DEEPAK ROY",
+        "dst": "account:5003000030001",
+        "type": "owns",
+        "weight": 1.2,
+        "amount": 0.0,
+        "count": 4,
+        "directed": true,
+        "evidence": [
+          "a/c 5003000030001 in name of Deepak Roy"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "account:5003000020001",
+        "dst": "account:5003000030001",
+        "type": "transfer",
+        "weight": 1.0,
+        "amount": 171900.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "TXN00010: Rs.171,900.00 5003000020001 -> 5003000030001 [collector consolidation]"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "account:5003000020002",
+        "dst": "account:5003000030001",
+        "type": "transfer",
+        "weight": 1.0,
+        "amount": 364950.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "TXN00011: Rs.364,950.00 5003000020002 -> 5003000030001 [collector consolidation]"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "account:5003000020003",
+        "dst": "account:5003000030001",
+        "type": "transfer",
+        "weight": 1.0,
+        "amount": 234000.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "TXN00012: Rs.234,000.00 5003000020003 -> 5003000030001 [collector consolidation]"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "upi_id:anup.saha@okaxis",
+        "dst": "account:5003000000001",
+        "type": "maps_to",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "anup.saha@okaxis maps to a/c 5003000000001"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "person:ANUP SAHA",
+        "dst": "account:5003000000001",
+        "type": "owns",
+        "weight": 1.2,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "a/c 5003000000001 in name of Anup Saha"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "account:5003000030001",
+        "dst": "account:5003000000001",
+        "type": "transfer",
+        "weight": 1.0,
+        "amount": 693765.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "TXN00013: Rs.693,765.00 5003000030001 -> 5003000000001 [layer to cashout]"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "upi_id:tea0@ybl",
+        "dst": "account:5003000050000",
+        "type": "maps_to",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 2,
+        "directed": true,
+        "evidence": [
+          "tea0@ybl maps to a/c 5003000050000"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "person:TEA STALL",
+        "dst": "account:5003000050000",
+        "type": "owns",
+        "weight": 1.2,
+        "amount": 0.0,
+        "count": 2,
+        "directed": true,
+        "evidence": [
+          "a/c 5003000050000 in name of Tea Stall"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "upi_id:tea1@ybl",
+        "dst": "account:5003000050001",
+        "type": "maps_to",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 2,
+        "directed": true,
+        "evidence": [
+          "tea1@ybl maps to a/c 5003000050001"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "person:TEA STALL",
+        "dst": "account:5003000050001",
+        "type": "owns",
+        "weight": 1.2,
+        "amount": 0.0,
+        "count": 2,
+        "directed": true,
+        "evidence": [
+          "a/c 5003000050001 in name of Tea Stall"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "account:5003000050000",
+        "dst": "account:5003000050001",
+        "type": "transfer",
+        "weight": 1.0,
+        "amount": 499.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "TXN00014: Rs.499.00 5003000050000 -> 5003000050001 [routine settle]"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "upi_id:tea2@ybl",
+        "dst": "account:5003000050002",
+        "type": "maps_to",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 2,
+        "directed": true,
+        "evidence": [
+          "tea2@ybl maps to a/c 5003000050002"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "person:TEA STALL",
+        "dst": "account:5003000050002",
+        "type": "owns",
+        "weight": 1.2,
+        "amount": 0.0,
+        "count": 2,
+        "directed": true,
+        "evidence": [
+          "a/c 5003000050002 in name of Tea Stall"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "account:5003000050001",
+        "dst": "account:5003000050002",
+        "type": "transfer",
+        "weight": 1.0,
+        "amount": 461.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "TXN00015: Rs.461.00 5003000050001 -> 5003000050002 [routine settle]"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "account:5003000050002",
+        "dst": "account:5003000050000",
+        "type": "transfer",
+        "weight": 1.0,
+        "amount": 196.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "TXN00016: Rs.196.00 5003000050002 -> 5003000050000 [routine settle]"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "02_transactions.csv"
+        ]
+      },
+      {
+        "src": "phone:9003199999",
+        "dst": "phone:9003100001",
+        "type": "call",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "C00001: 9003199999 -> 9003100001 (90s) tower CEL136"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "03_call_logs.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661101",
+        "dst": "phone:9003100001",
+        "type": "device_used_msisdn",
+        "weight": 1.5,
+        "amount": 0.0,
+        "count": 2,
+        "directed": true,
+        "evidence": [
+          "MSISDN 9003100001 used on IMEI 356938035661101",
+          "session S0000: IMEI 356938035661101 with 9003100001"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "phone:9003199999",
+        "dst": "phone:9003100002",
+        "type": "call",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "C00002: 9003199999 -> 9003100002 (72s) tower CEL548"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "03_call_logs.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661102",
+        "dst": "phone:9003100002",
+        "type": "device_used_msisdn",
+        "weight": 1.5,
+        "amount": 0.0,
+        "count": 2,
+        "directed": true,
+        "evidence": [
+          "MSISDN 9003100002 used on IMEI 356938035661102",
+          "session S0001: IMEI 356938035661102 with 9003100002"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "phone:9003199999",
+        "dst": "phone:9003100003",
+        "type": "call",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "C00003: 9003199999 -> 9003100003 (92s) tower CEL908"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "03_call_logs.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661103",
+        "dst": "phone:9003100003",
+        "type": "device_used_msisdn",
+        "weight": 1.5,
+        "amount": 0.0,
+        "count": 2,
+        "directed": true,
+        "evidence": [
+          "MSISDN 9003100003 used on IMEI 356938035661103",
+          "session S0002: IMEI 356938035661103 with 9003100003"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "phone:9003199999",
+        "dst": "phone:9003100004",
+        "type": "call",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "C00004: 9003199999 -> 9003100004 (38s) tower CEL799"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "03_call_logs.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661104",
+        "dst": "phone:9003100004",
+        "type": "device_used_msisdn",
+        "weight": 1.5,
+        "amount": 0.0,
+        "count": 2,
+        "directed": true,
+        "evidence": [
+          "MSISDN 9003100004 used on IMEI 356938035661104",
+          "session S0003: IMEI 356938035661104 with 9003100004"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "phone:9003199999",
+        "dst": "phone:9003100005",
+        "type": "call",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "C00005: 9003199999 -> 9003100005 (83s) tower CEL715"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "03_call_logs.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661105",
+        "dst": "phone:9003100005",
+        "type": "device_used_msisdn",
+        "weight": 1.5,
+        "amount": 0.0,
+        "count": 2,
+        "directed": true,
+        "evidence": [
+          "MSISDN 9003100005 used on IMEI 356938035661105",
+          "session S0004: IMEI 356938035661105 with 9003100005"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "phone:9003199999",
+        "dst": "phone:9003100006",
+        "type": "call",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "C00006: 9003199999 -> 9003100006 (61s) tower CEL487"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "03_call_logs.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661106",
+        "dst": "phone:9003100006",
+        "type": "device_used_msisdn",
+        "weight": 1.5,
+        "amount": 0.0,
+        "count": 2,
+        "directed": true,
+        "evidence": [
+          "MSISDN 9003100006 used on IMEI 356938035661106",
+          "session S0005: IMEI 356938035661106 with 9003100006"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "phone:9003199999",
+        "dst": "phone:9003100007",
+        "type": "call",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "C00007: 9003199999 -> 9003100007 (79s) tower CEL554"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "03_call_logs.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661107",
+        "dst": "phone:9003100007",
+        "type": "device_used_msisdn",
+        "weight": 1.5,
+        "amount": 0.0,
+        "count": 2,
+        "directed": true,
+        "evidence": [
+          "MSISDN 9003100007 used on IMEI 356938035661107",
+          "session S0006: IMEI 356938035661107 with 9003100007"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "phone:9003199999",
+        "dst": "phone:9003100008",
+        "type": "call",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "C00008: 9003199999 -> 9003100008 (43s) tower CEL919"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "03_call_logs.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661108",
+        "dst": "phone:9003100008",
+        "type": "device_used_msisdn",
+        "weight": 1.5,
+        "amount": 0.0,
+        "count": 2,
+        "directed": true,
+        "evidence": [
+          "MSISDN 9003100008 used on IMEI 356938035661108",
+          "session S0007: IMEI 356938035661108 with 9003100008"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "phone:9003199999",
+        "dst": "phone:9003100009",
+        "type": "call",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "C00009: 9003199999 -> 9003100009 (31s) tower CEL193"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "03_call_logs.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661109",
+        "dst": "phone:9003100009",
+        "type": "device_used_msisdn",
+        "weight": 1.5,
+        "amount": 0.0,
+        "count": 2,
+        "directed": true,
+        "evidence": [
+          "MSISDN 9003100009 used on IMEI 356938035661109",
+          "session S0008: IMEI 356938035661109 with 9003100009"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "phone:9003100021",
+        "dst": "phone:9003100031",
+        "type": "call",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "C00010: 9003100021 -> 9003100031 (33s) tower CEL176"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "03_call_logs.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661201",
+        "dst": "phone:9003100021",
+        "type": "device_used_msisdn",
+        "weight": 1.5,
+        "amount": 0.0,
+        "count": 2,
+        "directed": true,
+        "evidence": [
+          "MSISDN 9003100021 used on IMEI 356938035661201",
+          "session S0060: IMEI 356938035661201 with 9003100021"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661211",
+        "dst": "phone:9003100031",
+        "type": "device_used_msisdn",
+        "weight": 1.5,
+        "amount": 0.0,
+        "count": 3,
+        "directed": true,
+        "evidence": [
+          "MSISDN 9003100031 used on IMEI 356938035661211"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "03_call_logs.csv"
+        ]
+      },
+      {
+        "src": "phone:9003100022",
+        "dst": "phone:9003100031",
+        "type": "call",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "C00011: 9003100022 -> 9003100031 (37s) tower CEL395"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "03_call_logs.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661202",
+        "dst": "phone:9003100022",
+        "type": "device_used_msisdn",
+        "weight": 1.5,
+        "amount": 0.0,
+        "count": 2,
+        "directed": true,
+        "evidence": [
+          "MSISDN 9003100022 used on IMEI 356938035661202",
+          "session S0061: IMEI 356938035661202 with 9003100022"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "phone:9003100023",
+        "dst": "phone:9003100031",
+        "type": "call",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "C00012: 9003100023 -> 9003100031 (49s) tower CEL469"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "03_call_logs.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661203",
+        "dst": "phone:9003100023",
+        "type": "device_used_msisdn",
+        "weight": 1.5,
+        "amount": 0.0,
+        "count": 2,
+        "directed": true,
+        "evidence": [
+          "MSISDN 9003100023 used on IMEI 356938035661203",
+          "session S0062: IMEI 356938035661203 with 9003100023"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "03_call_logs.csv",
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661101",
+        "dst": "ip:103.60.12.10",
+        "type": "session_ip",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "session S0000 from IP 103.60.12.10"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661101",
+        "dst": "location:22.57,88.36",
+        "type": "located_at",
+        "weight": 0.4,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "geo 22.57,88.36 at -"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661102",
+        "dst": "ip:103.60.12.11",
+        "type": "session_ip",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "session S0001 from IP 103.60.12.11"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661102",
+        "dst": "location:22.57,88.36",
+        "type": "located_at",
+        "weight": 0.4,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "geo 22.57,88.36 at -"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661103",
+        "dst": "ip:103.60.12.12",
+        "type": "session_ip",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "session S0002 from IP 103.60.12.12"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661103",
+        "dst": "location:22.57,88.36",
+        "type": "located_at",
+        "weight": 0.4,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "geo 22.57,88.36 at -"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661104",
+        "dst": "ip:103.60.12.13",
+        "type": "session_ip",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "session S0003 from IP 103.60.12.13"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661104",
+        "dst": "location:22.57,88.36",
+        "type": "located_at",
+        "weight": 0.4,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "geo 22.57,88.36 at -"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661105",
+        "dst": "ip:103.60.12.14",
+        "type": "session_ip",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "session S0004 from IP 103.60.12.14"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661105",
+        "dst": "location:22.57,88.36",
+        "type": "located_at",
+        "weight": 0.4,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "geo 22.57,88.36 at -"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661106",
+        "dst": "ip:103.60.12.15",
+        "type": "session_ip",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "session S0005 from IP 103.60.12.15"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661106",
+        "dst": "location:22.57,88.36",
+        "type": "located_at",
+        "weight": 0.4,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "geo 22.57,88.36 at -"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661107",
+        "dst": "ip:103.60.12.16",
+        "type": "session_ip",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "session S0006 from IP 103.60.12.16"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661107",
+        "dst": "location:22.57,88.36",
+        "type": "located_at",
+        "weight": 0.4,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "geo 22.57,88.36 at -"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661108",
+        "dst": "ip:103.60.12.17",
+        "type": "session_ip",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "session S0007 from IP 103.60.12.17"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661108",
+        "dst": "location:22.57,88.36",
+        "type": "located_at",
+        "weight": 0.4,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "geo 22.57,88.36 at -"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661109",
+        "dst": "ip:103.60.12.18",
+        "type": "session_ip",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "session S0008 from IP 103.60.12.18"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661109",
+        "dst": "location:22.57,88.36",
+        "type": "located_at",
+        "weight": 0.4,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "geo 22.57,88.36 at -"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661201",
+        "dst": "ip:103.60.12.60",
+        "type": "session_ip",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "session S0060 from IP 103.60.12.60"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661201",
+        "dst": "location:22.57,88.36",
+        "type": "located_at",
+        "weight": 0.4,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "geo 22.57,88.36 at -"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661202",
+        "dst": "ip:103.60.12.61",
+        "type": "session_ip",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "session S0061 from IP 103.60.12.61"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661202",
+        "dst": "location:22.57,88.36",
+        "type": "located_at",
+        "weight": 0.4,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "geo 22.57,88.36 at -"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661203",
+        "dst": "ip:103.60.12.62",
+        "type": "session_ip",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "session S0062 from IP 103.60.12.62"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661203",
+        "dst": "location:22.57,88.36",
+        "type": "located_at",
+        "weight": 0.4,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "geo 22.57,88.36 at -"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661299",
+        "dst": "phone:9003100099",
+        "type": "device_used_msisdn",
+        "weight": 1.5,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "session S95: IMEI 356938035661299 with 9003100099"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661299",
+        "dst": "ip:49.36.221.7",
+        "type": "session_ip",
+        "weight": 1.0,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "session S95 from IP 49.36.221.7"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "device:356938035661299",
+        "dst": "location:22.57,88.36",
+        "type": "located_at",
+        "weight": 0.4,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "geo 22.57,88.36 at -"
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "05_device_sessions.csv"
+        ]
+      },
+      {
+        "src": "account:5003000020002",
+        "dst": "account:5003000020003",
+        "type": "co_occur",
+        "weight": 0.35,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "Beneficiary account 5003000020002 of Sneha Sarkar and beneficiary account 5003000020003 of Javed Ansari share the remaining debits."
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "01_incident_notes.txt"
+        ]
+      },
+      {
+        "src": "account:5003000000001",
+        "dst": "person:ANUP SAHA",
+        "type": "co_occur",
+        "weight": 0.35,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "Cashout account 5003000000001 of mastermind Anup Saha is the terminal holder of the fraud proceeds."
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "01_incident_notes.txt"
+        ]
+      },
+      {
+        "src": "person:SOURAV BANERJEE",
+        "dst": "phone:9003100001",
+        "type": "co_occur",
+        "weight": 0.35,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "Victim Sourav Banerjee (9003100001) lost Rs.64,000 on 06/03/2024 after entering the OTP on a fake verification page."
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "06_victim_complaints.txt"
+        ]
+      },
+      {
+        "src": "person:PRIYA DAS",
+        "dst": "phone:9003100002",
+        "type": "co_occur",
+        "weight": 0.35,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "Victim Priya Das (9003100002) lost Rs.47,500 on 06/03/2024 after the caller warned her account blocked."
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "06_victim_complaints.txt"
+        ]
+      },
+      {
+        "src": "person:IMRAN SHEIKH",
+        "dst": "phone:9003100003",
+        "type": "co_occur",
+        "weight": 0.35,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "Victim Imran Sheikh (9003100003) lost Rs.1,32,000 on 06/03/2024 after clicking the KYC link received over SMS."
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "06_victim_complaints.txt"
+        ]
+      },
+      {
+        "src": "person:RUPA GHOSH",
+        "dst": "phone:9003100004",
+        "type": "co_occur",
+        "weight": 0.35,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "Victim Rupa Ghosh (9003100004) lost Rs.38,000 on 06/03/2024 after sharing the OTP with a customer care caller."
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "06_victim_complaints.txt"
+        ]
+      },
+      {
+        "src": "person:TANMAY ROY",
+        "dst": "phone:9003100005",
+        "type": "co_occur",
+        "weight": 0.35,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "Victim Tanmay Roy (9003100005) lost Rs.2,15,000 on 07/03/2024 after completing the video verification fraud step."
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "06_victim_complaints.txt"
+        ]
+      },
+      {
+        "src": "person:NAZIA KHAN",
+        "dst": "phone:9003100006",
+        "type": "co_occur",
+        "weight": 0.35,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "Victim Nazia Khan (9003100006) lost Rs.52,000 on 07/03/2024 after the caller claimed pending refund approval."
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "06_victim_complaints.txt"
+        ]
+      },
+      {
+        "src": "person:ARJUN DUTTA",
+        "dst": "phone:9003100007",
+        "type": "co_occur",
+        "weight": 0.35,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "Victim Arjun Dutta (9003100007) lost Rs.89,000 on 07/03/2024 after the fake helpline call."
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "06_victim_complaints.txt"
+        ]
+      },
+      {
+        "src": "person:MOUMITA PAL",
+        "dst": "phone:9003100008",
+        "type": "co_occur",
+        "weight": 0.35,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "Victim Moumita Pal (9003100008) lost Rs.1,43,000 on 08/03/2024 after entering card details on the phishing page."
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "06_victim_complaints.txt"
+        ]
+      },
+      {
+        "src": "person:RAKESH AGARWAL",
+        "dst": "phone:9003100009",
+        "type": "co_occur",
+        "weight": 0.35,
+        "amount": 0.0,
+        "count": 1,
+        "directed": true,
+        "evidence": [
+          "Victim Rakesh Agarwal (9003100009) lost Rs.76,000 on 08/03/2024 after the verification call turned into a transfer request."
+        ],
+        "first_ts": "",
+        "last_ts": "",
+        "sources": [
+          "06_victim_complaints.txt"
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "path": "01_incident_notes.txt",
+        "kind": "intel_note",
+        "chars": 948,
+        "lines": 9
+      },
+      {
+        "path": "02_transactions.csv",
+        "kind": "structured",
+        "chars": 0,
+        "lines": 0
+      },
+      {
+        "path": "03_call_logs.csv",
+        "kind": "structured",
+        "chars": 0,
+        "lines": 0
+      },
+      {
+        "path": "05_device_sessions.csv",
+        "kind": "structured",
+        "chars": 0,
+        "lines": 0
+      },
+      {
+        "path": "06_victim_complaints.txt",
+        "kind": "complaint",
+        "chars": 1079,
+        "lines": 10
+      },
+      {
+        "path": "07_accused_statements.txt",
+        "kind": "statement",
+        "chars": 411,
+        "lines": 5
+      }
+    ]
+  },
+  "brief": {
+    "meta": {
+      "case_id": "kolkata_vishing_blast",
+      "title": "Kolkata Spoofed Customer Care Vishing Blast",
+      "police_station": "Cyber Crime Cell, Kolkata Police",
+      "district": "Kolkata",
+      "state": "West Bengal",
+      "complainant": "9 victims (aggregated)",
+      "occurred_on": "2024-03-06",
+      "reported_on": "2024-03-06",
+      "officer": "Investigating Officer, Cyber Crime Cell Kolkata",
+      "notes": "Mock dataset: vishing blast with broadcast caller, beneficiary mules and cashout."
+    },
+    "generated_at": "2026-09-28T07:34:59Z",
+    "patterns": [
+      {
+        "id": "PHISH_VISH",
+        "name": "Phish Vish",
+        "score": 1.0,
+        "summary": "Phishing/vishing campaign: a small set of broadcast caller IDs or fake links harvest credentials which are used against many victims.",
+        "signals": [
+          "one-way broadcast number 9003199999 contacted 9 parties with no inbound calls",
+          "language markers matched: customer care, helpline, kyc, otp, phishing, verification"
+        ],
+        "legal": [
+          "BNS 2023, s.318(4) - cheating by personation [IPC 419/420]",
+          "IT Act 2000, s.66C - identity theft",
+          "IT Act 2000, s.66D - cheating by personation using computer resource",
+          "IT Act 2000, s.67 - false/misleading digital publication",
+          "BNS 2023, s.61 - criminal conspiracy [IPC 120B]"
+        ],
+        "actions": [
+          "Trace the broadcast caller ID/SMS sender to VoIP/SMPP route; obtain the originating gateway records.",
+          "Capture the phishing page/domain WHOIS and hosting records; request takedown through CERT-In.",
+          "Correlate OTP window (5-10 minutes) with debits for every victim to prove OTP relay."
+        ]
+      },
+      {
+        "id": "MULE_CHAIN",
+        "name": "Mule Chain",
+        "score": 0.333,
+        "summary": "Layered money-mule network: funds hop through serial pass-through accounts with near-full forwarding before cash-out.",
+        "signals": [
+          "pass-through chain of 2 hops: 5003000020001 -> 5003000030001",
+          "4 accounts forward >=85% of inflow within the layer (mule behaviour)",
+          "language markers matched: mule"
+        ],
+        "legal": [
+          "BNS 2023, s.318 - cheating [IPC 420]",
+          "IT Act 2000, s.66D - cheating by personation using computer resource",
+          "BNS 2023, s.61 - criminal conspiracy [IPC 120B]",
+          "PMLA 2002, s.3 & s.4 - money laundering (bank accounts used for layering)",
+          "BNS 2023, s.316(4) - criminal breach of trust by banker/agent [IPC 409] (account holders)"
+        ],
+        "actions": [
+          "Lay down hop-by-hop fund flow chart (victim -> Tier-3 -> Tier-2 -> Tier-1 -> cash-out) as an annexure to the FIR.",
+          "Attach the pass-through analysis: ratio of inflow immediately re-transferred, to establish knowledge under PMLA s.3.",
+          "Interrogate Tier-1 mules first (closest to cash-out) and offer collaborator status to lower tiers."
+        ]
+      },
+      {
+        "id": "ROMANCE_HONEYTRAP",
+        "name": "Romance Honeytrap",
+        "score": 0.333,
+        "summary": "Romance/honeytrap fraud: fake relationships used to extract 'fees', 'duty' or 'medical' money.",
+        "signals": [
+          "language markers matched: dating"
+        ],
+        "legal": [
+          "BNS 2023, s.318 - cheating [IPC 420]",
+          "BNS 2023, s.61 - criminal conspiracy [IPC 120B]",
+          "IT Act 2000, s.66D - cheating by personation",
+          "PMLA 2002, s.3 & s.4 - proceeds of crime"
+        ],
+        "actions": [
+          "Map all profiles/photographs used by the accused; obtain platform account creation IP logs.",
+          "Trace 'processing fee' / 'custom duty' payments to beneficiary accounts and freeze."
+        ]
+      },
+      {
+        "id": "IDENTITY_KYC_FRAUD",
+        "name": "Identity Kyc Fraud",
+        "score": 0.32,
+        "summary": "Identity/KYC fraud: forged or stolen Aadhaar/PAN/video-KYC is used to open mule accounts or impersonate victims.",
+        "signals": [
+          "1 identity documents in evidence, 0 linked to multiple identifiers",
+          "language markers matched: kyc"
+        ],
+        "legal": [
+          "IT Act 2000, s.66C - identity theft",
+          "IT Act 2000, s.66D - cheating by personation",
+          "BNS 2023, s.318(4) - cheating by personation [IPC 419]",
+          "BNS 2023, s.336/338 - forgery [IPC 465/468]",
+          "BNS 2023, s.340 - using forged document [IPC 471]"
+        ],
+        "actions": [
+          "Compare KYC documents submitted against bank records; obtain genuine document holders' statement.",
+          "Check whether one Aadhaar/PAN/photograph is mapped to multiple accounts across banks (mule KYC cloning)."
+        ]
+      },
+      {
+        "id": "CARD_CLONING",
+        "name": "Card Cloning",
+        "score": 0.233,
+        "summary": "Card cloning / ATM-POS skimming: cloned credentials are used at ATM/POS endpoints.",
+        "signals": [
+          "language markers matched: card details"
+        ],
+        "legal": [
+          "IT Act 2000, s.66C - identity theft (card credentials)",
+          "BNS 2023, s.303 - theft [IPC 379]",
+          "BNS 2023, s.318 - cheating [IPC 420]",
+          "BNS 2023, s.61 - criminal conspiracy [IPC 120B]"
+        ],
+        "actions": [
+          "Obtain ATM/POS CCTV and transaction logs; match card numbers to skimming incidents.",
+          "Coordinate with acquiring bank for chargeback and card-block confirmation."
+        ]
+      },
+      {
+        "id": "SIM_SWAP_OTP",
+        "name": "Sim Swap Otp",
+        "score": 0.133,
+        "summary": "SIM-swap / OTP-relay fraud: telecom identity is hijacked, victim SIM is re-issued to the syndicate, OTPs are read on their device and UPI debits are executed.",
+        "signals": [
+          "language markers matched: otp"
+        ],
+        "legal": [
+          "BNS 2023, s.318(4) - cheating by impersonation [IPC 419/420]",
+          "IT Act 2000, s.66C - identity theft (OTP/SIM credentials)",
+          "IT Act 2000, s.66D - cheating by personation using computer resource",
+          "BNS 2023, s.61 - criminal conspiracy [IPC 120B]",
+          "Indian Telegraph Act 1885, s.4 / TRAI regulations - unauthorised SIM acquisition (as applicable)",
+          "PMLA 2002, s.3 & s.4 - laundering of fraud proceeds (if cross-state fund layering proved)"
+        ],
+        "actions": [
+          "Obtain SIM swap/port activation logs, HLR/KYC dump and the porting request records from the operator for each victim MSISDN.",
+          "Establish time gap between SIM swap timestamp and first fraudulent UPI debit; this is the core causation link for the FIR.",
+          "Map each re-issued SIM (ICCID) to the operator device (IMEI) used at the time of swap and to the cell tower/CDR location.",
+          "Question telecom dealer / retailer who processed the port request; verify KYC photo and address submitted at swap."
+        ]
+      }
+    ],
+    "assessments": [
+      {
+        "node_id": "person:RUPA GHOSH",
+        "role": "victim",
+        "tier": 0,
+        "risk": 2.0,
+        "reasons": [
+          "named as a victim/loss-sufferer in the intelligence narrative",
+          "corroborated by narrative markers: victim"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 2,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 163.667
+        }
+      },
+      {
+        "node_id": "phone:9003100009",
+        "role": "victim",
+        "tier": 0,
+        "risk": 2.0,
+        "reasons": [
+          "loss of Rs.76,000 stated in the narrative",
+          "corroborated by narrative markers: victim"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 3,
+          "out_deg": 0,
+          "pass_through": 0.0,
+          "pagerank": 0.005,
+          "betweenness": 232.821
+        }
+      },
+      {
+        "node_id": "account:5003000010002",
+        "role": "victim",
+        "tier": 0,
+        "risk": 2.0,
+        "reasons": [
+          "outflow Rs.47,500 with no inbound credit (source of funds)",
+          "corroborated by narrative markers: victim"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 47500.0,
+          "in_deg": 2,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.007,
+          "betweenness": 188.333
+        }
+      },
+      {
+        "node_id": "account:5003000010003",
+        "role": "victim",
+        "tier": 0,
+        "risk": 2.0,
+        "reasons": [
+          "outflow Rs.132,000 with no inbound credit (source of funds)",
+          "corroborated by narrative markers: victim"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 132000.0,
+          "in_deg": 2,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.007,
+          "betweenness": 188.333
+        }
+      },
+      {
+        "node_id": "phone:9003100001",
+        "role": "victim",
+        "tier": 0,
+        "risk": 2.0,
+        "reasons": [
+          "loss of Rs.64,000 stated in the narrative",
+          "corroborated by narrative markers: victim"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 3,
+          "out_deg": 0,
+          "pass_through": 0.0,
+          "pagerank": 0.005,
+          "betweenness": 243.643
+        }
+      },
+      {
+        "node_id": "person:TANMAY ROY",
+        "role": "victim",
+        "tier": 0,
+        "risk": 2.0,
+        "reasons": [
+          "named as a victim/loss-sufferer in the intelligence narrative",
+          "corroborated by narrative markers: victim"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 2,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 160.667
+        }
+      },
+      {
+        "node_id": "phone:9003100007",
+        "role": "victim",
+        "tier": 0,
+        "risk": 2.0,
+        "reasons": [
+          "loss of Rs.89,000 stated in the narrative",
+          "corroborated by narrative markers: victim"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 3,
+          "out_deg": 0,
+          "pass_through": 0.0,
+          "pagerank": 0.005,
+          "betweenness": 243.643
+        }
+      },
+      {
+        "node_id": "phone:9003100005",
+        "role": "victim",
+        "tier": 0,
+        "risk": 2.0,
+        "reasons": [
+          "loss of Rs.215,000 stated in the narrative",
+          "corroborated by narrative markers: victim"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 3,
+          "out_deg": 0,
+          "pass_through": 0.0,
+          "pagerank": 0.005,
+          "betweenness": 232.821
+        }
+      },
+      {
+        "node_id": "person:IMRAN SHEIKH",
+        "role": "victim",
+        "tier": 0,
+        "risk": 2.0,
+        "reasons": [
+          "named as a victim/loss-sufferer in the intelligence narrative",
+          "corroborated by narrative markers: victim"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 2,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 160.667
+        }
+      },
+      {
+        "node_id": "account:5003000010008",
+        "role": "victim",
+        "tier": 0,
+        "risk": 2.0,
+        "reasons": [
+          "outflow Rs.143,000 with no inbound credit (source of funds)",
+          "corroborated by narrative markers: victim"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 143000.0,
+          "in_deg": 2,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.007,
+          "betweenness": 188.333
+        }
+      },
+      {
+        "node_id": "phone:9003100008",
+        "role": "victim",
+        "tier": 0,
+        "risk": 2.0,
+        "reasons": [
+          "loss of Rs.143,000 stated in the narrative",
+          "corroborated by narrative markers: victim"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 3,
+          "out_deg": 0,
+          "pass_through": 0.0,
+          "pagerank": 0.005,
+          "betweenness": 232.821
+        }
+      },
+      {
+        "node_id": "person:MOUMITA PAL",
+        "role": "victim",
+        "tier": 0,
+        "risk": 2.0,
+        "reasons": [
+          "named as a victim/loss-sufferer in the intelligence narrative",
+          "corroborated by narrative markers: victim"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 2,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 160.667
+        }
+      },
+      {
+        "node_id": "phone:9003100004",
+        "role": "victim",
+        "tier": 0,
+        "risk": 2.0,
+        "reasons": [
+          "loss of Rs.38,000 stated in the narrative",
+          "corroborated by narrative markers: victim"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 3,
+          "out_deg": 0,
+          "pass_through": 0.0,
+          "pagerank": 0.005,
+          "betweenness": 243.643
+        }
+      },
+      {
+        "node_id": "account:5003000010006",
+        "role": "victim",
+        "tier": 0,
+        "risk": 2.0,
+        "reasons": [
+          "outflow Rs.52,000 with no inbound credit (source of funds)",
+          "corroborated by narrative markers: victim"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 52000.0,
+          "in_deg": 2,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.007,
+          "betweenness": 188.333
+        }
+      },
+      {
+        "node_id": "phone:9003100003",
+        "role": "victim",
+        "tier": 0,
+        "risk": 2.0,
+        "reasons": [
+          "loss of Rs.132,000 stated in the narrative",
+          "corroborated by narrative markers: victim"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 3,
+          "out_deg": 0,
+          "pass_through": 0.0,
+          "pagerank": 0.005,
+          "betweenness": 232.821
+        }
+      },
+      {
+        "node_id": "phone:9003100002",
+        "role": "victim",
+        "tier": 0,
+        "risk": 2.0,
+        "reasons": [
+          "loss of Rs.47,500 stated in the narrative",
+          "corroborated by narrative markers: victim"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 3,
+          "out_deg": 0,
+          "pass_through": 0.0,
+          "pagerank": 0.005,
+          "betweenness": 232.821
+        }
+      },
+      {
+        "node_id": "phone:9003199999",
+        "role": "victim",
+        "tier": 0,
+        "risk": 2.0,
+        "reasons": [
+          "named as a victim/loss-sufferer in the intelligence narrative",
+          "corroborated by narrative markers: victim"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 9,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 635.357
+        }
+      },
+      {
+        "node_id": "account:5003000010004",
+        "role": "victim",
+        "tier": 0,
+        "risk": 2.0,
+        "reasons": [
+          "outflow Rs.38,000 with no inbound credit (source of funds)",
+          "corroborated by narrative markers: victim"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 38000.0,
+          "in_deg": 2,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.007,
+          "betweenness": 185.333
+        }
+      },
+      {
+        "node_id": "account:5003000010009",
+        "role": "victim",
+        "tier": 0,
+        "risk": 2.0,
+        "reasons": [
+          "outflow Rs.76,000 with no inbound credit (source of funds)",
+          "corroborated by narrative markers: victim"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 76000.0,
+          "in_deg": 2,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.007,
+          "betweenness": 188.333
+        }
+      },
+      {
+        "node_id": "person:SOURAV BANERJEE",
+        "role": "victim",
+        "tier": 0,
+        "risk": 2.0,
+        "reasons": [
+          "named as a victim/loss-sufferer in the intelligence narrative",
+          "corroborated by narrative markers: victim"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 2,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 163.667
+        }
+      },
+      {
+        "node_id": "account:5003000010005",
+        "role": "victim",
+        "tier": 0,
+        "risk": 2.0,
+        "reasons": [
+          "outflow Rs.215,000 with no inbound credit (source of funds)",
+          "corroborated by narrative markers: victim"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 215000.0,
+          "in_deg": 2,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.007,
+          "betweenness": 188.333
+        }
+      },
+      {
+        "node_id": "person:RAKESH AGARWAL",
+        "role": "victim",
+        "tier": 0,
+        "risk": 2.0,
+        "reasons": [
+          "named as a victim/loss-sufferer in the intelligence narrative",
+          "corroborated by narrative markers: victim"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 2,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 160.667
+        }
+      },
+      {
+        "node_id": "account:5003000010007",
+        "role": "victim",
+        "tier": 0,
+        "risk": 2.0,
+        "reasons": [
+          "outflow Rs.89,000 with no inbound credit (source of funds)",
+          "corroborated by narrative markers: victim"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 89000.0,
+          "in_deg": 2,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.007,
+          "betweenness": 185.333
+        }
+      },
+      {
+        "node_id": "person:NAZIA KHAN",
+        "role": "victim",
+        "tier": 0,
+        "risk": 2.0,
+        "reasons": [
+          "named as a victim/loss-sufferer in the intelligence narrative",
+          "corroborated by narrative markers: victim"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 2,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 160.667
+        }
+      },
+      {
+        "node_id": "person:ARJUN DUTTA",
+        "role": "victim",
+        "tier": 0,
+        "risk": 2.0,
+        "reasons": [
+          "named as a victim/loss-sufferer in the intelligence narrative",
+          "corroborated by narrative markers: victim"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 2,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 163.667
+        }
+      },
+      {
+        "node_id": "account:5003000010001",
+        "role": "victim",
+        "tier": 0,
+        "risk": 2.0,
+        "reasons": [
+          "outflow Rs.64,000 with no inbound credit (source of funds)",
+          "corroborated by narrative markers: victim"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 64000.0,
+          "in_deg": 2,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.007,
+          "betweenness": 185.333
+        }
+      },
+      {
+        "node_id": "phone:9003100006",
+        "role": "victim",
+        "tier": 0,
+        "risk": 2.0,
+        "reasons": [
+          "loss of Rs.52,000 stated in the narrative",
+          "corroborated by narrative markers: victim"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 3,
+          "out_deg": 0,
+          "pass_through": 0.0,
+          "pagerank": 0.005,
+          "betweenness": 232.821
+        }
+      },
+      {
+        "node_id": "person:PRIYA DAS",
+        "role": "victim",
+        "tier": 0,
+        "risk": 2.0,
+        "reasons": [
+          "named as a victim/loss-sufferer in the intelligence narrative",
+          "corroborated by narrative markers: victim"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 2,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 160.667
+        }
+      },
+      {
+        "node_id": "account:5003000020002",
+        "role": "mule",
+        "tier": 2,
+        "risk": 50.4,
+        "reasons": [
+          "pass-through: forwarded 90% of Rs.405,500 inflow",
+          "layer position: Tier-2 (hops from cash-out = 2)"
+        ],
+        "metrics": {
+          "in_amount": 405500.0,
+          "out_amount": 364950.0,
+          "in_deg": 5,
+          "out_deg": 2,
+          "pass_through": 0.9,
+          "pagerank": 0.024,
+          "betweenness": 556.321
+        }
+      },
+      {
+        "node_id": "account:5003000020001",
+        "role": "mule",
+        "tier": 2,
+        "risk": 46.3,
+        "reasons": [
+          "pass-through: forwarded 90% of Rs.191,000 inflow",
+          "layer position: Tier-2 (hops from cash-out = 2)",
+          "corroborated by narrative markers: mule",
+          "suspicious markers: mule"
+        ],
+        "metrics": {
+          "in_amount": 191000.0,
+          "out_amount": 171900.0,
+          "in_deg": 5,
+          "out_deg": 1,
+          "pass_through": 0.9,
+          "pagerank": 0.024,
+          "betweenness": 516.143
+        }
+      },
+      {
+        "node_id": "account:5003000020003",
+        "role": "mule",
+        "tier": 2,
+        "risk": 45.1,
+        "reasons": [
+          "pass-through: forwarded 90% of Rs.260,000 inflow",
+          "layer position: Tier-2 (hops from cash-out = 2)"
+        ],
+        "metrics": {
+          "in_amount": 260000.0,
+          "out_amount": 234000.0,
+          "in_deg": 6,
+          "out_deg": 1,
+          "pass_through": 0.9,
+          "pagerank": 0.029,
+          "betweenness": 556.321
+        }
+      },
+      {
+        "node_id": "account:5003000030001",
+        "role": "mule",
+        "tier": 1,
+        "risk": 67.2,
+        "reasons": [
+          "pass-through: forwarded 90% of Rs.770,850 inflow",
+          "layer position: Tier-1 (hops from cash-out = 1)"
+        ],
+        "metrics": {
+          "in_amount": 770850.0,
+          "out_amount": 693765.0,
+          "in_deg": 5,
+          "out_deg": 1,
+          "pass_through": 0.9,
+          "pagerank": 0.068,
+          "betweenness": 655.286
+        }
+      },
+      {
+        "node_id": "person:ANUP SAHA",
+        "role": "kingpin",
+        "tier": 0,
+        "risk": 53.3,
+        "reasons": [
+          "terminal beneficiary: net inflow Rs.0",
+          "PageRank 0.2012 among top nodes",
+          "receives from 1 distinct parties",
+          "corroborated by narrative markers: kingpin, suspect"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 1,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.201,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "account:5003000000001",
+        "role": "kingpin",
+        "tier": 0,
+        "risk": 73.5,
+        "reasons": [
+          "terminal beneficiary: net inflow Rs.693,765",
+          "PageRank 0.2336 among top nodes",
+          "receives from 3 distinct parties",
+          "corroborated by narrative markers: kingpin"
+        ],
+        "metrics": {
+          "in_amount": 693765.0,
+          "out_amount": 0.0,
+          "in_deg": 3,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.234,
+          "betweenness": 165.0
+        }
+      },
+      {
+        "node_id": "person:BIKASH MONDAL",
+        "role": "mule",
+        "tier": 0,
+        "risk": 26.8,
+        "reasons": [
+          "pass-through: forwarded 0% of Rs.0 inflow",
+          "corroborated by narrative markers: suspect"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "person:SNEHA SARKAR",
+        "role": "mule",
+        "tier": 0,
+        "risk": 26.8,
+        "reasons": [
+          "pass-through: forwarded 0% of Rs.0 inflow",
+          "corroborated by narrative markers: suspect"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "person:JAVED ANSARI",
+        "role": "mule",
+        "tier": 0,
+        "risk": 26.8,
+        "reasons": [
+          "pass-through: forwarded 0% of Rs.0 inflow"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "person:DEEPAK ROY",
+        "role": "mule",
+        "tier": 0,
+        "risk": 26.8,
+        "reasons": [
+          "pass-through: forwarded 0% of Rs.0 inflow",
+          "corroborated by narrative markers: suspect"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "upi_id:rupa.ghosh@paytm",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "location:22.57,88.36",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 28.4,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 13,
+          "out_deg": 0,
+          "pass_through": 0.0,
+          "pagerank": 0.007,
+          "betweenness": 1481.857
+        }
+      },
+      {
+        "node_id": "device:356938035661101",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 17.1,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 3,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 205.476
+        }
+      },
+      {
+        "node_id": "ip:103.60.12.12",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 1,
+          "out_deg": 0,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "phone:9003100031",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 17.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 4,
+          "out_deg": 0,
+          "pass_through": 0.0,
+          "pagerank": 0.015,
+          "betweenness": 92.0
+        }
+      },
+      {
+        "node_id": "account:5003000050001",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 18.7,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 499.0,
+          "out_amount": 461.0,
+          "in_deg": 3,
+          "out_deg": 1,
+          "pass_through": 0.924,
+          "pagerank": 0.038,
+          "betweenness": 5.0
+        }
+      },
+      {
+        "node_id": "ip:103.60.12.15",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 1,
+          "out_deg": 0,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "device:356938035661108",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 17.1,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 3,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 202.905
+        }
+      },
+      {
+        "node_id": "upi_id:moumita.pal@paytm",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "device:356938035661211",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "upi_id:sneha.sarkar@ybl",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "ip:103.60.12.10",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 1,
+          "out_deg": 0,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "device:356938035661202",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 17.1,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 3,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 208.333
+        }
+      },
+      {
+        "node_id": "device:356938035661109",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 17.1,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 3,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 202.905
+        }
+      },
+      {
+        "node_id": "account:5003000050002",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 18.7,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 461.0,
+          "out_amount": 196.0,
+          "in_deg": 3,
+          "out_deg": 1,
+          "pass_through": 0.425,
+          "pagerank": 0.038,
+          "betweenness": 5.0
+        }
+      },
+      {
+        "node_id": "device:356938035661105",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 17.1,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 3,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 202.905
+        }
+      },
+      {
+        "node_id": "device:356938035661102",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 17.1,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 3,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 202.905
+        }
+      },
+      {
+        "node_id": "account:5003000050000",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 18.7,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 196.0,
+          "out_amount": 499.0,
+          "in_deg": 3,
+          "out_deg": 1,
+          "pass_through": 2.546,
+          "pagerank": 0.038,
+          "betweenness": 5.0
+        }
+      },
+      {
+        "node_id": "device:356938035661201",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 17.1,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 3,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 208.333
+        }
+      },
+      {
+        "node_id": "upi_id:imran.sheikh@ybl",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "phone:9003100021",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 15.7,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 1,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.004,
+          "betweenness": 55.333
+        }
+      },
+      {
+        "node_id": "person:TEA STALL",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 16.0,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 3,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "upi_id:bikash.mondal@ybl",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "upi_id:rakesh.agarwal@ybl",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "upi_id:deepak.roy@ybl",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "upi_id:nazia.khan@okaxis",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "upi_id:tea1@ybl",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "ip:49.36.221.7",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 1,
+          "out_deg": 0,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "ip:103.60.12.60",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 1,
+          "out_deg": 0,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "upi_id:tea2@ybl",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "ip:103.60.12.11",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 1,
+          "out_deg": 0,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "upi_id:tea0@ybl",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "phone:9003100023",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 15.7,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 1,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.004,
+          "betweenness": 55.333
+        }
+      },
+      {
+        "node_id": "phone:9003100099",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 1,
+          "out_deg": 0,
+          "pass_through": 0.0,
+          "pagerank": 0.004,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "ip:103.60.12.14",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 1,
+          "out_deg": 0,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "pan:ABBPS2291F",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.2,
+        "reasons": [
+          "corroborated by narrative markers: suspect"
+        ],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 0,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "ip:103.60.12.18",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 1,
+          "out_deg": 0,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "device:356938035661106",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 17.1,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 3,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 202.905
+        }
+      },
+      {
+        "node_id": "ip:103.60.12.62",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 1,
+          "out_deg": 0,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "upi_id:priya.das@okaxis",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "upi_id:tanmay.roy@ybl",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "device:356938035661104",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 17.1,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 3,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 205.476
+        }
+      },
+      {
+        "node_id": "device:356938035661299",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 16.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 3,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 165.0
+        }
+      },
+      {
+        "node_id": "phone:9003100022",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 15.7,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 1,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.004,
+          "betweenness": 55.333
+        }
+      },
+      {
+        "node_id": "ip:103.60.12.61",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 1,
+          "out_deg": 0,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "upi_id:javed.ansari@ybl",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "upi_id:sourav.banerjee@ybl",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "upi_id:anup.saha@okaxis",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "ip:103.60.12.13",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 1,
+          "out_deg": 0,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "device:356938035661203",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 17.1,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 3,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 208.333
+        }
+      },
+      {
+        "node_id": "device:356938035661107",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 17.1,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 3,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 205.476
+        }
+      },
+      {
+        "node_id": "ip:103.60.12.17",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 1,
+          "out_deg": 0,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "upi_id:arjun.dutta@ybl",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 1,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "ip:103.60.12.16",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 14.8,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 1,
+          "out_deg": 0,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 0.0
+        }
+      },
+      {
+        "node_id": "device:356938035661103",
+        "role": "unknown",
+        "tier": 0,
+        "risk": 17.1,
+        "reasons": [],
+        "metrics": {
+          "in_amount": 0.0,
+          "out_amount": 0.0,
+          "in_deg": 0,
+          "out_deg": 3,
+          "pass_through": 0.0,
+          "pagerank": 0.003,
+          "betweenness": 202.905
+        }
+      }
+    ],
+    "hierarchy": {
+      "kingpin": [
+        "account:5003000000001",
+        "person:ANUP SAHA"
+      ],
+      "operator": [],
+      "recruiter": [],
+      "mule": [
+        "account:5003000030001",
+        "account:5003000020002",
+        "account:5003000020001",
+        "account:5003000020003",
+        "person:BIKASH MONDAL",
+        "person:DEEPAK ROY",
+        "person:JAVED ANSARI",
+        "person:SNEHA SARKAR"
+      ],
+      "victim": [
+        "account:5003000010001",
+        "account:5003000010002",
+        "account:5003000010003",
+        "account:5003000010004",
+        "account:5003000010005",
+        "account:5003000010006",
+        "account:5003000010007",
+        "account:5003000010008",
+        "account:5003000010009",
+        "person:ARJUN DUTTA",
+        "person:IMRAN SHEIKH",
+        "person:MOUMITA PAL",
+        "person:NAZIA KHAN",
+        "person:PRIYA DAS",
+        "person:RAKESH AGARWAL",
+        "person:RUPA GHOSH",
+        "person:SOURAV BANERJEE",
+        "person:TANMAY ROY",
+        "phone:9003100001",
+        "phone:9003100002",
+        "phone:9003100003",
+        "phone:9003100004",
+        "phone:9003100005",
+        "phone:9003100006",
+        "phone:9003100007",
+        "phone:9003100008",
+        "phone:9003100009",
+        "phone:9003199999"
+      ],
+      "unknown": [
+        "location:22.57,88.36",
+        "account:5003000050001",
+        "account:5003000050002",
+        "account:5003000050000",
+        "phone:9003100031",
+        "device:356938035661101",
+        "device:356938035661102",
+        "device:356938035661103",
+        "device:356938035661104",
+        "device:356938035661105",
+        "device:356938035661106",
+        "device:356938035661107",
+        "device:356938035661108",
+        "device:356938035661109",
+        "device:356938035661201",
+        "device:356938035661202",
+        "device:356938035661203",
+        "device:356938035661299",
+        "person:TEA STALL",
+        "phone:9003100021",
+        "phone:9003100022",
+        "phone:9003100023",
+        "device:356938035661211",
+        "ip:103.60.12.10",
+        "ip:103.60.12.11",
+        "ip:103.60.12.12",
+        "ip:103.60.12.13",
+        "ip:103.60.12.14",
+        "ip:103.60.12.15",
+        "ip:103.60.12.16",
+        "ip:103.60.12.17",
+        "ip:103.60.12.18",
+        "ip:103.60.12.60",
+        "ip:103.60.12.61",
+        "ip:103.60.12.62",
+        "ip:49.36.221.7",
+        "phone:9003100099",
+        "upi_id:anup.saha@okaxis",
+        "upi_id:arjun.dutta@ybl",
+        "upi_id:bikash.mondal@ybl",
+        "upi_id:deepak.roy@ybl",
+        "upi_id:imran.sheikh@ybl",
+        "upi_id:javed.ansari@ybl",
+        "upi_id:moumita.pal@paytm",
+        "upi_id:nazia.khan@okaxis",
+        "upi_id:priya.das@okaxis",
+        "upi_id:rakesh.agarwal@ybl",
+        "upi_id:rupa.ghosh@paytm",
+        "upi_id:sneha.sarkar@ybl",
+        "upi_id:sourav.banerjee@ybl",
+        "upi_id:tanmay.roy@ybl",
+        "upi_id:tea0@ybl",
+        "upi_id:tea1@ybl",
+        "upi_id:tea2@ybl",
+        "pan:ABBPS2291F"
+      ]
+    },
+    "timeline": [
+      {
+        "ts": "2024-03-06 00:00:00",
+        "etype": "offence",
+        "summary": "offence reported to have occurred",
+        "amount": 0.0,
+        "ref": "meta"
+      },
+      {
+        "ts": "2024-03-06 00:00:00",
+        "etype": "report",
+        "summary": "complaint/FIR lodged",
+        "amount": 0.0,
+        "ref": "meta"
+      }
+    ],
+    "stats": {
+      "entities": 93,
+      "relations": 113,
+      "documents": 6,
+      "records": 82,
+      "entity_types": {
+        "account": 17,
+        "device": 14,
+        "ip": 13,
+        "location": 1,
+        "pan": 1,
+        "person": 15,
+        "phone": 15,
+        "upi_id": 17
+      },
+      "relation_types": {
+        "call": 12,
+        "co_occur": 11,
+        "device_used_msisdn": 14,
+        "located_at": 13,
+        "maps_to": 17,
+        "owns": 17,
+        "session_ip": 13,
+        "transfer": 16
+      },
+      "total_trail_amount": 2322271.0,
+      "role_counts": {
+        "victim": 28,
+        "mule": 8,
+        "kingpin": 2,
+        "unknown": 55
+      },
+      "flow_total": 2322271.0
+    },
+    "insights": [
+      "Pattern verdict: Phish Vish (confidence 100%). one-way broadcast number 9003199999 contacted 9 parties with no inbound calls",
+      "Network shape: 93 entities, 113 relationships across 3 connected component(s); documented money trail Rs.2,322,271.",
+      "Hierarchy: 2 kingpin node(s), 0 operator(s), 8 mule account(s) in 3 layer(s), 28 victim node(s). Primary beneficiary 5003000000001 (risk 73.5/99).",
+      "Layering map: Tier-0: 4, Tier-1: 1, Tier-2: 3. Layers closer to Tier-1 are closest to cash-out.",
+      "Victim loss quantified at Rs.1,713,000 across 28 victim identifiers - use as the 'property' line in the FIR.",
+      "Time window of recorded activity: 2024-03-06 00:00:00 to 2024-03-06 00:00:00.",
+      "Priority interrogations: 5003000000001 (kingpin, risk 73.5); 5003000030001 (mule, risk 67.2); ANUP SAHA (kingpin, risk 53.3).",
+      "Bob scored 93 identifiers and 113 edges using backend 'bob-local-rules-v1' (0 bob-coin calls so far; IBM Bob hook available for narrative expansion)."
+    ],
+    "gaps": [
+      "16 transfer(s) lack timestamps - pull certified statements with value dates.",
+      "1 MSISDN(s) have no device mapping - request HLR/IMEI mapping from operators."
+    ],
+    "evidence": {
+      "accounts_freeze_list": [
+        {
+          "identifier": "5003000000001",
+          "type": "account",
+          "bank": "PNB",
+          "upi": "anup.saha@okaxis",
+          "in_amount": 693765.0,
+          "out_amount": 0.0,
+          "net": 693765.0,
+          "parties_in": 3,
+          "parties_out": 1,
+          "role": "kingpin",
+          "tier": 0,
+          "risk": 73.5,
+          "freeze": true
+        },
+        {
+          "identifier": "5003000030001",
+          "type": "account",
+          "bank": "AXIS",
+          "upi": "deepak.roy@ybl",
+          "in_amount": 770850.0,
+          "out_amount": 693765.0,
+          "net": 77085.0,
+          "parties_in": 5,
+          "parties_out": 1,
+          "role": "mule",
+          "tier": 1,
+          "risk": 67.2,
+          "freeze": true
+        },
+        {
+          "identifier": "5003000020002",
+          "type": "account",
+          "bank": "SBI",
+          "upi": "sneha.sarkar@ybl",
+          "in_amount": 405500.0,
+          "out_amount": 364950.0,
+          "net": 40550.0,
+          "parties_in": 5,
+          "parties_out": 2,
+          "role": "mule",
+          "tier": 2,
+          "risk": 50.4,
+          "freeze": true
+        },
+        {
+          "identifier": "5003000020003",
+          "type": "account",
+          "bank": "SBI",
+          "upi": "javed.ansari@ybl",
+          "in_amount": 260000.0,
+          "out_amount": 234000.0,
+          "net": 26000.0,
+          "parties_in": 6,
+          "parties_out": 1,
+          "role": "mule",
+          "tier": 2,
+          "risk": 45.1,
+          "freeze": true
+        },
+        {
+          "identifier": "5003000020001",
+          "type": "account",
+          "bank": "SBI",
+          "upi": "bikash.mondal@ybl",
+          "in_amount": 191000.0,
+          "out_amount": 171900.0,
+          "net": 19100.0,
+          "parties_in": 5,
+          "parties_out": 1,
+          "role": "mule",
+          "tier": 2,
+          "risk": 46.3,
+          "freeze": true
+        },
+        {
+          "identifier": "5003000010005",
+          "type": "account",
+          "bank": "UCO",
+          "upi": "tanmay.roy@ybl",
+          "in_amount": 0.0,
+          "out_amount": 215000.0,
+          "net": -215000.0,
+          "parties_in": 2,
+          "parties_out": 1,
+          "role": "victim",
+          "tier": 0,
+          "risk": 2.0,
+          "freeze": false
+        },
+        {
+          "identifier": "5003000010008",
+          "type": "account",
+          "bank": "PNB",
+          "upi": "moumita.pal@paytm",
+          "in_amount": 0.0,
+          "out_amount": 143000.0,
+          "net": -143000.0,
+          "parties_in": 2,
+          "parties_out": 1,
+          "role": "victim",
+          "tier": 0,
+          "risk": 2.0,
+          "freeze": false
+        },
+        {
+          "identifier": "5003000010003",
+          "type": "account",
+          "bank": "AXIS",
+          "upi": "imran.sheikh@ybl",
+          "in_amount": 0.0,
+          "out_amount": 132000.0,
+          "net": -132000.0,
+          "parties_in": 2,
+          "parties_out": 1,
+          "role": "victim",
+          "tier": 0,
+          "risk": 2.0,
+          "freeze": false
+        },
+        {
+          "identifier": "5003000010007",
+          "type": "account",
+          "bank": "AXIS",
+          "upi": "arjun.dutta@ybl",
+          "in_amount": 0.0,
+          "out_amount": 89000.0,
+          "net": -89000.0,
+          "parties_in": 2,
+          "parties_out": 1,
+          "role": "victim",
+          "tier": 0,
+          "risk": 2.0,
+          "freeze": false
+        },
+        {
+          "identifier": "5003000010009",
+          "type": "account",
+          "bank": "UCO",
+          "upi": "rakesh.agarwal@ybl",
+          "in_amount": 0.0,
+          "out_amount": 76000.0,
+          "net": -76000.0,
+          "parties_in": 2,
+          "parties_out": 1,
+          "role": "victim",
+          "tier": 0,
+          "risk": 2.0,
+          "freeze": false
+        },
+        {
+          "identifier": "5003000010001",
+          "type": "account",
+          "bank": "UCO",
+          "upi": "sourav.banerjee@ybl",
+          "in_amount": 0.0,
+          "out_amount": 64000.0,
+          "net": -64000.0,
+          "parties_in": 2,
+          "parties_out": 1,
+          "role": "victim",
+          "tier": 0,
+          "risk": 2.0,
+          "freeze": false
+        },
+        {
+          "identifier": "5003000010006",
+          "type": "account",
+          "bank": "SBI",
+          "upi": "nazia.khan@okaxis",
+          "in_amount": 0.0,
+          "out_amount": 52000.0,
+          "net": -52000.0,
+          "parties_in": 2,
+          "parties_out": 1,
+          "role": "victim",
+          "tier": 0,
+          "risk": 2.0,
+          "freeze": false
+        },
+        {
+          "identifier": "5003000010002",
+          "type": "account",
+          "bank": "SBI",
+          "upi": "priya.das@okaxis",
+          "in_amount": 0.0,
+          "out_amount": 47500.0,
+          "net": -47500.0,
+          "parties_in": 2,
+          "parties_out": 1,
+          "role": "victim",
+          "tier": 0,
+          "risk": 2.0,
+          "freeze": false
+        },
+        {
+          "identifier": "5003000010004",
+          "type": "account",
+          "bank": "PNB",
+          "upi": "rupa.ghosh@paytm",
+          "in_amount": 0.0,
+          "out_amount": 38000.0,
+          "net": -38000.0,
+          "parties_in": 2,
+          "parties_out": 1,
+          "role": "victim",
+          "tier": 0,
+          "risk": 2.0,
+          "freeze": false
+        },
+        {
+          "identifier": "5003000050001",
+          "type": "account",
+          "bank": "UCO",
+          "upi": "tea1@ybl",
+          "in_amount": 499.0,
+          "out_amount": 461.0,
+          "net": 38.0,
+          "parties_in": 3,
+          "parties_out": 1,
+          "role": "unknown",
+          "tier": 0,
+          "risk": 18.7,
+          "freeze": false
+        },
+        {
+          "identifier": "5003000050000",
+          "type": "account",
+          "bank": "UCO",
+          "upi": "tea0@ybl",
+          "in_amount": 196.0,
+          "out_amount": 499.0,
+          "net": -303.0,
+          "parties_in": 3,
+          "parties_out": 1,
+          "role": "unknown",
+          "tier": 0,
+          "risk": 18.7,
+          "freeze": false
+        },
+        {
+          "identifier": "5003000050002",
+          "type": "account",
+          "bank": "UCO",
+          "upi": "tea2@ybl",
+          "in_amount": 461.0,
+          "out_amount": 196.0,
+          "net": 265.0,
+          "parties_in": 3,
+          "parties_out": 1,
+          "role": "unknown",
+          "tier": 0,
+          "risk": 18.7,
+          "freeze": false
+        }
+      ],
+      "devices": [
+        {
+          "imei": "356938035661101",
+          "sims": [],
+          "sim_count": 0,
+          "msisdns": [
+            "9003100001"
+          ],
+          "msisdn_count": 1,
+          "ips": [
+            "103.60.12.10"
+          ],
+          "swap_signature": false
+        },
+        {
+          "imei": "356938035661102",
+          "sims": [],
+          "sim_count": 0,
+          "msisdns": [
+            "9003100002"
+          ],
+          "msisdn_count": 1,
+          "ips": [
+            "103.60.12.11"
+          ],
+          "swap_signature": false
+        },
+        {
+          "imei": "356938035661103",
+          "sims": [],
+          "sim_count": 0,
+          "msisdns": [
+            "9003100003"
+          ],
+          "msisdn_count": 1,
+          "ips": [
+            "103.60.12.12"
+          ],
+          "swap_signature": false
+        },
+        {
+          "imei": "356938035661104",
+          "sims": [],
+          "sim_count": 0,
+          "msisdns": [
+            "9003100004"
+          ],
+          "msisdn_count": 1,
+          "ips": [
+            "103.60.12.13"
+          ],
+          "swap_signature": false
+        },
+        {
+          "imei": "356938035661105",
+          "sims": [],
+          "sim_count": 0,
+          "msisdns": [
+            "9003100005"
+          ],
+          "msisdn_count": 1,
+          "ips": [
+            "103.60.12.14"
+          ],
+          "swap_signature": false
+        },
+        {
+          "imei": "356938035661106",
+          "sims": [],
+          "sim_count": 0,
+          "msisdns": [
+            "9003100006"
+          ],
+          "msisdn_count": 1,
+          "ips": [
+            "103.60.12.15"
+          ],
+          "swap_signature": false
+        },
+        {
+          "imei": "356938035661107",
+          "sims": [],
+          "sim_count": 0,
+          "msisdns": [
+            "9003100007"
+          ],
+          "msisdn_count": 1,
+          "ips": [
+            "103.60.12.16"
+          ],
+          "swap_signature": false
+        },
+        {
+          "imei": "356938035661108",
+          "sims": [],
+          "sim_count": 0,
+          "msisdns": [
+            "9003100008"
+          ],
+          "msisdn_count": 1,
+          "ips": [
+            "103.60.12.17"
+          ],
+          "swap_signature": false
+        },
+        {
+          "imei": "356938035661109",
+          "sims": [],
+          "sim_count": 0,
+          "msisdns": [
+            "9003100009"
+          ],
+          "msisdn_count": 1,
+          "ips": [
+            "103.60.12.18"
+          ],
+          "swap_signature": false
+        },
+        {
+          "imei": "356938035661201",
+          "sims": [],
+          "sim_count": 0,
+          "msisdns": [
+            "9003100021"
+          ],
+          "msisdn_count": 1,
+          "ips": [
+            "103.60.12.60"
+          ],
+          "swap_signature": false
+        },
+        {
+          "imei": "356938035661202",
+          "sims": [],
+          "sim_count": 0,
+          "msisdns": [
+            "9003100022"
+          ],
+          "msisdn_count": 1,
+          "ips": [
+            "103.60.12.61"
+          ],
+          "swap_signature": false
+        },
+        {
+          "imei": "356938035661203",
+          "sims": [],
+          "sim_count": 0,
+          "msisdns": [
+            "9003100023"
+          ],
+          "msisdn_count": 1,
+          "ips": [
+            "103.60.12.62"
+          ],
+          "swap_signature": false
+        },
+        {
+          "imei": "356938035661211",
+          "sims": [],
+          "sim_count": 0,
+          "msisdns": [
+            "9003100031"
+          ],
+          "msisdn_count": 1,
+          "ips": [],
+          "swap_signature": false
+        },
+        {
+          "imei": "356938035661299",
+          "sims": [],
+          "sim_count": 0,
+          "msisdns": [
+            "9003100099"
+          ],
+          "msisdn_count": 1,
+          "ips": [
+            "49.36.221.7"
+          ],
+          "swap_signature": false
+        }
+      ],
+      "sim_swap_bindings": [],
+      "largest_transfers": [
+        {
+          "from": "5003000030001",
+          "to": "5003000000001",
+          "amount": 693765.0,
+          "when": "",
+          "evidence": "TXN00013: Rs.693,765.00 5003000030001 -> 5003000000001 [layer to cashout]"
+        },
+        {
+          "from": "5003000020002",
+          "to": "5003000030001",
+          "amount": 364950.0,
+          "when": "",
+          "evidence": "TXN00011: Rs.364,950.00 5003000020002 -> 5003000030001 [collector consolidation]"
+        },
+        {
+          "from": "5003000020003",
+          "to": "5003000030001",
+          "amount": 234000.0,
+          "when": "",
+          "evidence": "TXN00012: Rs.234,000.00 5003000020003 -> 5003000030001 [collector consolidation]"
+        },
+        {
+          "from": "5003000010005",
+          "to": "5003000020002",
+          "amount": 215000.0,
+          "when": "",
+          "evidence": "TXN00005: Rs.215,000.00 5003000010005 -> 5003000020002 [UPI debit after vishing call]"
+        },
+        {
+          "from": "5003000020001",
+          "to": "5003000030001",
+          "amount": 171900.0,
+          "when": "",
+          "evidence": "TXN00010: Rs.171,900.00 5003000020001 -> 5003000030001 [collector consolidation]"
+        },
+        {
+          "from": "5003000010008",
+          "to": "5003000020002",
+          "amount": 143000.0,
+          "when": "",
+          "evidence": "TXN00008: Rs.143,000.00 5003000010008 -> 5003000020002 [UPI debit after vishing call]"
+        },
+        {
+          "from": "5003000010003",
+          "to": "5003000020003",
+          "amount": 132000.0,
+          "when": "",
+          "evidence": "TXN00003: Rs.132,000.00 5003000010003 -> 5003000020003 [UPI debit after vishing call]"
+        },
+        {
+          "from": "5003000010007",
+          "to": "5003000020001",
+          "amount": 89000.0,
+          "when": "",
+          "evidence": "TXN00007: Rs.89,000.00 5003000010007 -> 5003000020001 [UPI debit after vishing call]"
+        },
+        {
+          "from": "5003000010009",
+          "to": "5003000020003",
+          "amount": 76000.0,
+          "when": "",
+          "evidence": "TXN00009: Rs.76,000.00 5003000010009 -> 5003000020003 [UPI debit after vishing call]"
+        },
+        {
+          "from": "5003000010001",
+          "to": "5003000020001",
+          "amount": 64000.0,
+          "when": "",
+          "evidence": "TXN00001: Rs.64,000.00 5003000010001 -> 5003000020001 [UPI debit after vishing call]"
+        },
+        {
+          "from": "5003000010006",
+          "to": "5003000020003",
+          "amount": 52000.0,
+          "when": "",
+          "evidence": "TXN00006: Rs.52,000.00 5003000010006 -> 5003000020003 [UPI debit after vishing call]"
+        },
+        {
+          "from": "5003000010002",
+          "to": "5003000020002",
+          "amount": 47500.0,
+          "when": "",
+          "evidence": "TXN00002: Rs.47,500.00 5003000010002 -> 5003000020002 [UPI debit after vishing call]"
+        },
+        {
+          "from": "5003000010004",
+          "to": "5003000020001",
+          "amount": 38000.0,
+          "when": "",
+          "evidence": "TXN00004: Rs.38,000.00 5003000010004 -> 5003000020001 [UPI debit after vishing call]"
+        },
+        {
+          "from": "5003000050000",
+          "to": "5003000050001",
+          "amount": 499.0,
+          "when": "",
+          "evidence": "TXN00014: Rs.499.00 5003000050000 -> 5003000050001 [routine settle]"
+        },
+        {
+          "from": "5003000050001",
+          "to": "5003000050002",
+          "amount": 461.0,
+          "when": "",
+          "evidence": "TXN00015: Rs.461.00 5003000050001 -> 5003000050002 [routine settle]"
+        },
+        {
+          "from": "5003000050002",
+          "to": "5003000050000",
+          "amount": 196.0,
+          "when": "",
+          "evidence": "TXN00016: Rs.196.00 5003000050002 -> 5003000050000 [routine settle]"
+        }
+      ],
+      "call_records": [
+        {
+          "from": "9003199999",
+          "to": "9003100001",
+          "count": 1,
+          "first": "",
+          "evidence": "C00001: 9003199999 -> 9003100001 (90s) tower CEL136"
+        },
+        {
+          "from": "9003199999",
+          "to": "9003100002",
+          "count": 1,
+          "first": "",
+          "evidence": "C00002: 9003199999 -> 9003100002 (72s) tower CEL548"
+        },
+        {
+          "from": "9003199999",
+          "to": "9003100003",
+          "count": 1,
+          "first": "",
+          "evidence": "C00003: 9003199999 -> 9003100003 (92s) tower CEL908"
+        },
+        {
+          "from": "9003199999",
+          "to": "9003100004",
+          "count": 1,
+          "first": "",
+          "evidence": "C00004: 9003199999 -> 9003100004 (38s) tower CEL799"
+        },
+        {
+          "from": "9003199999",
+          "to": "9003100005",
+          "count": 1,
+          "first": "",
+          "evidence": "C00005: 9003199999 -> 9003100005 (83s) tower CEL715"
+        },
+        {
+          "from": "9003199999",
+          "to": "9003100006",
+          "count": 1,
+          "first": "",
+          "evidence": "C00006: 9003199999 -> 9003100006 (61s) tower CEL487"
+        },
+        {
+          "from": "9003199999",
+          "to": "9003100007",
+          "count": 1,
+          "first": "",
+          "evidence": "C00007: 9003199999 -> 9003100007 (79s) tower CEL554"
+        },
+        {
+          "from": "9003199999",
+          "to": "9003100008",
+          "count": 1,
+          "first": "",
+          "evidence": "C00008: 9003199999 -> 9003100008 (43s) tower CEL919"
+        },
+        {
+          "from": "9003199999",
+          "to": "9003100009",
+          "count": 1,
+          "first": "",
+          "evidence": "C00009: 9003199999 -> 9003100009 (31s) tower CEL193"
+        },
+        {
+          "from": "9003100021",
+          "to": "9003100031",
+          "count": 1,
+          "first": "",
+          "evidence": "C00010: 9003100021 -> 9003100031 (33s) tower CEL176"
+        },
+        {
+          "from": "9003100022",
+          "to": "9003100031",
+          "count": 1,
+          "first": "",
+          "evidence": "C00011: 9003100022 -> 9003100031 (37s) tower CEL395"
+        },
+        {
+          "from": "9003100023",
+          "to": "9003100031",
+          "count": 1,
+          "first": "",
+          "evidence": "C00012: 9003100023 -> 9003100031 (49s) tower CEL469"
+        }
+      ],
+      "victims": [
+        {
+          "identifier": "9003100005",
+          "type": "phone",
+          "amount_lost": 215000.0,
+          "paid_to": []
+        },
+        {
+          "identifier": "5003000010005",
+          "type": "account",
+          "amount_lost": 215000.0,
+          "paid_to": [
+            "5003000020002"
+          ]
+        },
+        {
+          "identifier": "5003000010008",
+          "type": "account",
+          "amount_lost": 143000.0,
+          "paid_to": [
+            "5003000020002"
+          ]
+        },
+        {
+          "identifier": "9003100008",
+          "type": "phone",
+          "amount_lost": 143000.0,
+          "paid_to": []
+        },
+        {
+          "identifier": "5003000010003",
+          "type": "account",
+          "amount_lost": 132000.0,
+          "paid_to": [
+            "5003000020003"
+          ]
+        },
+        {
+          "identifier": "9003100003",
+          "type": "phone",
+          "amount_lost": 132000.0,
+          "paid_to": []
+        },
+        {
+          "identifier": "9003100007",
+          "type": "phone",
+          "amount_lost": 89000.0,
+          "paid_to": []
+        },
+        {
+          "identifier": "5003000010007",
+          "type": "account",
+          "amount_lost": 89000.0,
+          "paid_to": [
+            "5003000020001"
+          ]
+        },
+        {
+          "identifier": "9003100009",
+          "type": "phone",
+          "amount_lost": 76000.0,
+          "paid_to": []
+        },
+        {
+          "identifier": "5003000010009",
+          "type": "account",
+          "amount_lost": 76000.0,
+          "paid_to": [
+            "5003000020003"
+          ]
+        },
+        {
+          "identifier": "9003100001",
+          "type": "phone",
+          "amount_lost": 64000.0,
+          "paid_to": []
+        },
+        {
+          "identifier": "5003000010001",
+          "type": "account",
+          "amount_lost": 64000.0,
+          "paid_to": [
+            "5003000020001"
+          ]
+        },
+        {
+          "identifier": "5003000010006",
+          "type": "account",
+          "amount_lost": 52000.0,
+          "paid_to": [
+            "5003000020003"
+          ]
+        },
+        {
+          "identifier": "9003100006",
+          "type": "phone",
+          "amount_lost": 52000.0,
+          "paid_to": []
+        },
+        {
+          "identifier": "5003000010002",
+          "type": "account",
+          "amount_lost": 47500.0,
+          "paid_to": [
+            "5003000020002"
+          ]
+        },
+        {
+          "identifier": "9003100002",
+          "type": "phone",
+          "amount_lost": 47500.0,
+          "paid_to": []
+        },
+        {
+          "identifier": "9003100004",
+          "type": "phone",
+          "amount_lost": 38000.0,
+          "paid_to": []
+        },
+        {
+          "identifier": "5003000010004",
+          "type": "account",
+          "amount_lost": 38000.0,
+          "paid_to": [
+            "5003000020001"
+          ]
+        },
+        {
+          "identifier": "RUPA GHOSH",
+          "type": "person",
+          "amount_lost": 0.0,
+          "paid_to": []
+        },
+        {
+          "identifier": "TANMAY ROY",
+          "type": "person",
+          "amount_lost": 0.0,
+          "paid_to": []
+        },
+        {
+          "identifier": "IMRAN SHEIKH",
+          "type": "person",
+          "amount_lost": 0.0,
+          "paid_to": []
+        },
+        {
+          "identifier": "MOUMITA PAL",
+          "type": "person",
+          "amount_lost": 0.0,
+          "paid_to": []
+        },
+        {
+          "identifier": "9003199999",
+          "type": "phone",
+          "amount_lost": 0.0,
+          "paid_to": []
+        },
+        {
+          "identifier": "SOURAV BANERJEE",
+          "type": "person",
+          "amount_lost": 0.0,
+          "paid_to": []
+        },
+        {
+          "identifier": "RAKESH AGARWAL",
+          "type": "person",
+          "amount_lost": 0.0,
+          "paid_to": []
+        },
+        {
+          "identifier": "NAZIA KHAN",
+          "type": "person",
+          "amount_lost": 0.0,
+          "paid_to": []
+        },
+        {
+          "identifier": "ARJUN DUTTA",
+          "type": "person",
+          "amount_lost": 0.0,
+          "paid_to": []
+        },
+        {
+          "identifier": "PRIYA DAS",
+          "type": "person",
+          "amount_lost": 0.0,
+          "paid_to": []
+        }
+      ]
+    },
+    "actions": [
+      "Trace the broadcast caller ID/SMS sender to VoIP/SMPP route; obtain the originating gateway records.",
+      "Capture the phishing page/domain WHOIS and hosting records; request takedown through CERT-In.",
+      "Correlate OTP window (5-10 minutes) with debits for every victim to prove OTP relay.",
+      "Lay down hop-by-hop fund flow chart (victim -> Tier-3 -> Tier-2 -> Tier-1 -> cash-out) as an annexure to the FIR.",
+      "Attach the pass-through analysis: ratio of inflow immediately re-transferred, to establish knowledge under PMLA s.3.",
+      "Interrogate Tier-1 mules first (closest to cash-out) and offer collaborator status to lower tiers.",
+      "Map all profiles/photographs used by the accused; obtain platform account creation IP logs.",
+      "Trace 'processing fee' / 'custom duty' payments to beneficiary accounts and freeze.",
+      "Freeze all identified bank accounts / UPI handles of accused and issue notice u/s 91 BNSS (03) 2023 to banks for KYC, IP and device logs.",
+      "Obtain NPCI mapping (UPI handle -> bank account -> IFSC) and full statement of accounts for last 12 months.",
+      "Get certified CDRs (call detail records) and IPDR data for accused MSISDNs from telecom operators for the offence period.",
+      "Flag IMEIs on CEIR/CENTRAL Equipment Identity Register for blocking/recovery; verify IMEI-swap history with operator HLR.",
+      "Register the complaint on cybercrime.gov.in / NCRP and inform I4C, MHA; report to CERT-In within 6 hours under the CERT-In Directions, 2022.",
+      "Identify and verify beneficiaries of every withdrawal; obtain ATM/branch CCTV footage and UPI QR/cash-out points.",
+      "Prepare a seizure memo for devices recovered; extract digital evidence with a certified examiner (ITA s.65B admissibility)."
+    ],
+    "legal": [
+      "BNS 2023, s.318(4) - cheating by personation [IPC 419/420]",
+      "IT Act 2000, s.66C - identity theft",
+      "IT Act 2000, s.66D - cheating by personation using computer resource",
+      "IT Act 2000, s.67 - false/misleading digital publication",
+      "BNS 2023, s.61 - criminal conspiracy [IPC 120B]",
+      "BNS 2023, s.318 - cheating [IPC 420]",
+      "PMLA 2002, s.3 & s.4 - money laundering (bank accounts used for layering)",
+      "BNS 2023, s.316(4) - criminal breach of trust by banker/agent [IPC 409] (account holders)",
+      "IT Act 2000, s.66D - cheating by personation",
+      "PMLA 2002, s.3 & s.4 - proceeds of crime",
+      "BNS 2023, s.318(4) - cheating by personation [IPC 419]",
+      "BNS 2023, s.336/338 - forgery [IPC 465/468]",
+      "BNS 2023, s.340 - using forged document [IPC 471]",
+      "IT Act 2000, s.66C - identity theft (card credentials)",
+      "BNS 2023, s.303 - theft [IPC 379]",
+      "BNS 2023, s.318(4) - cheating by impersonation [IPC 419/420]",
+      "IT Act 2000, s.66C - identity theft (OTP/SIM credentials)",
+      "Indian Telegraph Act 1885, s.4 / TRAI regulations - unauthorised SIM acquisition (as applicable)",
+      "PMLA 2002, s.3 & s.4 - laundering of fraud proceeds (if cross-state fund layering proved)"
+    ]
+  }
+}

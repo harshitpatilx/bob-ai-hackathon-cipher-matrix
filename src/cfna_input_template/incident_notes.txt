@@ -1,0 +1,9 @@
+INCIDENT NOTES - sample narrative for CFNA input
+
+KEY FINDING: the victim SIM was reissued after a spoofed KYC update and the ported SIM
+was used to read OTPs, after which UPI debits were executed from account 5001000123456
+to mule account 5001000987654 and then withdrawn immediately.
+
+Kingpin Anup Saha controls the cashout account 5001000000001. Recruiter Suraj Ekka
+sourced the rented bank accounts. Victim Ramesh Kumar (9431100001) complained of a loss
+of Rs.64,000 on 06/03/2024 after the caller warned that the account blocked.

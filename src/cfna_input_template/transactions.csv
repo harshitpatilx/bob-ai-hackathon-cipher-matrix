@@ -1,0 +1,3 @@
+timestamp,txn_id,from_account,from_upi,from_name,from_bank,to_account,to_upi,to_name,to_bank,amount_inr,channel,remarks
+2024-03-06T10:05:00,T1001,5001000123456,ramesh.kumar@ybl,Ramesh Kumar,HDFC,5001000987654,mule1@ybl,Deepak Roy,PUNB,64000,UPI,fraud debit
+2024-03-06T10:20:00,T1002,5001000987654,mule1@ybl,Deepak Roy,PUNB,5001000000001,anup.saha@okaxis,Anup Saha,UCO,60000,UPI,cashout

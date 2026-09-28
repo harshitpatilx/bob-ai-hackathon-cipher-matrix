@@ -1,0 +1,3 @@
+msisdn,iccid,imei,activation_date,status,provider,owner_name,remarks
+9431100001,89012345678901234567,356938035643801,2024-03-05,active,Airtel,Ramesh Kumar,victim SIM reissued after spoofed KYC update
+9431100001,89914700000000000001,356938035643802,2024-03-06,active,Airtel,Anup Saha,operator SIM used for OTP relay

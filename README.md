@@ -96,10 +96,10 @@
 
 | Category | Technologies |
 |---|---|
-| **Languages** | Python, Javascript |
-| **Frameworks** | Python (stdlib only), vis.js (CDN) |
+| **Languages** | Python |
+| **Frameworks** | Python stdlib only (no pip dependencies), vis.js via CDN for the report graph |
 | **IBM Technologies** | IBM Bob |
-| **Other** | Git, Github |
+| **Other** | Git, GitHub |
 
 ---
 
@@ -128,17 +128,22 @@
 git clone https://github.com/harshitpatilx/bob-ai-hackathon-cipher-matrix.git
 cd bob-ai-hackathon-cipher-matrix
 
-# 2. Install dependencies (optional — or use python -m cfna directly)
+# 2. Install the package (adds cfna to PATH)
 pip install -e src/
+
+# --- OR skip install and run everything from the src/ directory ---
+cd src
 
 # 3. Generate mock trial cases
 python -m cfna.datagen
 
 # 4. Run a case
-python -m cfna run src/data/cases/jamtara_sim_swap -o src/output
+python -m cfna run data/cases/jamtara_sim_swap -o output
 
 # 5. Open the report
-start src/output/jamtara_sim_swap/report.html
+start output/jamtara_sim_swap/report.html
+
+# Alternatively: double-click start_cfna.bat (src/) to open the browser input form
 ```
 
 ---
@@ -157,7 +162,7 @@ start src/output/jamtara_sim_swap/report.html
 ## ⚠️ Known Limitations
 
 - All intelligence input is mock / synthetic — not connected to live banking or telecom APIs.
-- IBM Bob API endpoint is wired but not active; analysis runs on local deterministic heuristics (0 external calls).
+- IBM Bob API endpoint is wired but not active; all analysis runs on local deterministic heuristics (0 external API calls, 0 bob-coin spend).
 - The vis-network graph in `report.html` requires a CDN fetch (unpkg.com) — no network means no graph.
 
 ---
@@ -166,7 +171,7 @@ start src/output/jamtara_sim_swap/report.html
 
 The fully self-contained, FIR-ready investigation pipeline — from raw CSVs and free-text to
 an interactive HTML network report, a 12-section FIR brief, and a risk-ranked entity graph —
-all in pure Python stdlib with zero dependencies and a 47-test suite that passes 3/3 trial cases
+all in pure Python stdlib with zero dependencies and a 76-test suite that passes 3/3 trial cases
 with perfect kingpin, mule, and victim F1 scores.
 
 ---

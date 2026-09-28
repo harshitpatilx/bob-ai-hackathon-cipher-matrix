@@ -1,0 +1,5065 @@
+{
+  "nodes": [
+    {
+      "id": "phone:9431100003",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "person:RAMESH KUMAR SAHU",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "person:MOHAMMED IRFAN ANSARI",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "phone:9431100006",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "phone:9431100001",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "sim:89914100000000000000",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "account:5001000010003",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "phone:9431100005",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "person:KAVITA MAHATO",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "account:5001000010001",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "person:PRAKASH ORAON",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "person:ASHA LAKRA",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "account:5001000010002",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "account:5001000010006",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "sim:89914200000000000000",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "person:SUNITA DEVI",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "account:5001000010004",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "phone:9431100004",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "account:5001000010005",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "phone:9431100002",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "phone:9431100010",
+      "role": "operator",
+      "risk": 52.6
+    },
+    {
+      "id": "person:SUNIL KUMAR RAUT",
+      "role": "mule",
+      "risk": 34.2
+    },
+    {
+      "id": "phone:9431100043",
+      "role": "operator",
+      "risk": 44.1
+    },
+    {
+      "id": "person:VIKAS MANDAL",
+      "role": "mule",
+      "risk": 34.3
+    },
+    {
+      "id": "phone:9431100051",
+      "role": "operator",
+      "risk": 42.6
+    },
+    {
+      "id": "account:5001000030003",
+      "role": "mule",
+      "risk": 43.0
+    },
+    {
+      "id": "phone:9431100041",
+      "role": "operator",
+      "risk": 52.6
+    },
+    {
+      "id": "phone:9431100052",
+      "role": "operator",
+      "risk": 45.2
+    },
+    {
+      "id": "person:HARPENDER SINGH",
+      "role": "mule",
+      "risk": 34.0
+    },
+    {
+      "id": "account:5001000020002",
+      "role": "mule",
+      "risk": 49.8
+    },
+    {
+      "id": "account:5001000040002",
+      "role": "mule",
+      "risk": 45.2
+    },
+    {
+      "id": "account:5001000020003",
+      "role": "mule",
+      "risk": 48.5
+    },
+    {
+      "id": "sim:89914400000000000000",
+      "role": "mule",
+      "risk": 42.4
+    },
+    {
+      "id": "person:MANOJ GUPTA",
+      "role": "mule",
+      "risk": 34.3
+    },
+    {
+      "id": "account:5001000020004",
+      "role": "mule",
+      "risk": 41.1
+    },
+    {
+      "id": "phone:9431100032",
+      "role": "operator",
+      "risk": 46.2
+    },
+    {
+      "id": "account:5001000020001",
+      "role": "mule",
+      "risk": 59.6
+    },
+    {
+      "id": "account:5001000030002",
+      "role": "mule",
+      "risk": 48.1
+    },
+    {
+      "id": "person:DEEPAK MAHATO",
+      "role": "mule",
+      "risk": 34.3
+    },
+    {
+      "id": "phone:9431100042",
+      "role": "operator",
+      "risk": 42.4
+    },
+    {
+      "id": "phone:9431100033",
+      "role": "operator",
+      "risk": 46.3
+    },
+    {
+      "id": "person:AMIT SINHA",
+      "role": "mule",
+      "risk": 33.9
+    },
+    {
+      "id": "phone:9431100034",
+      "role": "operator",
+      "risk": 44.7
+    },
+    {
+      "id": "phone:9431100031",
+      "role": "operator",
+      "risk": 46.2
+    },
+    {
+      "id": "sim:89914500000000000000",
+      "role": "mule",
+      "risk": 42.5
+    },
+    {
+      "id": "person:SANJAY PRASAD",
+      "role": "mule",
+      "risk": 35.0
+    },
+    {
+      "id": "account:5001000030001",
+      "role": "mule",
+      "risk": 69.6
+    },
+    {
+      "id": "person:PINTU SAH",
+      "role": "mule",
+      "risk": 34.3
+    },
+    {
+      "id": "sim:89914600000000000000",
+      "role": "mule",
+      "risk": 38.1
+    },
+    {
+      "id": "account:5001000040001",
+      "role": "mule",
+      "risk": 77.7
+    },
+    {
+      "id": "person:RAVI YADAV",
+      "role": "mule",
+      "risk": 33.8
+    },
+    {
+      "id": "phone:9431100022",
+      "role": "operator",
+      "risk": 44.0
+    },
+    {
+      "id": "person:BITTU MAHTO",
+      "role": "operator",
+      "risk": 39.1
+    },
+    {
+      "id": "sim:89914300000000000000",
+      "role": "operator",
+      "risk": 42.3
+    },
+    {
+      "id": "person:SURAJ EKKA",
+      "role": "operator",
+      "risk": 36.9
+    },
+    {
+      "id": "person:BHOLA RAM RAI",
+      "role": "kingpin",
+      "risk": 45.1
+    },
+    {
+      "id": "device:356938035643804",
+      "role": "operator",
+      "risk": 43.0
+    },
+    {
+      "id": "phone:9431100099",
+      "role": "kingpin",
+      "risk": 43.3
+    },
+    {
+      "id": "device:356938035643803",
+      "role": "operator",
+      "risk": 36.5
+    },
+    {
+      "id": "phone:9431100021",
+      "role": "operator",
+      "risk": 57.2
+    },
+    {
+      "id": "person:KALU HALDAR",
+      "role": "operator",
+      "risk": 37.0
+    },
+    {
+      "id": "sim:89914700000000000000",
+      "role": "kingpin",
+      "risk": 50.2
+    },
+    {
+      "id": "account:5001000000001",
+      "role": "kingpin",
+      "risk": 74.8
+    },
+    {
+      "id": "upi_id:bhola.rai@okaxis",
+      "role": "kingpin",
+      "risk": 41.9
+    },
+    {
+      "id": "ifsc:PUNB0123456",
+      "role": "unknown",
+      "risk": 14.6
+    },
+    {
+      "id": "upi_id:shop0@ybl",
+      "role": "unknown",
+      "risk": 15.2
+    },
+    {
+      "id": "ip:49.36.185.20",
+      "role": "unknown",
+      "risk": 15.3
+    },
+    {
+      "id": "location:DEOGHAR",
+      "role": "unknown",
+      "risk": 15.4
+    },
+    {
+      "id": "ip:103.21.58.13",
+      "role": "unknown",
+      "risk": 15.3
+    },
+    {
+      "id": "location:23.88,86.98",
+      "role": "unknown",
+      "risk": 17.2
+    },
+    {
+      "id": "device:356938035643211",
+      "role": "unknown",
+      "risk": 15.8
+    },
+    {
+      "id": "ip:103.21.58.14",
+      "role": "unknown",
+      "risk": 15.3
+    },
+    {
+      "id": "ip:103.21.58.10",
+      "role": "unknown",
+      "risk": 15.3
+    },
+    {
+      "id": "upi_id:pintu.sah@okaxis",
+      "role": "unknown",
+      "risk": 15.2
+    },
+    {
+      "id": "account:5001000050003",
+      "role": "unknown",
+      "risk": 25.2
+    },
+    {
+      "id": "ip:49.36.185.22",
+      "role": "unknown",
+      "risk": 15.3
+    },
+    {
+      "id": "ip:103.21.58.12",
+      "role": "unknown",
+      "risk": 15.3
+    },
+    {
+      "id": "device:356938035643103",
+      "role": "unknown",
+      "risk": 17.7
+    },
+    {
+      "id": "location:23.94,86.11",
+      "role": "unknown",
+      "risk": 15.9
+    },
+    {
+      "id": "device:356938035643203",
+      "role": "unknown",
+      "risk": 17.7
+    },
+    {
+      "id": "ip:103.21.58.11",
+      "role": "unknown",
+      "risk": 15.3
+    },
+    {
+      "id": "ip:157.32.9.30",
+      "role": "unknown",
+      "risk": 15.3
+    },
+    {
+      "id": "upi_id:irfan.ansari@ybl",
+      "role": "unknown",
+      "risk": 15.2
+    },
+    {
+      "id": "device:356938035643213",
+      "role": "unknown",
+      "risk": 15.8
+    },
+    {
+      "id": "device:356938035643105",
+      "role": "unknown",
+      "risk": 17.7
+    },
+    {
+      "id": "upi_id:amit.sinha@paytm",
+      "role": "unknown",
+      "risk": 15.2
+    },
+    {
+      "id": "upi_id:sanjay.prasad@okaxis",
+      "role": "unknown",
+      "risk": 15.2
+    },
+    {
+      "id": "upi_id:ravi.yadav@ybl",
+      "role": "unknown",
+      "risk": 15.2
+    },
+    {
+      "id": "device:356938035643222",
+      "role": "unknown",
+      "risk": 15.8
+    },
+    {
+      "id": "ip:103.21.58.4",
+      "role": "unknown",
+      "risk": 15.3
+    },
+    {
+      "id": "device:356938035643106",
+      "role": "unknown",
+      "risk": 17.7
+    },
+    {
+      "id": "upi_id:sunil.raut@paytm",
+      "role": "unknown",
+      "risk": 15.2
+    },
+    {
+      "id": "device:356938035643202",
+      "role": "unknown",
+      "risk": 17.7
+    },
+    {
+      "id": "upi_id:shop1@ybl",
+      "role": "unknown",
+      "risk": 15.2
+    },
+    {
+      "id": "pan:BXQPR4521K",
+      "role": "unknown",
+      "risk": 14.6
+    },
+    {
+      "id": "location:23.98,86.22",
+      "role": "unknown",
+      "risk": 18.6
+    },
+    {
+      "id": "account:5001000050001",
+      "role": "unknown",
+      "risk": 25.2
+    },
+    {
+      "id": "location:JAMTARA",
+      "role": "unknown",
+      "risk": 19.6
+    },
+    {
+      "id": "device:356938035643201",
+      "role": "unknown",
+      "risk": 17.7
+    },
+    {
+      "id": "upi_id:manoj.gupta@ybl",
+      "role": "unknown",
+      "risk": 15.2
+    },
+    {
+      "id": "device:356938035643101",
+      "role": "unknown",
+      "risk": 17.7
+    },
+    {
+      "id": "location:RANCHI",
+      "role": "unknown",
+      "risk": 15.3
+    },
+    {
+      "id": "person:KIRANA MERCHANT",
+      "role": "unknown",
+      "risk": 16.4
+    },
+    {
+      "id": "ip:49.36.185.24",
+      "role": "unknown",
+      "risk": 15.3
+    },
+    {
+      "id": "device:356938035643299",
+      "role": "unknown",
+      "risk": 15.8
+    },
+    {
+      "id": "device:356938035643104",
+      "role": "unknown",
+      "risk": 17.7
+    },
+    {
+      "id": "upi_id:vikas.mandal@ybl",
+      "role": "unknown",
+      "risk": 15.2
+    },
+    {
+      "id": "upi_id:prakash.oraon@ybl",
+      "role": "unknown",
+      "risk": 15.2
+    },
+    {
+      "id": "upi_id:kavita.mahato@paytm",
+      "role": "unknown",
+      "risk": 15.2
+    },
+    {
+      "id": "ip:49.36.185.23",
+      "role": "unknown",
+      "risk": 15.3
+    },
+    {
+      "id": "upi_id:deepak.mahato@ybl",
+      "role": "unknown",
+      "risk": 15.2
+    },
+    {
+      "id": "ip:157.32.9.32",
+      "role": "unknown",
+      "risk": 15.3
+    },
+    {
+      "id": "device:356938035643102",
+      "role": "unknown",
+      "risk": 17.7
+    },
+    {
+      "id": "handle:jamtara_ops",
+      "role": "unknown",
+      "risk": 15.3
+    },
+    {
+      "id": "device:356938035643212",
+      "role": "unknown",
+      "risk": 15.8
+    },
+    {
+      "id": "account:5001000050002",
+      "role": "unknown",
+      "risk": 25.2
+    },
+    {
+      "id": "upi_id:ramesh.sahu@ybl",
+      "role": "unknown",
+      "risk": 15.2
+    },
+    {
+      "id": "upi_id:harpender.singh@ybl",
+      "role": "unknown",
+      "risk": 15.2
+    },
+    {
+      "id": "ip:49.36.185.21",
+      "role": "unknown",
+      "risk": 15.3
+    },
+    {
+      "id": "ip:103.21.58.15",
+      "role": "unknown",
+      "risk": 15.3
+    },
+    {
+      "id": "ip:157.32.9.33",
+      "role": "unknown",
+      "risk": 15.3
+    },
+    {
+      "id": "device:356938035643204",
+      "role": "unknown",
+      "risk": 17.7
+    },
+    {
+      "id": "upi_id:shop2@ybl",
+      "role": "unknown",
+      "risk": 15.2
+    },
+    {
+      "id": "ip:49.36.185.25",
+      "role": "unknown",
+      "risk": 15.3
+    },
+    {
+      "id": "device:356938035643221",
+      "role": "unknown",
+      "risk": 15.8
+    },
+    {
+      "id": "location:DUMKA",
+      "role": "unknown",
+      "risk": 16.6
+    },
+    {
+      "id": "ip:157.32.9.31",
+      "role": "unknown",
+      "risk": 15.3
+    },
+    {
+      "id": "upi_id:asha.lakra@okaxis",
+      "role": "unknown",
+      "risk": 15.2
+    },
+    {
+      "id": "device:356938035643210",
+      "role": "unknown",
+      "risk": 15.8
+    },
+    {
+      "id": "device:356938035643802",
+      "role": "unknown",
+      "risk": 18.6
+    },
+    {
+      "id": "upi_id:sunita.devi@okaxis",
+      "role": "unknown",
+      "risk": 15.2
+    },
+    {
+      "id": "device:356938035643801",
+      "role": "unknown",
+      "risk": 24.7
+    }
+  ],
+  "edges": [
+    {
+      "src": "upi_id:ramesh.sahu@ybl",
+      "dst": "account:5001000010001",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "ramesh.sahu@ybl maps to a/c 5001000010001"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:RAMESH KUMAR SAHU",
+      "dst": "account:5001000010001",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "a/c 5001000010001 in name of Ramesh Kumar Sahu"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:deepak.mahato@ybl",
+      "dst": "account:5001000020001",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 4,
+      "directed": true,
+      "evidence": [
+        "deepak.mahato@ybl maps to a/c 5001000020001"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:DEEPAK MAHATO",
+      "dst": "account:5001000020001",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 4,
+      "directed": true,
+      "evidence": [
+        "a/c 5001000020001 in name of Deepak Mahato"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5001000010001",
+      "dst": "account:5001000020001",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 145000.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00001: Rs.145,000.00 5001000010001 -> 5001000020001 [victim debit layer-0]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:sunita.devi@okaxis",
+      "dst": "account:5001000010002",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "sunita.devi@okaxis maps to a/c 5001000010002"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:SUNITA DEVI",
+      "dst": "account:5001000010002",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "a/c 5001000010002 in name of Sunita Devi"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:vikas.mandal@ybl",
+      "dst": "account:5001000020002",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 3,
+      "directed": true,
+      "evidence": [
+        "vikas.mandal@ybl maps to a/c 5001000020002"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:VIKAS MANDAL",
+      "dst": "account:5001000020002",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 3,
+      "directed": true,
+      "evidence": [
+        "a/c 5001000020002 in name of Vikas Mandal"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5001000010002",
+      "dst": "account:5001000020002",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 89500.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00002: Rs.89,500.00 5001000010002 -> 5001000020002 [victim debit layer-0]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:irfan.ansari@ybl",
+      "dst": "account:5001000010003",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "irfan.ansari@ybl maps to a/c 5001000010003"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:MOHAMMED IRFAN ANSARI",
+      "dst": "account:5001000010003",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "a/c 5001000010003 in name of Mohammed Irfan Ansari"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:sunil.raut@paytm",
+      "dst": "account:5001000020003",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 3,
+      "directed": true,
+      "evidence": [
+        "sunil.raut@paytm maps to a/c 5001000020003"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:SUNIL KUMAR RAUT",
+      "dst": "account:5001000020003",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 3,
+      "directed": true,
+      "evidence": [
+        "a/c 5001000020003 in name of Sunil Kumar Raut"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5001000010003",
+      "dst": "account:5001000020003",
+      "type": "transfer",
+      "weight": 1.1,
+      "amount": 210000.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "TXN00003: Rs.126,000.00 5001000010003 -> 5001000020003 [victim debit layer-0]",
+        "TXN00004: Rs.84,000.00 5001000010003 -> 5001000020003 [victim debit layer-0]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:kavita.mahato@paytm",
+      "dst": "account:5001000010004",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "kavita.mahato@paytm maps to a/c 5001000010004"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:KAVITA MAHATO",
+      "dst": "account:5001000010004",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "a/c 5001000010004 in name of Kavita Mahato"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:pintu.sah@okaxis",
+      "dst": "account:5001000020004",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "pintu.sah@okaxis maps to a/c 5001000020004"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:PINTU SAH",
+      "dst": "account:5001000020004",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "a/c 5001000020004 in name of Pintu Sah"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5001000010004",
+      "dst": "account:5001000020004",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 67500.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00005: Rs.67,500.00 5001000010004 -> 5001000020004 [victim debit layer-0]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:prakash.oraon@ybl",
+      "dst": "account:5001000010005",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "prakash.oraon@ybl maps to a/c 5001000010005"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:PRAKASH ORAON",
+      "dst": "account:5001000010005",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "a/c 5001000010005 in name of Prakash Oraon"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5001000010005",
+      "dst": "account:5001000020001",
+      "type": "transfer",
+      "weight": 1.1,
+      "amount": 320000.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "TXN00006: Rs.192,000.00 5001000010005 -> 5001000020001 [victim debit layer-0]",
+        "TXN00007: Rs.128,000.00 5001000010005 -> 5001000020001 [victim debit layer-0]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:asha.lakra@okaxis",
+      "dst": "account:5001000010006",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "asha.lakra@okaxis maps to a/c 5001000010006"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:ASHA LAKRA",
+      "dst": "account:5001000010006",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "a/c 5001000010006 in name of Asha Lakra"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5001000010006",
+      "dst": "account:5001000020002",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 118000.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00008: Rs.118,000.00 5001000010006 -> 5001000020002 [victim debit layer-0]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:manoj.gupta@ybl",
+      "dst": "account:5001000030001",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 3,
+      "directed": true,
+      "evidence": [
+        "manoj.gupta@ybl maps to a/c 5001000030001"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:MANOJ GUPTA",
+      "dst": "account:5001000030001",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 3,
+      "directed": true,
+      "evidence": [
+        "a/c 5001000030001 in name of Manoj Gupta"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5001000020001",
+      "dst": "account:5001000030001",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 427800.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00009: Rs.427,800.00 5001000020001 -> 5001000030001 [layer-1 consolidation]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5001000020002",
+      "dst": "account:5001000030001",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 190900.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00010: Rs.190,900.00 5001000020002 -> 5001000030001 [layer-1 consolidation]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:ravi.yadav@ybl",
+      "dst": "account:5001000030002",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "ravi.yadav@ybl maps to a/c 5001000030002"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:RAVI YADAV",
+      "dst": "account:5001000030002",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "a/c 5001000030002 in name of Ravi Yadav"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5001000020003",
+      "dst": "account:5001000030002",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 193200.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00011: Rs.193,200.00 5001000020003 -> 5001000030002 [layer-1 consolidation]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:amit.sinha@paytm",
+      "dst": "account:5001000030003",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "amit.sinha@paytm maps to a/c 5001000030003"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:AMIT SINHA",
+      "dst": "account:5001000030003",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "a/c 5001000030003 in name of Amit Sinha"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5001000020004",
+      "dst": "account:5001000030003",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 62100.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00012: Rs.62,100.00 5001000020004 -> 5001000030003 [layer-1 consolidation]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:sanjay.prasad@okaxis",
+      "dst": "account:5001000040001",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 3,
+      "directed": true,
+      "evidence": [
+        "sanjay.prasad@okaxis maps to a/c 5001000040001"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:SANJAY PRASAD",
+      "dst": "account:5001000040001",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 3,
+      "directed": true,
+      "evidence": [
+        "a/c 5001000040001 in name of Sanjay Prasad"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5001000030001",
+      "dst": "account:5001000040001",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 556830.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00013: Rs.556,830.00 5001000030001 -> 5001000040001 [layer-2 consolidation]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5001000030002",
+      "dst": "account:5001000040001",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 173880.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00014: Rs.173,880.00 5001000030002 -> 5001000040001 [layer-2 consolidation]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:harpender.singh@ybl",
+      "dst": "account:5001000040002",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "harpender.singh@ybl maps to a/c 5001000040002"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:HARPENDER SINGH",
+      "dst": "account:5001000040002",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "a/c 5001000040002 in name of Harpender Singh"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5001000030003",
+      "dst": "account:5001000040002",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 55890.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00015: Rs.55,890.00 5001000030003 -> 5001000040002 [layer-2 consolidation]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:bhola.rai@okaxis",
+      "dst": "account:5001000000001",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "bhola.rai@okaxis maps to a/c 5001000000001"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:BHOLA RAM RAI",
+      "dst": "account:5001000000001",
+      "type": "owns",
+      "weight": 1.3,
+      "amount": 0.0,
+      "count": 3,
+      "directed": true,
+      "evidence": [
+        "a/c 5001000000001 in name of Bhola Ram Rai",
+        "Kingpin Bhola Ram Rai alias Rai Babu holds account 5001000000001 (IFSC PUNB0123456, UPI bhola.rai@okaxis) which is the terminal beneficiary of every layer."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv",
+        "01_incident_notes.txt"
+      ]
+    },
+    {
+      "src": "account:5001000040001",
+      "dst": "account:5001000000001",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 657639.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00016: Rs.657,639.00 5001000040001 -> 5001000000001 [final layer to master account]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5001000040002",
+      "dst": "account:5001000000001",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 50301.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00017: Rs.50,301.00 5001000040002 -> 5001000000001 [final layer to master account]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:shop0@ybl",
+      "dst": "account:5001000050001",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 3,
+      "directed": true,
+      "evidence": [
+        "shop0@ybl maps to a/c 5001000050001"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:KIRANA MERCHANT",
+      "dst": "account:5001000050001",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 3,
+      "directed": true,
+      "evidence": [
+        "a/c 5001000050001 in name of Kirana Merchant"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:shop1@ybl",
+      "dst": "account:5001000050002",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 3,
+      "directed": true,
+      "evidence": [
+        "shop1@ybl maps to a/c 5001000050002"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:KIRANA MERCHANT",
+      "dst": "account:5001000050002",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 3,
+      "directed": true,
+      "evidence": [
+        "a/c 5001000050002 in name of Kirana Merchant"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5001000050001",
+      "dst": "account:5001000050002",
+      "type": "transfer",
+      "weight": 1.1,
+      "amount": 1525.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "TXN00018: Rs.763.00 5001000050001 -> 5001000050002 [routine merchant settle]",
+        "TXN00021: Rs.762.00 5001000050001 -> 5001000050002 [routine merchant settle]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:shop2@ybl",
+      "dst": "account:5001000050003",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "shop2@ybl maps to a/c 5001000050003"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:KIRANA MERCHANT",
+      "dst": "account:5001000050003",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "a/c 5001000050003 in name of Kirana Merchant"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5001000050002",
+      "dst": "account:5001000050003",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 873.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00019: Rs.873.00 5001000050002 -> 5001000050003 [routine merchant settle]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5001000050003",
+      "dst": "account:5001000050001",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 776.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00020: Rs.776.00 5001000050003 -> 5001000050001 [routine merchant settle]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "phone:9431100021",
+      "dst": "phone:9431100010",
+      "type": "call",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "C00001: 9431100021 -> 9431100010 (84s) tower CEL620"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "03_call_logs.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643801",
+      "dst": "phone:9431100021",
+      "type": "device_used_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 10,
+      "directed": true,
+      "evidence": [
+        "MSISDN 9431100021 used on IMEI 356938035643801",
+        "IMEI 356938035643801 used MSISDN 9431100021",
+        "session S300: IMEI 356938035643801 with 9431100021"
+      ],
+      "first_ts": "2024-02-11",
+      "last_ts": "2024-02-11",
+      "sources": [
+        "03_call_logs.csv",
+        "04_sim_device_registry.csv",
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643210",
+      "dst": "phone:9431100010",
+      "type": "device_used_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 8,
+      "directed": true,
+      "evidence": [
+        "MSISDN 9431100010 used on IMEI 356938035643210",
+        "IMEI 356938035643210 used MSISDN 9431100010"
+      ],
+      "first_ts": "2023-10-19",
+      "last_ts": "2023-10-19",
+      "sources": [
+        "03_call_logs.csv",
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "phone:9431100010",
+      "dst": "phone:9431100021",
+      "type": "call",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "C00002: 9431100010 -> 9431100021 (41s) tower CEL975"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "03_call_logs.csv"
+      ]
+    },
+    {
+      "src": "phone:9431100022",
+      "dst": "phone:9431100010",
+      "type": "call",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "C00003: 9431100022 -> 9431100010 (66s) tower CEL701"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "03_call_logs.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643803",
+      "dst": "phone:9431100022",
+      "type": "device_used_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "MSISDN 9431100022 used on IMEI 356938035643803",
+        "IMEI 356938035643803 used MSISDN 9431100022"
+      ],
+      "first_ts": "2024-02-11",
+      "last_ts": "2024-02-11",
+      "sources": [
+        "03_call_logs.csv",
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "phone:9431100010",
+      "dst": "phone:9431100031",
+      "type": "call",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "C00004: 9431100010 -> 9431100031 (42s) tower CEL289"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "03_call_logs.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643201",
+      "dst": "phone:9431100031",
+      "type": "device_used_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 4,
+      "directed": true,
+      "evidence": [
+        "MSISDN 9431100031 used on IMEI 356938035643201",
+        "IMEI 356938035643201 used MSISDN 9431100031",
+        "session S0200: IMEI 356938035643201 with 9431100031"
+      ],
+      "first_ts": "2023-11-05",
+      "last_ts": "2023-11-05",
+      "sources": [
+        "03_call_logs.csv",
+        "04_sim_device_registry.csv",
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "phone:9431100010",
+      "dst": "phone:9431100032",
+      "type": "call",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "C00005: 9431100010 -> 9431100032 (81s) tower CEL624"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "03_call_logs.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643202",
+      "dst": "phone:9431100032",
+      "type": "device_used_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 4,
+      "directed": true,
+      "evidence": [
+        "MSISDN 9431100032 used on IMEI 356938035643202",
+        "IMEI 356938035643202 used MSISDN 9431100032",
+        "session S0201: IMEI 356938035643202 with 9431100032"
+      ],
+      "first_ts": "2023-11-05",
+      "last_ts": "2023-11-05",
+      "sources": [
+        "03_call_logs.csv",
+        "04_sim_device_registry.csv",
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "phone:9431100010",
+      "dst": "phone:9431100033",
+      "type": "call",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "C00006: 9431100010 -> 9431100033 (60s) tower CEL744"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "03_call_logs.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643203",
+      "dst": "phone:9431100033",
+      "type": "device_used_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 4,
+      "directed": true,
+      "evidence": [
+        "MSISDN 9431100033 used on IMEI 356938035643203",
+        "IMEI 356938035643203 used MSISDN 9431100033",
+        "session S0202: IMEI 356938035643203 with 9431100033"
+      ],
+      "first_ts": "2023-11-05",
+      "last_ts": "2023-11-05",
+      "sources": [
+        "03_call_logs.csv",
+        "04_sim_device_registry.csv",
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "phone:9431100010",
+      "dst": "phone:9431100034",
+      "type": "call",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "C00007: 9431100010 -> 9431100034 (69s) tower CEL912"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "03_call_logs.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643204",
+      "dst": "phone:9431100034",
+      "type": "device_used_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 3,
+      "directed": true,
+      "evidence": [
+        "MSISDN 9431100034 used on IMEI 356938035643204",
+        "IMEI 356938035643204 used MSISDN 9431100034",
+        "session S0203: IMEI 356938035643204 with 9431100034"
+      ],
+      "first_ts": "2023-11-05",
+      "last_ts": "2023-11-05",
+      "sources": [
+        "03_call_logs.csv",
+        "04_sim_device_registry.csv",
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "phone:9431100031",
+      "dst": "phone:9431100041",
+      "type": "call",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "C00008: 9431100031 -> 9431100041 (31s) tower CEL196"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "03_call_logs.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643211",
+      "dst": "phone:9431100041",
+      "type": "device_used_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 4,
+      "directed": true,
+      "evidence": [
+        "MSISDN 9431100041 used on IMEI 356938035643211",
+        "IMEI 356938035643211 used MSISDN 9431100041"
+      ],
+      "first_ts": "2023-12-01",
+      "last_ts": "2023-12-01",
+      "sources": [
+        "03_call_logs.csv",
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "phone:9431100032",
+      "dst": "phone:9431100041",
+      "type": "call",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "C00009: 9431100032 -> 9431100041 (48s) tower CEL410"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "03_call_logs.csv"
+      ]
+    },
+    {
+      "src": "phone:9431100033",
+      "dst": "phone:9431100041",
+      "type": "call",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "C00010: 9431100033 -> 9431100041 (29s) tower CEL192"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "03_call_logs.csv"
+      ]
+    },
+    {
+      "src": "phone:9431100043",
+      "dst": "phone:9431100052",
+      "type": "call",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "C00011: 9431100043 -> 9431100052 (55s) tower CEL651"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "03_call_logs.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643213",
+      "dst": "phone:9431100043",
+      "type": "device_used_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "MSISDN 9431100043 used on IMEI 356938035643213",
+        "IMEI 356938035643213 used MSISDN 9431100043"
+      ],
+      "first_ts": "2023-12-01",
+      "last_ts": "2023-12-01",
+      "sources": [
+        "03_call_logs.csv",
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643222",
+      "dst": "phone:9431100052",
+      "type": "device_used_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "MSISDN 9431100052 used on IMEI 356938035643222",
+        "IMEI 356938035643222 used MSISDN 9431100052"
+      ],
+      "first_ts": "2024-01-04",
+      "last_ts": "2024-01-04",
+      "sources": [
+        "03_call_logs.csv",
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "phone:9431100021",
+      "dst": "phone:9431100001",
+      "type": "call",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "C00012: 9431100021 -> 9431100001 (40s) tower CEL709"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "03_call_logs.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643101",
+      "dst": "phone:9431100001",
+      "type": "device_used_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 4,
+      "directed": true,
+      "evidence": [
+        "MSISDN 9431100001 used on IMEI 356938035643101",
+        "IMEI 356938035643101 used MSISDN 9431100001",
+        "session S0000: IMEI 356938035643101 with 9431100001"
+      ],
+      "first_ts": "2021-07-02",
+      "last_ts": "2021-07-02",
+      "sources": [
+        "03_call_logs.csv",
+        "04_sim_device_registry.csv",
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "phone:9431100001",
+      "dst": "phone:9431100021",
+      "type": "call",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "C00013: 9431100001 -> 9431100021 (20s) tower CEL563"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "03_call_logs.csv"
+      ]
+    },
+    {
+      "src": "phone:9431100022",
+      "dst": "phone:9431100002",
+      "type": "call",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "C00014: 9431100022 -> 9431100002 (55s) tower CEL738"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "03_call_logs.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643804",
+      "dst": "phone:9431100022",
+      "type": "device_used_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 4,
+      "directed": true,
+      "evidence": [
+        "MSISDN 9431100022 used on IMEI 356938035643804",
+        "IMEI 356938035643804 used MSISDN 9431100022"
+      ],
+      "first_ts": "2024-02-11",
+      "last_ts": "2024-02-11",
+      "sources": [
+        "03_call_logs.csv",
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643102",
+      "dst": "phone:9431100002",
+      "type": "device_used_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 3,
+      "directed": true,
+      "evidence": [
+        "MSISDN 9431100002 used on IMEI 356938035643102",
+        "IMEI 356938035643102 used MSISDN 9431100002",
+        "session S0001: IMEI 356938035643102 with 9431100002"
+      ],
+      "first_ts": "2021-07-02",
+      "last_ts": "2021-07-02",
+      "sources": [
+        "03_call_logs.csv",
+        "04_sim_device_registry.csv",
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "phone:9431100021",
+      "dst": "phone:9431100003",
+      "type": "call",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "C00015: 9431100021 -> 9431100003 (36s) tower CEL951"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "03_call_logs.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643103",
+      "dst": "phone:9431100003",
+      "type": "device_used_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 4,
+      "directed": true,
+      "evidence": [
+        "MSISDN 9431100003 used on IMEI 356938035643103",
+        "IMEI 356938035643103 used MSISDN 9431100003",
+        "session S0002: IMEI 356938035643103 with 9431100003"
+      ],
+      "first_ts": "2021-07-02",
+      "last_ts": "2021-07-02",
+      "sources": [
+        "03_call_logs.csv",
+        "04_sim_device_registry.csv",
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "phone:9431100003",
+      "dst": "phone:9431100021",
+      "type": "call",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "C00016: 9431100003 -> 9431100021 (24s) tower CEL164"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "03_call_logs.csv"
+      ]
+    },
+    {
+      "src": "phone:9431100022",
+      "dst": "phone:9431100004",
+      "type": "call",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "C00017: 9431100022 -> 9431100004 (42s) tower CEL136"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "03_call_logs.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643104",
+      "dst": "phone:9431100004",
+      "type": "device_used_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 3,
+      "directed": true,
+      "evidence": [
+        "MSISDN 9431100004 used on IMEI 356938035643104",
+        "IMEI 356938035643104 used MSISDN 9431100004",
+        "session S0003: IMEI 356938035643104 with 9431100004"
+      ],
+      "first_ts": "2021-07-02",
+      "last_ts": "2021-07-02",
+      "sources": [
+        "03_call_logs.csv",
+        "04_sim_device_registry.csv",
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "phone:9431100021",
+      "dst": "phone:9431100005",
+      "type": "call",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "C00018: 9431100021 -> 9431100005 (59s) tower CEL347"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "03_call_logs.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643105",
+      "dst": "phone:9431100005",
+      "type": "device_used_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 4,
+      "directed": true,
+      "evidence": [
+        "MSISDN 9431100005 used on IMEI 356938035643105",
+        "IMEI 356938035643105 used MSISDN 9431100005",
+        "session S0004: IMEI 356938035643105 with 9431100005"
+      ],
+      "first_ts": "2021-07-02",
+      "last_ts": "2021-07-02",
+      "sources": [
+        "03_call_logs.csv",
+        "04_sim_device_registry.csv",
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "phone:9431100005",
+      "dst": "phone:9431100021",
+      "type": "call",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "C00019: 9431100005 -> 9431100021 (8s) tower CEL896"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "03_call_logs.csv"
+      ]
+    },
+    {
+      "src": "phone:9431100022",
+      "dst": "phone:9431100006",
+      "type": "call",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "C00020: 9431100022 -> 9431100006 (94s) tower CEL434"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "03_call_logs.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643106",
+      "dst": "phone:9431100006",
+      "type": "device_used_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 3,
+      "directed": true,
+      "evidence": [
+        "MSISDN 9431100006 used on IMEI 356938035643106",
+        "IMEI 356938035643106 used MSISDN 9431100006",
+        "session S0005: IMEI 356938035643106 with 9431100006"
+      ],
+      "first_ts": "2021-07-02",
+      "last_ts": "2021-07-02",
+      "sources": [
+        "03_call_logs.csv",
+        "04_sim_device_registry.csv",
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "sim:89914100000000000000",
+      "dst": "phone:9431100001",
+      "type": "sim_bound_to_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "ICCID 89914100000000000000 bound to 9431100001 (2021-07-02)"
+      ],
+      "first_ts": "2021-07-02",
+      "last_ts": "2021-07-02",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643101",
+      "dst": "sim:89914100000000000000",
+      "type": "device_used_sim",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643101 used SIM 89914100000000000000"
+      ],
+      "first_ts": "2021-07-02",
+      "last_ts": "2021-07-02",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:RAMESH KUMAR SAHU",
+      "dst": "phone:9431100001",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "SIM 89914100000000000000 in name of Ramesh Kumar Sahu",
+        "SIM 89914200000000000000 in name of Ramesh Kumar Sahu"
+      ],
+      "first_ts": "2021-07-02",
+      "last_ts": "2024-03-18 09:30:00",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:RAMESH KUMAR SAHU",
+      "dst": "sim:89914100000000000000",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914100000000000000 in name of Ramesh Kumar Sahu"
+      ],
+      "first_ts": "2021-07-02",
+      "last_ts": "2021-07-02",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "sim:89914100000000000000",
+      "dst": "location:JAMTARA",
+      "type": "located_at",
+      "weight": 0.5,
+      "amount": 0.0,
+      "count": 6,
+      "directed": true,
+      "evidence": [
+        "89914100000000000000 activated at Jamtara"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "sim:89914200000000000000",
+      "dst": "phone:9431100001",
+      "type": "sim_bound_to_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "ICCID 89914200000000000000 bound to 9431100001 (2024-03-18 09:30:00)"
+      ],
+      "first_ts": "2024-03-18 09:30:00",
+      "last_ts": "2024-03-18 09:30:00",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643801",
+      "dst": "sim:89914200000000000000",
+      "type": "device_used_sim",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 3,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643801 used SIM 89914200000000000000"
+      ],
+      "first_ts": "2024-03-18 09:30:00",
+      "last_ts": "2024-03-18 09:42:00",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643801",
+      "dst": "phone:9431100001",
+      "type": "device_used_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643801 used MSISDN 9431100001",
+        "session S0100: IMEI 356938035643801 with 9431100001"
+      ],
+      "first_ts": "2024-03-18 09:30:00",
+      "last_ts": "2024-03-18 09:30:00",
+      "sources": [
+        "04_sim_device_registry.csv",
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "person:RAMESH KUMAR SAHU",
+      "dst": "sim:89914200000000000000",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914200000000000000 in name of Ramesh Kumar Sahu"
+      ],
+      "first_ts": "2024-03-18 09:30:00",
+      "last_ts": "2024-03-18 09:30:00",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "sim:89914200000000000000",
+      "dst": "location:JAMTARA",
+      "type": "located_at",
+      "weight": 0.5,
+      "amount": 0.0,
+      "count": 6,
+      "directed": true,
+      "evidence": [
+        "89914200000000000000 activated at Jamtara"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "sim:89914100000000000000",
+      "dst": "phone:9431100002",
+      "type": "sim_bound_to_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "ICCID 89914100000000000000 bound to 9431100002 (2021-07-02)"
+      ],
+      "first_ts": "2021-07-02",
+      "last_ts": "2021-07-02",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643102",
+      "dst": "sim:89914100000000000000",
+      "type": "device_used_sim",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643102 used SIM 89914100000000000000"
+      ],
+      "first_ts": "2021-07-02",
+      "last_ts": "2021-07-02",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:SUNITA DEVI",
+      "dst": "phone:9431100002",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "SIM 89914100000000000000 in name of Sunita Devi",
+        "SIM 89914200000000000000 in name of Sunita Devi"
+      ],
+      "first_ts": "2021-07-02",
+      "last_ts": "2024-03-18 09:33:00",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:SUNITA DEVI",
+      "dst": "sim:89914100000000000000",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914100000000000000 in name of Sunita Devi"
+      ],
+      "first_ts": "2021-07-02",
+      "last_ts": "2021-07-02",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "sim:89914200000000000000",
+      "dst": "phone:9431100002",
+      "type": "sim_bound_to_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "ICCID 89914200000000000000 bound to 9431100002 (2024-03-18 09:33:00)"
+      ],
+      "first_ts": "2024-03-18 09:33:00",
+      "last_ts": "2024-03-18 09:33:00",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643804",
+      "dst": "sim:89914200000000000000",
+      "type": "device_used_sim",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 3,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643804 used SIM 89914200000000000000"
+      ],
+      "first_ts": "2024-03-18 09:33:00",
+      "last_ts": "2024-03-18 09:45:00",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643804",
+      "dst": "phone:9431100002",
+      "type": "device_used_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643804 used MSISDN 9431100002",
+        "session S0101: IMEI 356938035643804 with 9431100002"
+      ],
+      "first_ts": "2024-03-18 09:33:00",
+      "last_ts": "2024-03-18 09:33:00",
+      "sources": [
+        "04_sim_device_registry.csv",
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "person:SUNITA DEVI",
+      "dst": "sim:89914200000000000000",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914200000000000000 in name of Sunita Devi"
+      ],
+      "first_ts": "2024-03-18 09:33:00",
+      "last_ts": "2024-03-18 09:33:00",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "sim:89914100000000000000",
+      "dst": "phone:9431100003",
+      "type": "sim_bound_to_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "ICCID 89914100000000000000 bound to 9431100003 (2021-07-02)"
+      ],
+      "first_ts": "2021-07-02",
+      "last_ts": "2021-07-02",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643103",
+      "dst": "sim:89914100000000000000",
+      "type": "device_used_sim",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643103 used SIM 89914100000000000000"
+      ],
+      "first_ts": "2021-07-02",
+      "last_ts": "2021-07-02",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:MOHAMMED IRFAN ANSARI",
+      "dst": "phone:9431100003",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "SIM 89914100000000000000 in name of Mohammed Irfan Ansari",
+        "SIM 89914200000000000000 in name of Mohammed Irfan Ansari"
+      ],
+      "first_ts": "2021-07-02",
+      "last_ts": "2024-03-18 09:36:00",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:MOHAMMED IRFAN ANSARI",
+      "dst": "sim:89914100000000000000",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914100000000000000 in name of Mohammed Irfan Ansari"
+      ],
+      "first_ts": "2021-07-02",
+      "last_ts": "2021-07-02",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "sim:89914200000000000000",
+      "dst": "phone:9431100003",
+      "type": "sim_bound_to_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "ICCID 89914200000000000000 bound to 9431100003 (2024-03-18 09:36:00)"
+      ],
+      "first_ts": "2024-03-18 09:36:00",
+      "last_ts": "2024-03-18 09:36:00",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643801",
+      "dst": "phone:9431100003",
+      "type": "device_used_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643801 used MSISDN 9431100003",
+        "session S0102: IMEI 356938035643801 with 9431100003"
+      ],
+      "first_ts": "2024-03-18 09:36:00",
+      "last_ts": "2024-03-18 09:36:00",
+      "sources": [
+        "04_sim_device_registry.csv",
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "person:MOHAMMED IRFAN ANSARI",
+      "dst": "sim:89914200000000000000",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914200000000000000 in name of Mohammed Irfan Ansari"
+      ],
+      "first_ts": "2024-03-18 09:36:00",
+      "last_ts": "2024-03-18 09:36:00",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "sim:89914100000000000000",
+      "dst": "phone:9431100004",
+      "type": "sim_bound_to_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "ICCID 89914100000000000000 bound to 9431100004 (2021-07-02)"
+      ],
+      "first_ts": "2021-07-02",
+      "last_ts": "2021-07-02",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643104",
+      "dst": "sim:89914100000000000000",
+      "type": "device_used_sim",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643104 used SIM 89914100000000000000"
+      ],
+      "first_ts": "2021-07-02",
+      "last_ts": "2021-07-02",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:KAVITA MAHATO",
+      "dst": "phone:9431100004",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "SIM 89914100000000000000 in name of Kavita Mahato",
+        "SIM 89914200000000000000 in name of Kavita Mahato"
+      ],
+      "first_ts": "2021-07-02",
+      "last_ts": "2024-03-18 09:39:00",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:KAVITA MAHATO",
+      "dst": "sim:89914100000000000000",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914100000000000000 in name of Kavita Mahato"
+      ],
+      "first_ts": "2021-07-02",
+      "last_ts": "2021-07-02",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "sim:89914200000000000000",
+      "dst": "phone:9431100004",
+      "type": "sim_bound_to_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "ICCID 89914200000000000000 bound to 9431100004 (2024-03-18 09:39:00)"
+      ],
+      "first_ts": "2024-03-18 09:39:00",
+      "last_ts": "2024-03-18 09:39:00",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643804",
+      "dst": "phone:9431100004",
+      "type": "device_used_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643804 used MSISDN 9431100004",
+        "session S0103: IMEI 356938035643804 with 9431100004"
+      ],
+      "first_ts": "2024-03-18 09:39:00",
+      "last_ts": "2024-03-18 09:39:00",
+      "sources": [
+        "04_sim_device_registry.csv",
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "person:KAVITA MAHATO",
+      "dst": "sim:89914200000000000000",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914200000000000000 in name of Kavita Mahato"
+      ],
+      "first_ts": "2024-03-18 09:39:00",
+      "last_ts": "2024-03-18 09:39:00",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "sim:89914100000000000000",
+      "dst": "phone:9431100005",
+      "type": "sim_bound_to_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "ICCID 89914100000000000000 bound to 9431100005 (2021-07-02)"
+      ],
+      "first_ts": "2021-07-02",
+      "last_ts": "2021-07-02",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643105",
+      "dst": "sim:89914100000000000000",
+      "type": "device_used_sim",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643105 used SIM 89914100000000000000"
+      ],
+      "first_ts": "2021-07-02",
+      "last_ts": "2021-07-02",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:PRAKASH ORAON",
+      "dst": "phone:9431100005",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "SIM 89914100000000000000 in name of Prakash Oraon",
+        "SIM 89914200000000000000 in name of Prakash Oraon"
+      ],
+      "first_ts": "2021-07-02",
+      "last_ts": "2024-03-18 09:42:00",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:PRAKASH ORAON",
+      "dst": "sim:89914100000000000000",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914100000000000000 in name of Prakash Oraon"
+      ],
+      "first_ts": "2021-07-02",
+      "last_ts": "2021-07-02",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "sim:89914200000000000000",
+      "dst": "phone:9431100005",
+      "type": "sim_bound_to_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "ICCID 89914200000000000000 bound to 9431100005 (2024-03-18 09:42:00)"
+      ],
+      "first_ts": "2024-03-18 09:42:00",
+      "last_ts": "2024-03-18 09:42:00",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643801",
+      "dst": "phone:9431100005",
+      "type": "device_used_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643801 used MSISDN 9431100005",
+        "session S0104: IMEI 356938035643801 with 9431100005"
+      ],
+      "first_ts": "2024-03-18 09:42:00",
+      "last_ts": "2024-03-18 09:42:00",
+      "sources": [
+        "04_sim_device_registry.csv",
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "person:PRAKASH ORAON",
+      "dst": "sim:89914200000000000000",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914200000000000000 in name of Prakash Oraon"
+      ],
+      "first_ts": "2024-03-18 09:42:00",
+      "last_ts": "2024-03-18 09:42:00",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "sim:89914100000000000000",
+      "dst": "phone:9431100006",
+      "type": "sim_bound_to_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "ICCID 89914100000000000000 bound to 9431100006 (2021-07-02)"
+      ],
+      "first_ts": "2021-07-02",
+      "last_ts": "2021-07-02",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643106",
+      "dst": "sim:89914100000000000000",
+      "type": "device_used_sim",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643106 used SIM 89914100000000000000"
+      ],
+      "first_ts": "2021-07-02",
+      "last_ts": "2021-07-02",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:ASHA LAKRA",
+      "dst": "phone:9431100006",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "SIM 89914100000000000000 in name of Asha Lakra",
+        "SIM 89914200000000000000 in name of Asha Lakra"
+      ],
+      "first_ts": "2021-07-02",
+      "last_ts": "2024-03-18 09:45:00",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:ASHA LAKRA",
+      "dst": "sim:89914100000000000000",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914100000000000000 in name of Asha Lakra"
+      ],
+      "first_ts": "2021-07-02",
+      "last_ts": "2021-07-02",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "sim:89914200000000000000",
+      "dst": "phone:9431100006",
+      "type": "sim_bound_to_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "ICCID 89914200000000000000 bound to 9431100006 (2024-03-18 09:45:00)"
+      ],
+      "first_ts": "2024-03-18 09:45:00",
+      "last_ts": "2024-03-18 09:45:00",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643804",
+      "dst": "phone:9431100006",
+      "type": "device_used_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643804 used MSISDN 9431100006",
+        "session S0105: IMEI 356938035643804 with 9431100006"
+      ],
+      "first_ts": "2024-03-18 09:45:00",
+      "last_ts": "2024-03-18 09:45:00",
+      "sources": [
+        "04_sim_device_registry.csv",
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "person:ASHA LAKRA",
+      "dst": "sim:89914200000000000000",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914200000000000000 in name of Asha Lakra"
+      ],
+      "first_ts": "2024-03-18 09:45:00",
+      "last_ts": "2024-03-18 09:45:00",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "sim:89914300000000000000",
+      "dst": "phone:9431100021",
+      "type": "sim_bound_to_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "ICCID 89914300000000000000 bound to 9431100021 (2024-02-11)"
+      ],
+      "first_ts": "2024-02-11",
+      "last_ts": "2024-02-11",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643801",
+      "dst": "sim:89914300000000000000",
+      "type": "device_used_sim",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643801 used SIM 89914300000000000000"
+      ],
+      "first_ts": "2024-02-11",
+      "last_ts": "2024-02-11",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:BITTU MAHTO",
+      "dst": "phone:9431100021",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "SIM 89914300000000000000 in name of Bittu Mahto"
+      ],
+      "first_ts": "2024-02-11",
+      "last_ts": "2024-02-11",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:BITTU MAHTO",
+      "dst": "sim:89914300000000000000",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "SIM 89914300000000000000 in name of Bittu Mahto"
+      ],
+      "first_ts": "2024-02-11",
+      "last_ts": "2024-02-11",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "sim:89914300000000000000",
+      "dst": "location:JAMTARA",
+      "type": "located_at",
+      "weight": 0.5,
+      "amount": 0.0,
+      "count": 4,
+      "directed": true,
+      "evidence": [
+        "89914300000000000000 activated at Jamtara"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643802",
+      "dst": "sim:89914300000000000000",
+      "type": "device_used_sim",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643802 used SIM 89914300000000000000"
+      ],
+      "first_ts": "2024-02-11",
+      "last_ts": "2024-02-11",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643802",
+      "dst": "phone:9431100021",
+      "type": "device_used_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643802 used MSISDN 9431100021"
+      ],
+      "first_ts": "2024-02-11",
+      "last_ts": "2024-02-11",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "sim:89914300000000000000",
+      "dst": "phone:9431100022",
+      "type": "sim_bound_to_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "ICCID 89914300000000000000 bound to 9431100022 (2024-02-11)"
+      ],
+      "first_ts": "2024-02-11",
+      "last_ts": "2024-02-11",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643803",
+      "dst": "sim:89914300000000000000",
+      "type": "device_used_sim",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643803 used SIM 89914300000000000000"
+      ],
+      "first_ts": "2024-02-11",
+      "last_ts": "2024-02-11",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:KALU HALDAR",
+      "dst": "phone:9431100022",
+      "type": "owns",
+      "weight": 1.3,
+      "amount": 0.0,
+      "count": 3,
+      "directed": true,
+      "evidence": [
+        "SIM 89914300000000000000 in name of Kalu Haldar",
+        "Operator Kalu Haldar (9431100022) reissues SIMs using burner IMEI 356938035643803 and IMEI 356938035643804."
+      ],
+      "first_ts": "2024-02-11",
+      "last_ts": "2024-02-11",
+      "sources": [
+        "04_sim_device_registry.csv",
+        "01_incident_notes.txt"
+      ]
+    },
+    {
+      "src": "person:KALU HALDAR",
+      "dst": "sim:89914300000000000000",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "SIM 89914300000000000000 in name of Kalu Haldar"
+      ],
+      "first_ts": "2024-02-11",
+      "last_ts": "2024-02-11",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643804",
+      "dst": "sim:89914300000000000000",
+      "type": "device_used_sim",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643804 used SIM 89914300000000000000"
+      ],
+      "first_ts": "2024-02-11",
+      "last_ts": "2024-02-11",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "sim:89914400000000000000",
+      "dst": "phone:9431100031",
+      "type": "sim_bound_to_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "ICCID 89914400000000000000 bound to 9431100031 (2023-11-05)"
+      ],
+      "first_ts": "2023-11-05",
+      "last_ts": "2023-11-05",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643201",
+      "dst": "sim:89914400000000000000",
+      "type": "device_used_sim",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643201 used SIM 89914400000000000000"
+      ],
+      "first_ts": "2023-11-05",
+      "last_ts": "2023-11-05",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:DEEPAK MAHATO",
+      "dst": "phone:9431100031",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914400000000000000 in name of Deepak Mahato"
+      ],
+      "first_ts": "2023-11-05",
+      "last_ts": "2023-11-05",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:DEEPAK MAHATO",
+      "dst": "sim:89914400000000000000",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914400000000000000 in name of Deepak Mahato"
+      ],
+      "first_ts": "2023-11-05",
+      "last_ts": "2023-11-05",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "sim:89914400000000000000",
+      "dst": "location:DUMKA",
+      "type": "located_at",
+      "weight": 0.5,
+      "amount": 0.0,
+      "count": 4,
+      "directed": true,
+      "evidence": [
+        "89914400000000000000 activated at Dumka"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "sim:89914400000000000000",
+      "dst": "phone:9431100032",
+      "type": "sim_bound_to_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "ICCID 89914400000000000000 bound to 9431100032 (2023-11-05)"
+      ],
+      "first_ts": "2023-11-05",
+      "last_ts": "2023-11-05",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643202",
+      "dst": "sim:89914400000000000000",
+      "type": "device_used_sim",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643202 used SIM 89914400000000000000"
+      ],
+      "first_ts": "2023-11-05",
+      "last_ts": "2023-11-05",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:VIKAS MANDAL",
+      "dst": "phone:9431100032",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914400000000000000 in name of Vikas Mandal"
+      ],
+      "first_ts": "2023-11-05",
+      "last_ts": "2023-11-05",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:VIKAS MANDAL",
+      "dst": "sim:89914400000000000000",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914400000000000000 in name of Vikas Mandal"
+      ],
+      "first_ts": "2023-11-05",
+      "last_ts": "2023-11-05",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "sim:89914400000000000000",
+      "dst": "phone:9431100033",
+      "type": "sim_bound_to_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "ICCID 89914400000000000000 bound to 9431100033 (2023-11-05)"
+      ],
+      "first_ts": "2023-11-05",
+      "last_ts": "2023-11-05",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643203",
+      "dst": "sim:89914400000000000000",
+      "type": "device_used_sim",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643203 used SIM 89914400000000000000"
+      ],
+      "first_ts": "2023-11-05",
+      "last_ts": "2023-11-05",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:SUNIL KUMAR RAUT",
+      "dst": "phone:9431100033",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914400000000000000 in name of Sunil Kumar Raut"
+      ],
+      "first_ts": "2023-11-05",
+      "last_ts": "2023-11-05",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:SUNIL KUMAR RAUT",
+      "dst": "sim:89914400000000000000",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914400000000000000 in name of Sunil Kumar Raut"
+      ],
+      "first_ts": "2023-11-05",
+      "last_ts": "2023-11-05",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "sim:89914400000000000000",
+      "dst": "phone:9431100034",
+      "type": "sim_bound_to_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "ICCID 89914400000000000000 bound to 9431100034 (2023-11-05)"
+      ],
+      "first_ts": "2023-11-05",
+      "last_ts": "2023-11-05",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643204",
+      "dst": "sim:89914400000000000000",
+      "type": "device_used_sim",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643204 used SIM 89914400000000000000"
+      ],
+      "first_ts": "2023-11-05",
+      "last_ts": "2023-11-05",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:PINTU SAH",
+      "dst": "phone:9431100034",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914400000000000000 in name of Pintu Sah"
+      ],
+      "first_ts": "2023-11-05",
+      "last_ts": "2023-11-05",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:PINTU SAH",
+      "dst": "sim:89914400000000000000",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914400000000000000 in name of Pintu Sah"
+      ],
+      "first_ts": "2023-11-05",
+      "last_ts": "2023-11-05",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "sim:89914500000000000000",
+      "dst": "phone:9431100041",
+      "type": "sim_bound_to_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "ICCID 89914500000000000000 bound to 9431100041 (2023-12-01)"
+      ],
+      "first_ts": "2023-12-01",
+      "last_ts": "2023-12-01",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643211",
+      "dst": "sim:89914500000000000000",
+      "type": "device_used_sim",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643211 used SIM 89914500000000000000"
+      ],
+      "first_ts": "2023-12-01",
+      "last_ts": "2023-12-01",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:MANOJ GUPTA",
+      "dst": "phone:9431100041",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914500000000000000 in name of Manoj Gupta"
+      ],
+      "first_ts": "2023-12-01",
+      "last_ts": "2023-12-01",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:MANOJ GUPTA",
+      "dst": "sim:89914500000000000000",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914500000000000000 in name of Manoj Gupta"
+      ],
+      "first_ts": "2023-12-01",
+      "last_ts": "2023-12-01",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "sim:89914500000000000000",
+      "dst": "location:DUMKA",
+      "type": "located_at",
+      "weight": 0.5,
+      "amount": 0.0,
+      "count": 3,
+      "directed": true,
+      "evidence": [
+        "89914500000000000000 activated at Dumka"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "sim:89914500000000000000",
+      "dst": "phone:9431100042",
+      "type": "sim_bound_to_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "ICCID 89914500000000000000 bound to 9431100042 (2023-12-01)"
+      ],
+      "first_ts": "2023-12-01",
+      "last_ts": "2023-12-01",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643212",
+      "dst": "sim:89914500000000000000",
+      "type": "device_used_sim",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643212 used SIM 89914500000000000000"
+      ],
+      "first_ts": "2023-12-01",
+      "last_ts": "2023-12-01",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643212",
+      "dst": "phone:9431100042",
+      "type": "device_used_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643212 used MSISDN 9431100042"
+      ],
+      "first_ts": "2023-12-01",
+      "last_ts": "2023-12-01",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:RAVI YADAV",
+      "dst": "phone:9431100042",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914500000000000000 in name of Ravi Yadav"
+      ],
+      "first_ts": "2023-12-01",
+      "last_ts": "2023-12-01",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:RAVI YADAV",
+      "dst": "sim:89914500000000000000",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914500000000000000 in name of Ravi Yadav"
+      ],
+      "first_ts": "2023-12-01",
+      "last_ts": "2023-12-01",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "sim:89914500000000000000",
+      "dst": "phone:9431100043",
+      "type": "sim_bound_to_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "ICCID 89914500000000000000 bound to 9431100043 (2023-12-01)"
+      ],
+      "first_ts": "2023-12-01",
+      "last_ts": "2023-12-01",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643213",
+      "dst": "sim:89914500000000000000",
+      "type": "device_used_sim",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643213 used SIM 89914500000000000000"
+      ],
+      "first_ts": "2023-12-01",
+      "last_ts": "2023-12-01",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:AMIT SINHA",
+      "dst": "phone:9431100043",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914500000000000000 in name of Amit Sinha"
+      ],
+      "first_ts": "2023-12-01",
+      "last_ts": "2023-12-01",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:AMIT SINHA",
+      "dst": "sim:89914500000000000000",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914500000000000000 in name of Amit Sinha"
+      ],
+      "first_ts": "2023-12-01",
+      "last_ts": "2023-12-01",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "sim:89914600000000000000",
+      "dst": "phone:9431100051",
+      "type": "sim_bound_to_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "ICCID 89914600000000000000 bound to 9431100051 (2024-01-04)"
+      ],
+      "first_ts": "2024-01-04",
+      "last_ts": "2024-01-04",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643221",
+      "dst": "sim:89914600000000000000",
+      "type": "device_used_sim",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643221 used SIM 89914600000000000000"
+      ],
+      "first_ts": "2024-01-04",
+      "last_ts": "2024-01-04",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643221",
+      "dst": "phone:9431100051",
+      "type": "device_used_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643221 used MSISDN 9431100051"
+      ],
+      "first_ts": "2024-01-04",
+      "last_ts": "2024-01-04",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:SANJAY PRASAD",
+      "dst": "phone:9431100051",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914600000000000000 in name of Sanjay Prasad"
+      ],
+      "first_ts": "2024-01-04",
+      "last_ts": "2024-01-04",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:SANJAY PRASAD",
+      "dst": "sim:89914600000000000000",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914600000000000000 in name of Sanjay Prasad"
+      ],
+      "first_ts": "2024-01-04",
+      "last_ts": "2024-01-04",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "sim:89914600000000000000",
+      "dst": "location:DEOGHAR",
+      "type": "located_at",
+      "weight": 0.5,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "89914600000000000000 activated at Deoghar"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "sim:89914600000000000000",
+      "dst": "phone:9431100052",
+      "type": "sim_bound_to_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "ICCID 89914600000000000000 bound to 9431100052 (2024-01-04)"
+      ],
+      "first_ts": "2024-01-04",
+      "last_ts": "2024-01-04",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643222",
+      "dst": "sim:89914600000000000000",
+      "type": "device_used_sim",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643222 used SIM 89914600000000000000"
+      ],
+      "first_ts": "2024-01-04",
+      "last_ts": "2024-01-04",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:HARPENDER SINGH",
+      "dst": "phone:9431100052",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914600000000000000 in name of Harpender Singh"
+      ],
+      "first_ts": "2024-01-04",
+      "last_ts": "2024-01-04",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:HARPENDER SINGH",
+      "dst": "sim:89914600000000000000",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914600000000000000 in name of Harpender Singh"
+      ],
+      "first_ts": "2024-01-04",
+      "last_ts": "2024-01-04",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "sim:89914700000000000000",
+      "dst": "phone:9431100010",
+      "type": "sim_bound_to_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "ICCID 89914700000000000000 bound to 9431100010 (2023-10-19)"
+      ],
+      "first_ts": "2023-10-19",
+      "last_ts": "2023-10-19",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643210",
+      "dst": "sim:89914700000000000000",
+      "type": "device_used_sim",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643210 used SIM 89914700000000000000"
+      ],
+      "first_ts": "2023-10-19",
+      "last_ts": "2023-10-19",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:SURAJ EKKA",
+      "dst": "phone:9431100010",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914700000000000000 in name of Suraj Ekka"
+      ],
+      "first_ts": "2023-10-19",
+      "last_ts": "2023-10-19",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:SURAJ EKKA",
+      "dst": "sim:89914700000000000000",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914700000000000000 in name of Suraj Ekka"
+      ],
+      "first_ts": "2023-10-19",
+      "last_ts": "2023-10-19",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "sim:89914700000000000000",
+      "dst": "location:JAMTARA",
+      "type": "located_at",
+      "weight": 0.5,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "89914700000000000000 activated at Jamtara"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "sim:89914700000000000000",
+      "dst": "phone:9431100099",
+      "type": "sim_bound_to_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "ICCID 89914700000000000000 bound to 9431100099 (2023-09-08)"
+      ],
+      "first_ts": "2023-09-08",
+      "last_ts": "2023-09-08",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643299",
+      "dst": "sim:89914700000000000000",
+      "type": "device_used_sim",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643299 used SIM 89914700000000000000"
+      ],
+      "first_ts": "2023-09-08",
+      "last_ts": "2023-09-08",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643299",
+      "dst": "phone:9431100099",
+      "type": "device_used_msisdn",
+      "weight": 2.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "IMEI 356938035643299 used MSISDN 9431100099"
+      ],
+      "first_ts": "2023-09-08",
+      "last_ts": "2023-09-08",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:BHOLA RAM RAI",
+      "dst": "phone:9431100099",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914700000000000000 in name of Bhola Ram Rai"
+      ],
+      "first_ts": "2023-09-08",
+      "last_ts": "2023-09-08",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "person:BHOLA RAM RAI",
+      "dst": "sim:89914700000000000000",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "SIM 89914700000000000000 in name of Bhola Ram Rai"
+      ],
+      "first_ts": "2023-09-08",
+      "last_ts": "2023-09-08",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "sim:89914700000000000000",
+      "dst": "location:RANCHI",
+      "type": "located_at",
+      "weight": 0.5,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "89914700000000000000 activated at Ranchi"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "04_sim_device_registry.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643101",
+      "dst": "ip:49.36.185.20",
+      "type": "session_ip",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0000 from IP 49.36.185.20"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643101",
+      "dst": "location:23.98,86.22",
+      "type": "located_at",
+      "weight": 0.4,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "geo 23.98,86.22 at -"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643801",
+      "dst": "ip:103.21.58.10",
+      "type": "session_ip",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0100 from IP 103.21.58.10"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643801",
+      "dst": "location:23.94,86.11",
+      "type": "located_at",
+      "weight": 0.4,
+      "amount": 0.0,
+      "count": 4,
+      "directed": true,
+      "evidence": [
+        "geo 23.94,86.11 at -"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643102",
+      "dst": "ip:49.36.185.21",
+      "type": "session_ip",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0001 from IP 49.36.185.21"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643102",
+      "dst": "location:23.98,86.22",
+      "type": "located_at",
+      "weight": 0.4,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "geo 23.98,86.22 at -"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643804",
+      "dst": "ip:103.21.58.11",
+      "type": "session_ip",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0101 from IP 103.21.58.11"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643804",
+      "dst": "location:23.94,86.11",
+      "type": "located_at",
+      "weight": 0.4,
+      "amount": 0.0,
+      "count": 3,
+      "directed": true,
+      "evidence": [
+        "geo 23.94,86.11 at -"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643103",
+      "dst": "ip:49.36.185.22",
+      "type": "session_ip",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0002 from IP 49.36.185.22"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643103",
+      "dst": "location:23.98,86.22",
+      "type": "located_at",
+      "weight": 0.4,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "geo 23.98,86.22 at -"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643801",
+      "dst": "ip:103.21.58.12",
+      "type": "session_ip",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0102 from IP 103.21.58.12"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643104",
+      "dst": "ip:49.36.185.23",
+      "type": "session_ip",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0003 from IP 49.36.185.23"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643104",
+      "dst": "location:23.98,86.22",
+      "type": "located_at",
+      "weight": 0.4,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "geo 23.98,86.22 at -"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643804",
+      "dst": "ip:103.21.58.13",
+      "type": "session_ip",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0103 from IP 103.21.58.13"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643105",
+      "dst": "ip:49.36.185.24",
+      "type": "session_ip",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0004 from IP 49.36.185.24"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643105",
+      "dst": "location:23.98,86.22",
+      "type": "located_at",
+      "weight": 0.4,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "geo 23.98,86.22 at -"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643801",
+      "dst": "ip:103.21.58.14",
+      "type": "session_ip",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0104 from IP 103.21.58.14"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643106",
+      "dst": "ip:49.36.185.25",
+      "type": "session_ip",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0005 from IP 49.36.185.25"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643106",
+      "dst": "location:23.98,86.22",
+      "type": "located_at",
+      "weight": 0.4,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "geo 23.98,86.22 at -"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643804",
+      "dst": "ip:103.21.58.15",
+      "type": "session_ip",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0105 from IP 103.21.58.15"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643201",
+      "dst": "ip:157.32.9.30",
+      "type": "session_ip",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0200 from IP 157.32.9.30"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643201",
+      "dst": "location:23.88,86.98",
+      "type": "located_at",
+      "weight": 0.4,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "geo 23.88,86.98 at -"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643202",
+      "dst": "ip:157.32.9.31",
+      "type": "session_ip",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0201 from IP 157.32.9.31"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643202",
+      "dst": "location:23.88,86.98",
+      "type": "located_at",
+      "weight": 0.4,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "geo 23.88,86.98 at -"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643203",
+      "dst": "ip:157.32.9.32",
+      "type": "session_ip",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0202 from IP 157.32.9.32"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643203",
+      "dst": "location:23.88,86.98",
+      "type": "located_at",
+      "weight": 0.4,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "geo 23.88,86.98 at -"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643204",
+      "dst": "ip:157.32.9.33",
+      "type": "session_ip",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0203 from IP 157.32.9.33"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643204",
+      "dst": "location:23.88,86.98",
+      "type": "located_at",
+      "weight": 0.4,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "geo 23.88,86.98 at -"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035643801",
+      "dst": "ip:103.21.58.4",
+      "type": "session_ip",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S300 from IP 103.21.58.4"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "person:BHOLA RAM RAI",
+      "dst": "upi_id:bhola.rai@okaxis",
+      "type": "owns",
+      "weight": 1.3,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Kingpin Bhola Ram Rai alias Rai Babu holds account 5001000000001 (IFSC PUNB0123456, UPI bhola.rai@okaxis) which is the terminal beneficiary of every layer."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "01_incident_notes.txt"
+      ]
+    },
+    {
+      "src": "person:BITTU MAHTO",
+      "dst": "phone:9431100021",
+      "type": "co_occur",
+      "weight": 0.35,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Operator Bittu Mahto (9431100021) runs the SIM desk with burner IMEI 356938035643801 and IMEI 356938035643802."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "01_incident_notes.txt"
+      ]
+    },
+    {
+      "src": "person:BITTU MAHTO",
+      "dst": "device:356938035643801",
+      "type": "co_occur",
+      "weight": 0.35,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Operator Bittu Mahto (9431100021) runs the SIM desk with burner IMEI 356938035643801 and IMEI 356938035643802."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "01_incident_notes.txt"
+      ]
+    },
+    {
+      "src": "person:BITTU MAHTO",
+      "dst": "device:356938035643802",
+      "type": "co_occur",
+      "weight": 0.35,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Operator Bittu Mahto (9431100021) runs the SIM desk with burner IMEI 356938035643801 and IMEI 356938035643802."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "01_incident_notes.txt"
+      ]
+    },
+    {
+      "src": "phone:9431100021",
+      "dst": "device:356938035643801",
+      "type": "co_occur",
+      "weight": 0.35,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Operator Bittu Mahto (9431100021) runs the SIM desk with burner IMEI 356938035643801 and IMEI 356938035643802."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "01_incident_notes.txt"
+      ]
+    },
+    {
+      "src": "phone:9431100021",
+      "dst": "device:356938035643802",
+      "type": "co_occur",
+      "weight": 0.35,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Operator Bittu Mahto (9431100021) runs the SIM desk with burner IMEI 356938035643801 and IMEI 356938035643802."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "01_incident_notes.txt"
+      ]
+    },
+    {
+      "src": "device:356938035643801",
+      "dst": "device:356938035643802",
+      "type": "co_occur",
+      "weight": 0.35,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Operator Bittu Mahto (9431100021) runs the SIM desk with burner IMEI 356938035643801 and IMEI 356938035643802."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "01_incident_notes.txt"
+      ]
+    },
+    {
+      "src": "person:KALU HALDAR",
+      "dst": "device:356938035643803",
+      "type": "owns",
+      "weight": 1.3,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Operator Kalu Haldar (9431100022) reissues SIMs using burner IMEI 356938035643803 and IMEI 356938035643804."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "01_incident_notes.txt"
+      ]
+    },
+    {
+      "src": "person:KALU HALDAR",
+      "dst": "device:356938035643804",
+      "type": "owns",
+      "weight": 1.3,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Operator Kalu Haldar (9431100022) reissues SIMs using burner IMEI 356938035643803 and IMEI 356938035643804."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "01_incident_notes.txt"
+      ]
+    },
+    {
+      "src": "person:SURAJ EKKA",
+      "dst": "phone:9431100010",
+      "type": "co_occur",
+      "weight": 0.35,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Recruiter Suraj Ekka (9431100010) sources fresh bank accounts from local youth and hands them to the mule layers."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "01_incident_notes.txt"
+      ]
+    },
+    {
+      "src": "account:5001000020002",
+      "dst": "account:5001000020003",
+      "type": "co_occur",
+      "weight": 0.35,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Mule account 5001000020002 of Vikas Mandal and mule account 5001000020003 of Sunil Kumar Raut also receive victim funds."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "01_incident_notes.txt"
+      ]
+    },
+    {
+      "src": "account:5001000030002",
+      "dst": "account:5001000030003",
+      "type": "co_occur",
+      "weight": 0.35,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Mule account 5001000030002 of Ravi Yadav and mule account 5001000030003 of Amit Sinha complete the second layer."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "01_incident_notes.txt"
+      ]
+    },
+    {
+      "src": "account:5001000040001",
+      "dst": "account:5001000040002",
+      "type": "co_occur",
+      "weight": 0.35,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Mule account 5001000040001 of Sanjay Prasad and mule account 5001000040002 of Harpender Singh form the final layer before the kingpin."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "01_incident_notes.txt"
+      ]
+    },
+    {
+      "src": "person:RAMESH KUMAR SAHU",
+      "dst": "phone:9431100001",
+      "type": "co_occur",
+      "weight": 0.35,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Victim Ramesh Kumar Sahu (9431100001) lost Rs.1,45,000 on 18/03/2024 after a caller claimed to be from the bank asking for KYC update."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "06_victim_complaints.txt"
+      ]
+    },
+    {
+      "src": "person:SUNITA DEVI",
+      "dst": "phone:9431100002",
+      "type": "co_occur",
+      "weight": 0.35,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Victim Sunita Devi (9431100002) lost Rs.89,500 on 18/03/2024 when her SIM showed no signal and the OTP was read by the fraudster."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "06_victim_complaints.txt"
+      ]
+    },
+    {
+      "src": "person:MOHAMMED IRFAN ANSARI",
+      "dst": "phone:9431100003",
+      "type": "co_occur",
+      "weight": 0.35,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Victim Mohammed Irfan Ansari (9431100003) lost Rs.2,10,000 on 18/03/2024 through a fake bank verification call."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "06_victim_complaints.txt"
+      ]
+    },
+    {
+      "src": "person:KAVITA MAHATO",
+      "dst": "phone:9431100004",
+      "type": "co_occur",
+      "weight": 0.35,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Victim Kavita Mahato (9431100004) lost Rs.67,500 on 18/03/2024 after clicking a link shared over WhatsApp."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "06_victim_complaints.txt"
+      ]
+    },
+    {
+      "src": "person:PRAKASH ORAON",
+      "dst": "phone:9431100005",
+      "type": "co_occur",
+      "weight": 0.35,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Victim Prakash Oraon (9431100005) lost Rs.3,20,000 on 18/03/2024 after the network went off for two hours."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "06_victim_complaints.txt"
+      ]
+    },
+    {
+      "src": "person:ASHA LAKRA",
+      "dst": "phone:9431100006",
+      "type": "co_occur",
+      "weight": 0.35,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Victim Asha Lakra (9431100006) lost Rs.1,18,000 on 18/03/2024 after sharing the OTP with a caller posing as bank staff."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "06_victim_complaints.txt"
+      ]
+    },
+    {
+      "src": "person:DEEPAK MAHATO",
+      "dst": "account:5001000020001",
+      "type": "co_occur",
+      "weight": 0.35,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Accused Deepak Mahato admits that account 5001000020001 was taken on rent and given for commission."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "07_accused_statements.txt"
+      ]
+    },
+    {
+      "src": "person:SURAJ EKKA",
+      "dst": "person:BITTU MAHTO",
+      "type": "co_occur",
+      "weight": 0.35,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Accused Suraj Ekka states that he recruited five account holders and introduced them to Operator Bittu Mahto."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "07_accused_statements.txt"
+      ]
+    },
+    {
+      "src": "person:BITTU MAHTO",
+      "dst": "handle:jamtara_ops",
+      "type": "co_occur",
+      "weight": 0.35,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Accused Bittu Mahto admits handling the SIM desk and liaison with the dealer for ported SIMs under Telegram handle @jamtara_ops."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "07_accused_statements.txt"
+      ]
+    }
+  ]
+}

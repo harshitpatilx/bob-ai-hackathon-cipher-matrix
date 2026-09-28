@@ -1,0 +1,11 @@
+{
+  "case_id": "sample_case",
+  "title": "Sample SIM-swap case",
+  "police_station": "Cyber Crime Police Station",
+  "district": "Sample District",
+  "state": "Sample State",
+  "complainant": "Ramesh Kumar",
+  "occurred_on": "2024-03-06",
+  "reported_on": "2024-03-06",
+  "officer": "IO, Cyber Crime"
+}

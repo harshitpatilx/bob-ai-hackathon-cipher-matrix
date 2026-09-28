@@ -1,0 +1,2063 @@
+{
+  "nodes": [
+    {
+      "id": "account:5002000010003",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "person:DEVENDRA MEHTA",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "account:5002000010007",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "account:5002000010005",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "person:AFTAB ALAM",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "account:5002000010002",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "person:SARITA GUPTA",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "account:5002000010001",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "person:NEERAJ CHAUHAN",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "account:5002000010004",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "account:5002000010008",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "person:MUKESH SAHANI",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "person:RINA TIGGA",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "person:POOJA KUMARI",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "person:JYOTI MISHRA",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "account:5002000010006",
+      "role": "victim",
+      "risk": 2.0
+    },
+    {
+      "id": "account:5002000030001",
+      "role": "mule",
+      "risk": 56.0
+    },
+    {
+      "id": "account:5002000020001",
+      "role": "mule",
+      "risk": 59.8
+    },
+    {
+      "id": "account:5002000030002",
+      "role": "mule",
+      "risk": 56.7
+    },
+    {
+      "id": "account:5002000020002",
+      "role": "mule",
+      "risk": 63.8
+    },
+    {
+      "id": "person:ROHIT SINHA",
+      "role": "kingpin",
+      "risk": 54.5
+    },
+    {
+      "id": "account:5002000000001",
+      "role": "kingpin",
+      "risk": 76.6
+    },
+    {
+      "id": "person:ASHOK VERMA",
+      "role": "mule",
+      "risk": 26.9
+    },
+    {
+      "id": "person:NEHA SINGH",
+      "role": "mule",
+      "risk": 26.9
+    },
+    {
+      "id": "person:FAIZAN ALAM",
+      "role": "mule",
+      "risk": 26.9
+    },
+    {
+      "id": "person:RITU KUMARI",
+      "role": "mule",
+      "risk": 26.9
+    },
+    {
+      "id": "ip:157.32.44.15",
+      "role": "unknown",
+      "risk": 14.9
+    },
+    {
+      "id": "upi_id:club3@ybl",
+      "role": "unknown",
+      "risk": 14.9
+    },
+    {
+      "id": "device:356938035651108",
+      "role": "unknown",
+      "risk": 17.5
+    },
+    {
+      "id": "upi_id:club1@ybl",
+      "role": "unknown",
+      "risk": 14.9
+    },
+    {
+      "id": "device:356938035651104",
+      "role": "unknown",
+      "risk": 17.5
+    },
+    {
+      "id": "account:5002000050000",
+      "role": "unknown",
+      "risk": 20.2
+    },
+    {
+      "id": "account:5002000050001",
+      "role": "unknown",
+      "risk": 20.2
+    },
+    {
+      "id": "upi_id:jyoti.mishra@paytm",
+      "role": "unknown",
+      "risk": 14.9
+    },
+    {
+      "id": "upi_id:neha.singh@ybl",
+      "role": "unknown",
+      "risk": 14.9
+    },
+    {
+      "id": "ip:157.32.44.10",
+      "role": "unknown",
+      "risk": 14.9
+    },
+    {
+      "id": "phone:9871200002",
+      "role": "unknown",
+      "risk": 16.6
+    },
+    {
+      "id": "ip:157.32.44.11",
+      "role": "unknown",
+      "risk": 14.9
+    },
+    {
+      "id": "upi_id:devendra.mehta@ybl",
+      "role": "unknown",
+      "risk": 14.9
+    },
+    {
+      "id": "upi_id:rohit.sinha@okaxis",
+      "role": "unknown",
+      "risk": 14.9
+    },
+    {
+      "id": "upi_id:aftab.alam@ybl",
+      "role": "unknown",
+      "risk": 14.9
+    },
+    {
+      "id": "ip:157.32.44.61",
+      "role": "unknown",
+      "risk": 14.9
+    },
+    {
+      "id": "device:356938035651105",
+      "role": "unknown",
+      "risk": 17.5
+    },
+    {
+      "id": "phone:9871200021",
+      "role": "unknown",
+      "risk": 15.0
+    },
+    {
+      "id": "ip:157.32.44.60",
+      "role": "unknown",
+      "risk": 14.9
+    },
+    {
+      "id": "upi_id:sarita.gupta@paytm",
+      "role": "unknown",
+      "risk": 14.9
+    },
+    {
+      "id": "ip:49.207.188.9",
+      "role": "unknown",
+      "risk": 14.9
+    },
+    {
+      "id": "device:356938035651106",
+      "role": "unknown",
+      "risk": 17.5
+    },
+    {
+      "id": "pan:CNNPS8876L",
+      "role": "unknown",
+      "risk": 14.3
+    },
+    {
+      "id": "upi_id:faizan.alam@ybl",
+      "role": "unknown",
+      "risk": 14.9
+    },
+    {
+      "id": "device:356938035651299",
+      "role": "unknown",
+      "risk": 16.1
+    },
+    {
+      "id": "upi_id:club0@ybl",
+      "role": "unknown",
+      "risk": 14.9
+    },
+    {
+      "id": "phone:9871200001",
+      "role": "unknown",
+      "risk": 16.6
+    },
+    {
+      "id": "phone:9871200007",
+      "role": "unknown",
+      "risk": 16.6
+    },
+    {
+      "id": "device:356938035651201",
+      "role": "unknown",
+      "risk": 17.1
+    },
+    {
+      "id": "phone:9871200006",
+      "role": "unknown",
+      "risk": 16.6
+    },
+    {
+      "id": "person:SOCIETY CLUB",
+      "role": "unknown",
+      "risk": 16.7
+    },
+    {
+      "id": "ip:157.32.44.16",
+      "role": "unknown",
+      "risk": 14.9
+    },
+    {
+      "id": "ip:157.32.44.14",
+      "role": "unknown",
+      "risk": 14.9
+    },
+    {
+      "id": "account:5002000050003",
+      "role": "unknown",
+      "risk": 20.2
+    },
+    {
+      "id": "upi_id:pooja.kumari@okaxis",
+      "role": "unknown",
+      "risk": 14.9
+    },
+    {
+      "id": "phone:9871200099",
+      "role": "unknown",
+      "risk": 15.0
+    },
+    {
+      "id": "phone:9871200003",
+      "role": "unknown",
+      "risk": 16.6
+    },
+    {
+      "id": "phone:9871200008",
+      "role": "unknown",
+      "risk": 16.6
+    },
+    {
+      "id": "phone:9871200022",
+      "role": "unknown",
+      "risk": 15.0
+    },
+    {
+      "id": "phone:9871200004",
+      "role": "unknown",
+      "risk": 16.6
+    },
+    {
+      "id": "location:25.61,85.14",
+      "role": "unknown",
+      "risk": 14.9
+    },
+    {
+      "id": "device:356938035651107",
+      "role": "unknown",
+      "risk": 17.5
+    },
+    {
+      "id": "ip:157.32.44.13",
+      "role": "unknown",
+      "risk": 14.9
+    },
+    {
+      "id": "ip:157.32.44.12",
+      "role": "unknown",
+      "risk": 14.9
+    },
+    {
+      "id": "device:356938035651103",
+      "role": "unknown",
+      "risk": 17.5
+    },
+    {
+      "id": "device:356938035651102",
+      "role": "unknown",
+      "risk": 17.5
+    },
+    {
+      "id": "upi_id:club2@ybl",
+      "role": "unknown",
+      "risk": 14.9
+    },
+    {
+      "id": "device:356938035651101",
+      "role": "unknown",
+      "risk": 17.5
+    },
+    {
+      "id": "phone:9871200010",
+      "role": "unknown",
+      "risk": 17.2
+    },
+    {
+      "id": "upi_id:mukesh.sahani@ybl",
+      "role": "unknown",
+      "risk": 14.9
+    },
+    {
+      "id": "location:23.34,85.33",
+      "role": "unknown",
+      "risk": 28.6
+    },
+    {
+      "id": "upi_id:ritu.kumari@ybl",
+      "role": "unknown",
+      "risk": 14.9
+    },
+    {
+      "id": "upi_id:ashok.verma@ybl",
+      "role": "unknown",
+      "risk": 14.9
+    },
+    {
+      "id": "phone:9871200005",
+      "role": "unknown",
+      "risk": 16.6
+    },
+    {
+      "id": "upi_id:neeraj.chauhan@ybl",
+      "role": "unknown",
+      "risk": 14.9
+    },
+    {
+      "id": "upi_id:rina.tigga@okaxis",
+      "role": "unknown",
+      "risk": 14.9
+    },
+    {
+      "id": "ip:157.32.44.17",
+      "role": "unknown",
+      "risk": 14.9
+    },
+    {
+      "id": "device:356938035651202",
+      "role": "unknown",
+      "risk": 17.1
+    },
+    {
+      "id": "account:5002000050002",
+      "role": "unknown",
+      "risk": 20.2
+    }
+  ],
+  "edges": [
+    {
+      "src": "upi_id:neeraj.chauhan@ybl",
+      "dst": "account:5002000010001",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "neeraj.chauhan@ybl maps to a/c 5002000010001"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:NEERAJ CHAUHAN",
+      "dst": "account:5002000010001",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "a/c 5002000010001 in name of Neeraj Chauhan"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:ashok.verma@ybl",
+      "dst": "account:5002000020001",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 6,
+      "directed": true,
+      "evidence": [
+        "ashok.verma@ybl maps to a/c 5002000020001"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:ASHOK VERMA",
+      "dst": "account:5002000020001",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 6,
+      "directed": true,
+      "evidence": [
+        "a/c 5002000020001 in name of Ashok Verma"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5002000010001",
+      "dst": "account:5002000020001",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 55000.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00001: Rs.55,000.00 5002000010001 -> 5002000020001 [recharge task payment]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:pooja.kumari@okaxis",
+      "dst": "account:5002000010002",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "pooja.kumari@okaxis maps to a/c 5002000010002"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:POOJA KUMARI",
+      "dst": "account:5002000010002",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "a/c 5002000010002 in name of Pooja Kumari"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:neha.singh@ybl",
+      "dst": "account:5002000020002",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 6,
+      "directed": true,
+      "evidence": [
+        "neha.singh@ybl maps to a/c 5002000020002"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:NEHA SINGH",
+      "dst": "account:5002000020002",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 6,
+      "directed": true,
+      "evidence": [
+        "a/c 5002000020002 in name of Neha Singh"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5002000010002",
+      "dst": "account:5002000020002",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 78000.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00002: Rs.78,000.00 5002000010002 -> 5002000020002 [recharge task payment]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:aftab.alam@ybl",
+      "dst": "account:5002000010003",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "aftab.alam@ybl maps to a/c 5002000010003"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:AFTAB ALAM",
+      "dst": "account:5002000010003",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "a/c 5002000010003 in name of Aftab Alam"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5002000010003",
+      "dst": "account:5002000020001",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 120000.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00003: Rs.120,000.00 5002000010003 -> 5002000020001 [recharge task payment]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:sarita.gupta@paytm",
+      "dst": "account:5002000010004",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "sarita.gupta@paytm maps to a/c 5002000010004"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:SARITA GUPTA",
+      "dst": "account:5002000010004",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "a/c 5002000010004 in name of Sarita Gupta"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5002000010004",
+      "dst": "account:5002000020002",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 95000.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00004: Rs.95,000.00 5002000010004 -> 5002000020002 [recharge task payment]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:devendra.mehta@ybl",
+      "dst": "account:5002000010005",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "devendra.mehta@ybl maps to a/c 5002000010005"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:DEVENDRA MEHTA",
+      "dst": "account:5002000010005",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "a/c 5002000010005 in name of Devendra Mehta"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5002000010005",
+      "dst": "account:5002000020001",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 60000.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00005: Rs.60,000.00 5002000010005 -> 5002000020001 [recharge task payment]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:rina.tigga@okaxis",
+      "dst": "account:5002000010006",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "rina.tigga@okaxis maps to a/c 5002000010006"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:RINA TIGGA",
+      "dst": "account:5002000010006",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "a/c 5002000010006 in name of Rina Tigga"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5002000010006",
+      "dst": "account:5002000020002",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 145000.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00006: Rs.145,000.00 5002000010006 -> 5002000020002 [recharge task payment]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:mukesh.sahani@ybl",
+      "dst": "account:5002000010007",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "mukesh.sahani@ybl maps to a/c 5002000010007"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:MUKESH SAHANI",
+      "dst": "account:5002000010007",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "a/c 5002000010007 in name of Mukesh Sahani"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5002000010007",
+      "dst": "account:5002000020001",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 88000.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00007: Rs.88,000.00 5002000010007 -> 5002000020001 [recharge task payment]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:jyoti.mishra@paytm",
+      "dst": "account:5002000010008",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "jyoti.mishra@paytm maps to a/c 5002000010008"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:JYOTI MISHRA",
+      "dst": "account:5002000010008",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "a/c 5002000010008 in name of Jyoti Mishra"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5002000010008",
+      "dst": "account:5002000020002",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 70000.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00008: Rs.70,000.00 5002000010008 -> 5002000020002 [recharge task payment]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:faizan.alam@ybl",
+      "dst": "account:5002000030001",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 3,
+      "directed": true,
+      "evidence": [
+        "faizan.alam@ybl maps to a/c 5002000030001"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:FAIZAN ALAM",
+      "dst": "account:5002000030001",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 3,
+      "directed": true,
+      "evidence": [
+        "a/c 5002000030001 in name of Faizan Alam"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5002000020001",
+      "dst": "account:5002000030001",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 145350.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00009: Rs.145,350.00 5002000020001 -> 5002000030001 [upline transfer]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:ritu.kumari@ybl",
+      "dst": "account:5002000030002",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 3,
+      "directed": true,
+      "evidence": [
+        "ritu.kumari@ybl maps to a/c 5002000030002"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:RITU KUMARI",
+      "dst": "account:5002000030002",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 3,
+      "directed": true,
+      "evidence": [
+        "a/c 5002000030002 in name of Ritu Kumari"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5002000020001",
+      "dst": "account:5002000030002",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 145350.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00010: Rs.145,350.00 5002000020001 -> 5002000030002 [upline transfer]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5002000020002",
+      "dst": "account:5002000030001",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 174600.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00011: Rs.174,600.00 5002000020002 -> 5002000030001 [upline transfer]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5002000020002",
+      "dst": "account:5002000030002",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 174600.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00012: Rs.174,600.00 5002000020002 -> 5002000030002 [upline transfer]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:rohit.sinha@okaxis",
+      "dst": "account:5002000000001",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "rohit.sinha@okaxis maps to a/c 5002000000001"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:ROHIT SINHA",
+      "dst": "account:5002000000001",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "a/c 5002000000001 in name of Rohit Sinha"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5002000030001",
+      "dst": "account:5002000000001",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 287955.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00013: Rs.287,955.00 5002000030001 -> 5002000000001 [consolidation to admin]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5002000030002",
+      "dst": "account:5002000000001",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 287955.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00014: Rs.287,955.00 5002000030002 -> 5002000000001 [consolidation to admin]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:club0@ybl",
+      "dst": "account:5002000050000",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "club0@ybl maps to a/c 5002000050000"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:SOCIETY CLUB",
+      "dst": "account:5002000050000",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "a/c 5002000050000 in name of Society Club"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:club1@ybl",
+      "dst": "account:5002000050001",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "club1@ybl maps to a/c 5002000050001"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:SOCIETY CLUB",
+      "dst": "account:5002000050001",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "a/c 5002000050001 in name of Society Club"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5002000050000",
+      "dst": "account:5002000050001",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 673.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00015: Rs.673.00 5002000050000 -> 5002000050001 [routine settle]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:club2@ybl",
+      "dst": "account:5002000050002",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "club2@ybl maps to a/c 5002000050002"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:SOCIETY CLUB",
+      "dst": "account:5002000050002",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "a/c 5002000050002 in name of Society Club"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5002000050001",
+      "dst": "account:5002000050002",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 599.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00016: Rs.599.00 5002000050001 -> 5002000050002 [routine settle]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "upi_id:club3@ybl",
+      "dst": "account:5002000050003",
+      "type": "maps_to",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "club3@ybl maps to a/c 5002000050003"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "person:SOCIETY CLUB",
+      "dst": "account:5002000050003",
+      "type": "owns",
+      "weight": 1.2,
+      "amount": 0.0,
+      "count": 2,
+      "directed": true,
+      "evidence": [
+        "a/c 5002000050003 in name of Society Club"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5002000050002",
+      "dst": "account:5002000050003",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 685.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00017: Rs.685.00 5002000050002 -> 5002000050003 [routine settle]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "account:5002000050003",
+      "dst": "account:5002000050000",
+      "type": "transfer",
+      "weight": 1.0,
+      "amount": 348.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "TXN00018: Rs.348.00 5002000050003 -> 5002000050000 [routine settle]"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "02_transactions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651101",
+      "dst": "phone:9871200001",
+      "type": "device_used_msisdn",
+      "weight": 1.5,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0000: IMEI 356938035651101 with 9871200001"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651101",
+      "dst": "ip:157.32.44.10",
+      "type": "session_ip",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0000 from IP 157.32.44.10"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651101",
+      "dst": "location:23.34,85.33",
+      "type": "located_at",
+      "weight": 0.4,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "geo 23.34,85.33 at -"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651102",
+      "dst": "phone:9871200002",
+      "type": "device_used_msisdn",
+      "weight": 1.5,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0001: IMEI 356938035651102 with 9871200002"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651102",
+      "dst": "ip:157.32.44.11",
+      "type": "session_ip",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0001 from IP 157.32.44.11"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651102",
+      "dst": "location:23.34,85.33",
+      "type": "located_at",
+      "weight": 0.4,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "geo 23.34,85.33 at -"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651103",
+      "dst": "phone:9871200003",
+      "type": "device_used_msisdn",
+      "weight": 1.5,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0002: IMEI 356938035651103 with 9871200003"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651103",
+      "dst": "ip:157.32.44.12",
+      "type": "session_ip",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0002 from IP 157.32.44.12"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651103",
+      "dst": "location:23.34,85.33",
+      "type": "located_at",
+      "weight": 0.4,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "geo 23.34,85.33 at -"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651104",
+      "dst": "phone:9871200004",
+      "type": "device_used_msisdn",
+      "weight": 1.5,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0003: IMEI 356938035651104 with 9871200004"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651104",
+      "dst": "ip:157.32.44.13",
+      "type": "session_ip",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0003 from IP 157.32.44.13"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651104",
+      "dst": "location:23.34,85.33",
+      "type": "located_at",
+      "weight": 0.4,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "geo 23.34,85.33 at -"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651105",
+      "dst": "phone:9871200005",
+      "type": "device_used_msisdn",
+      "weight": 1.5,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0004: IMEI 356938035651105 with 9871200005"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651105",
+      "dst": "ip:157.32.44.14",
+      "type": "session_ip",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0004 from IP 157.32.44.14"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651105",
+      "dst": "location:23.34,85.33",
+      "type": "located_at",
+      "weight": 0.4,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "geo 23.34,85.33 at -"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651106",
+      "dst": "phone:9871200006",
+      "type": "device_used_msisdn",
+      "weight": 1.5,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0005: IMEI 356938035651106 with 9871200006"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651106",
+      "dst": "ip:157.32.44.15",
+      "type": "session_ip",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0005 from IP 157.32.44.15"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651106",
+      "dst": "location:23.34,85.33",
+      "type": "located_at",
+      "weight": 0.4,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "geo 23.34,85.33 at -"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651107",
+      "dst": "phone:9871200007",
+      "type": "device_used_msisdn",
+      "weight": 1.5,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0006: IMEI 356938035651107 with 9871200007"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651107",
+      "dst": "ip:157.32.44.16",
+      "type": "session_ip",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0006 from IP 157.32.44.16"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651107",
+      "dst": "location:23.34,85.33",
+      "type": "located_at",
+      "weight": 0.4,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "geo 23.34,85.33 at -"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651108",
+      "dst": "phone:9871200008",
+      "type": "device_used_msisdn",
+      "weight": 1.5,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0007: IMEI 356938035651108 with 9871200008"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651108",
+      "dst": "ip:157.32.44.17",
+      "type": "session_ip",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0007 from IP 157.32.44.17"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651108",
+      "dst": "location:23.34,85.33",
+      "type": "located_at",
+      "weight": 0.4,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "geo 23.34,85.33 at -"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651201",
+      "dst": "phone:9871200021",
+      "type": "device_used_msisdn",
+      "weight": 1.5,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0050: IMEI 356938035651201 with 9871200021"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651201",
+      "dst": "ip:157.32.44.60",
+      "type": "session_ip",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0050 from IP 157.32.44.60"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651201",
+      "dst": "location:23.34,85.33",
+      "type": "located_at",
+      "weight": 0.4,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "geo 23.34,85.33 at -"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651202",
+      "dst": "phone:9871200022",
+      "type": "device_used_msisdn",
+      "weight": 1.5,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0051: IMEI 356938035651202 with 9871200022"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651202",
+      "dst": "ip:157.32.44.61",
+      "type": "session_ip",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S0051 from IP 157.32.44.61"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651202",
+      "dst": "location:23.34,85.33",
+      "type": "located_at",
+      "weight": 0.4,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "geo 23.34,85.33 at -"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651299",
+      "dst": "phone:9871200099",
+      "type": "device_used_msisdn",
+      "weight": 1.5,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S90: IMEI 356938035651299 with 9871200099"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651299",
+      "dst": "ip:49.207.188.9",
+      "type": "session_ip",
+      "weight": 1.0,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "session S90 from IP 49.207.188.9"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "device:356938035651299",
+      "dst": "location:25.61,85.14",
+      "type": "located_at",
+      "weight": 0.4,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "geo 25.61,85.14 at -"
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "05_device_sessions.csv"
+      ]
+    },
+    {
+      "src": "person:ROHIT SINHA",
+      "dst": "phone:9871200010",
+      "type": "co_occur",
+      "weight": 0.35,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Coach Rohit Sinha (9871200010) administers the group and pushes premium plan upgrades with assured profit."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "01_incident_notes.txt"
+      ]
+    },
+    {
+      "src": "account:5002000030001",
+      "dst": "account:5002000030002",
+      "type": "co_occur",
+      "weight": 0.35,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Layer account 5002000030001 of Faizan Alam and layer account 5002000030002 of Ritu Kumari collect the pooled amount."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "01_incident_notes.txt"
+      ]
+    },
+    {
+      "src": "account:5002000000001",
+      "dst": "person:ROHIT SINHA",
+      "type": "co_occur",
+      "weight": 0.35,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Admin account 5002000000001 of mastermind Rohit Sinha is where the consolidated amount lands."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "01_incident_notes.txt"
+      ]
+    },
+    {
+      "src": "person:NEERAJ CHAUHAN",
+      "dst": "phone:9871200001",
+      "type": "co_occur",
+      "weight": 0.35,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Victim Neeraj Chauhan (9871200001) paid Rs.55,000 towards a task recharge on 05/03/2024 and got nothing back."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "06_victim_complaints.txt"
+      ]
+    },
+    {
+      "src": "person:POOJA KUMARI",
+      "dst": "phone:9871200002",
+      "type": "co_occur",
+      "weight": 0.35,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Victim Pooja Kumari (9871200002) paid Rs.78,000 on 05/03/2024 after the coach promised daily investment returns."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "06_victim_complaints.txt"
+      ]
+    },
+    {
+      "src": "person:AFTAB ALAM",
+      "dst": "phone:9871200003",
+      "type": "co_occur",
+      "weight": 0.35,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Victim Aftab Alam (9871200003) paid Rs.1,20,000 on 06/03/2024 for a premium plan unlock."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "06_victim_complaints.txt"
+      ]
+    },
+    {
+      "src": "person:SARITA GUPTA",
+      "dst": "phone:9871200004",
+      "type": "co_occur",
+      "weight": 0.35,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Victim Sarita Gupta (9871200004) paid Rs.95,000 on 06/03/2024 chasing the task bonus."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "06_victim_complaints.txt"
+      ]
+    },
+    {
+      "src": "person:DEVENDRA MEHTA",
+      "dst": "phone:9871200005",
+      "type": "co_occur",
+      "weight": 0.35,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Victim Devendra Mehta (9871200005) paid Rs.60,000 on 07/03/2024 for group entry renewal."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "06_victim_complaints.txt"
+      ]
+    },
+    {
+      "src": "person:RINA TIGGA",
+      "dst": "phone:9871200006",
+      "type": "co_occur",
+      "weight": 0.35,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Victim Rina Tigga (9871200006) paid Rs.1,45,000 on 07/03/2024 after two small task payouts arrived first."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "06_victim_complaints.txt"
+      ]
+    },
+    {
+      "src": "person:MUKESH SAHANI",
+      "dst": "phone:9871200007",
+      "type": "co_occur",
+      "weight": 0.35,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Victim Mukesh Sahani (9871200007) paid Rs.88,000 on 08/03/2024 for a guaranteed return package."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "06_victim_complaints.txt"
+      ]
+    },
+    {
+      "src": "person:JYOTI MISHRA",
+      "dst": "phone:9871200008",
+      "type": "co_occur",
+      "weight": 0.35,
+      "amount": 0.0,
+      "count": 1,
+      "directed": true,
+      "evidence": [
+        "Victim Jyoti Mishra (9871200008) paid Rs.70,000 on 08/03/2024 when asked for a top-up to release profits."
+      ],
+      "first_ts": "",
+      "last_ts": "",
+      "sources": [
+        "06_victim_complaints.txt"
+      ]
+    }
+  ]
+}
