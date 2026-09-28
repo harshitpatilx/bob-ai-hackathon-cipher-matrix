@@ -1,39 +1,32 @@
-# 🚀 [Your Project Title Here]
-
-> ⚠️ **Replace everything in `[ ]` brackets with your actual content before submission.**
-
+# 🚀 Cyber Fraud Network Analyser
 ---
 
 ## 👥 Team
 
 | Field | Value |
 |---|---|
-| **Team Name** | [Your Team Name] |
+| **Team Name** | Cipher Matrix |
 | **Track** | [AI / DevOps / Sustainability / Open] |
-| **Team Lead** | [Name] — [email@ibm.com] |
-| **Members** | [Name 1], [Name 2], [Name 3] |
+| **Team Lead** | Preetansh Gohil — [email@ibm.com] |
+| **Members** | Jwalan, Harshit, Vaibhav |
 
 ---
 
 ## 🎯 Problem Statement
 
-> In 2–3 sentences: What problem does your project solve? Who experiences this problem?
-
-[Describe the real-world problem your project addresses. Be specific about who the user is and what pain point they face.]
+Build a Bob-powered investigation tool that takes unstructured cyber fraud intelligence (transaction records, call logs, device IDs, accused names — mock inputs), extracts entities and relationships, identifies the fraud pattern type, maps the organizational hierarchy (kingpin → mule → victims), and generates an FIR-ready case brief with recommended actions
 
 ---
 
 ## 💡 Solution
 
-> In 2–3 sentences: What did you build? How does it solve the problem above?
-
-[Describe your solution clearly. Explain the core mechanism — what makes it work.]
+The Cyber Fraud Network Analyzer processes unstructured intelligence—such as bank transaction logs, call records, device IDs, and suspect profiles—and converts them into an interactive network graph. It maps organizational structures (Kingpins, Mules, Victims), identifies specific fraud patterns (e.g., SIM-swapping rings or multi-layer money laundering), and generates an official, FIR-ready case brief with immediate police recommendations.
 
 ---
 
 ## ✨ Key Features
 
-- **Feature 1:** [Brief description — e.g., "Real-time anomaly detection using watsonx.ai"]
+- **Feature 1:** Processes mock transaction records, call logs, device identifiers, phone numbers, and suspect profiles to extract relevant entities and evidence.
 - **Feature 2:** [Brief description]
 - **Feature 3:** [Brief description]
 - **Feature 4:** [Optional]
@@ -77,8 +70,8 @@
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/[your-repo].git
-cd [your-repo]
+git clone https://github.com/harshitpatilx/bob-ai-hackathon-cipher-matrix.git
+cd bob-ai-hackathon-cipher-matrix
 
 # 2. Install dependencies
 [your install command here]
