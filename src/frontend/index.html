@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fraud Desk – Case Investigation Base</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Fraud Desk</h1>
+  <p>Mock data only. Every output is a suggestion for the Investigating Officer to verify.</p>
+</header>
+<main>
+
+<section id="intake" class="on">
+  <div class="card">
+    <h2>Case intake</h2>
+    <label for="complaint">Complaint text</label>
+    <textarea id="complaint"></textarea>
+    <label for="txcsv">Transactions (id,time,from,to,amount)</label>
+    <textarea id="txcsv"></textarea>
+    <label for="linkcsv">Accused and device links (account,name,device)</label>
+    <textarea id="linkcsv"></textarea>
+    <div class="row">
+      <button class="pri" id="run">Analyze case</button>
+      <button id="reset">Reload sample case</button>
+    </div>
+    <p class="note">All analysis runs in this page. To connect Bob or another model, replace <code>extractWithAI()</code> in the script.</p>
+  </div>
+</section>
+
+<section id="graph">
+  <div class="card" id="graphEmpty"><p>No case analyzed yet. Go to Intake and select Analyze case.</p></div>
+  <div id="graphBody" hidden>
+    <div class="card"><h2>Detected pattern</h2><div id="pattern"></div></div>
+    <div class="two">
+      <div class="card">
+        <h2>Fund flow and hierarchy</h2>
+        <svg id="svg" viewBox="0 0 360 440" role="img" aria-label="Fund flow graph from victims to kingpin"></svg>
+        <div class="legend">
+          <span class="victim"><i></i>Victim</span><span class="mule"><i></i>Mule</span>
+          <span class="handler"><i></i>Handler</span><span class="kingpin"><i></i>Kingpin (probable)</span>
+        </div>
+      </div>
+      <div class="card"><h2>Selected entity</h2><div id="detail" class="note">Tap a node to see its role, confidence and reasoning.</div></div>
+    </div>
+    <div class="card"><h2>Transactions</h2><div class="tblwrap"><table id="txtable"></table></div></div>
+  </div>
+</section>
+
+<section id="brief">
+  <div class="card" id="briefEmpty"><p>Analyze a case to generate the brief.</p></div>
+  <div class="card brief" id="briefBody" hidden></div>
+  <div class="row noprint" id="briefBtns" hidden>
+    <button class="pri" id="copy">Copy brief</button>
+    <button id="print">Print or save PDF</button>
+  </div>
+</section>
+
+</main>
+<nav role="tablist">
+  <button role="tab" data-t="intake" aria-selected="true">Intake</button>
+  <button role="tab" data-t="graph" aria-selected="false">Analysis</button>
+  <button role="tab" data-t="brief" aria-selected="false">FIR brief</button>
+</nav>
+
+
+</body>
+</html>
