@@ -14,23 +14,79 @@
 
 ## 🎯 Problem Statement
 
-Build a Bob-powered investigation tool that takes unstructured cyber fraud intelligence (transaction records, call logs, device IDs, accused names — mock inputs), extracts entities and relationships, identifies the fraud pattern type, maps the organizational hierarchy (kingpin → mule → victims), and generates an FIR-ready case brief with recommended actions
+- Cyber-fraud investigations involve **large amounts of fragmented intelligence** such as:
+  - Bank transaction records
+  - Call logs
+  - Phone numbers
+  - Device IDs
+  - Suspect/accused information
+  - Victim details
+
+- These data sources are often **disconnected**, making it difficult to identify relationships between individuals, accounts, devices, and transactions.
+
+- Investigators may need to manually correlate this information to determine:
+  - **Who is connected to whom**
+  - **How money moved through the network**
+  - **Which individuals played which roles**
+  - **How the fraud operation was organized**
+  - **What fraud pattern was used**
+
+- Important relationships can remain hidden when intelligence is examined **individually rather than as a connected network**.
+
+- There is a need for an intelligent investigation tool that can **automatically correlate fragmented intelligence, uncover hidden relationships, identify fraud patterns, reconstruct the criminal hierarchy, and convert the findings into an actionable case summary**.
 
 ---
 
 ## 💡 Solution
 
-The Cyber Fraud Network Analyzer processes unstructured intelligence—such as bank transaction logs, call records, device IDs, and suspect profiles—and converts them into an interactive network graph. It maps organizational structures (Kingpins, Mules, Victims), identifies specific fraud patterns (e.g., SIM-swapping rings or multi-layer money laundering), and generates an official, FIR-ready case brief with immediate police recommendations.
+- **Cyber Fraud Network Analyser** is a Bob-powered AI investigation tool that converts fragmented cyber-fraud intelligence into a **connected and explainable investigation network**.
 
+- The system accepts mock intelligence such as:
+  - Transaction records
+  - Call logs
+  - Device IDs
+  - Phone numbers
+  - Accused/suspect profiles
+  - Victim information
+
+- **Extracts entities** from the provided intelligence, including:
+  - Persons
+  - Bank accounts
+  - Phone numbers
+  - Devices
+  - Transactions
+  - Locations
+  - Organizations
+
+- **Discovers relationships** between entities by correlating information across different datasets.
+
+- **Builds an interactive network graph** that allows investigators to visualize:
+  - Money movement
+  - Communication links
+  - Shared devices
+  - Account relationships
+  - Connections between suspects and victims
+
+- **Identifies potential fraud patterns**, such as:
+  - Multi-layer fund transfers
+  - Mule-account networks
+  - SIM-related fraud
+  - Coordinated victim targeting
+
+- **Reconstructs the probable network hierarchy**, identifying roles such as:
+  - 👑 Kingpin
+  - 🔗 Facilitator
+  - 💰 Mule
+  -
 ---
 
 ## ✨ Key Features
 
-- **Feature 1:** Processes mock transaction records, call logs, device identifiers, phone numbers, and suspect profiles to extract relevant entities and evidence.
-- **Feature 2:** [Brief description]
-- **Feature 3:** [Brief description]
-- **Feature 4:** [Optional]
-- **Feature 5:** [Optional]
+- **Feature 1:** **Multi-Source Intelligence Extraction** -Processes mock transaction records, call logs, device identifiers, phone numbers, and suspect profiles to extract relevant entities and evidence.
+- **Feature 2:** **Automated Relationship Discovery** - Correlates entities across different datasets to uncover hidden connections such as shared devices, repeated communication, common accounts, and money transfers.
+- **Feature 3:** **Interactive Fraud Network Graph** — Visualizes the complete investigation as a relationship graph, allowing investigators to trace connections and follow the flow of money, communication, and digital identities.
+- **Feature 4:** **Fraud Pattern & Role Detection** — Identifies suspicious network structures and classifies probable roles such as Kingpin, Mule, Facilitator, and Victim, helping reconstruct the hierarchy of the fraud operation.
+- **Feature 5:** **FIR-Ready Investigation Brief** — Converts the analyzed intelligence into a structured case brief containing the incident summary, key entities, evidence relationships, suspected roles, fraud pattern, and recommended investigative actions.
 
 ---
 
@@ -38,11 +94,11 @@ The Cyber Fraud Network Analyzer processes unstructured intelligence—such as b
 
 | Category | Technologies |
 |---|---|
-| **Languages** | [e.g., Python, TypeScript] |
+| **Languages** | Python, Javascript |
 | **Frameworks** | [e.g., FastAPI, React] |
-| **IBM Technologies** | [e.g., watsonx.ai, IBM Bob, IBM Cloud] |
+| **IBM Technologies** | IBM Bob |
 | **Databases** | [e.g., PostgreSQL, Redis] |
-| **Other** | [e.g., Docker, GitHub Actions] |
+| **Other** | Git, Github |
 
 ---
 
