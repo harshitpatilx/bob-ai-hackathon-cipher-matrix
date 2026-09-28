@@ -6,8 +6,8 @@
 | Field | Value |
 |---|---|
 | **Team Name** | Cipher Matrix |
-| **Track** | [AI / DevOps / Sustainability / Open] |
-| **Team Lead** | Preetansh Gohil — [email@ibm.com] |
+| **Track** | Cyber Forensics |
+| **Team Lead** | Preetansh Gohil — preetanshmgohil@gmail.com |
 | **Members** | Jwalan, Harshit, Vaibhav |
 
 ---
@@ -74,10 +74,12 @@
   - Coordinated victim targeting
 
 - **Reconstructs the probable network hierarchy**, identifying roles such as:
-  - 👑 Kingpin
-  - 🔗 Facilitator
-  - 💰 Mule
-  -
+  -  👑 Kingpin
+  -  🔗 Facilitator
+  -  💰 Mule
+  -  🎯 Operator
+  -  🧑 Victim
+
 ---
 
 ## ✨ Key Features
@@ -95,9 +97,8 @@
 | Category | Technologies |
 |---|---|
 | **Languages** | Python, Javascript |
-| **Frameworks** | [e.g., FastAPI, React] |
+| **Frameworks** | Python (stdlib only), vis.js (CDN) |
 | **IBM Technologies** | IBM Bob |
-| **Databases** | [e.g., PostgreSQL, Redis] |
 | **Other** | Git, Github |
 
 ---
@@ -106,14 +107,14 @@
 
 ```
 ├── src/                  # All source code
-├── docs/                 # Written documentation
-│   ├── problem-statement.md
-│   ├── solution-overview.md
-│   ├── architecture.md
-│   └── setup-guide.md
+│   ├── cfna/             # Core package (pipeline, extraction, analysis, report)
+│   ├── tests/            # 47-test unittest suite
+│   ├── data/cases/       # Generated trial cases with truth.json
+│   ├── output/           # Generated reports (HTML, FIR brief, JSON)
+│   └── README.md         # Developer / technical documentation
 ├── demo/                 # Demo artifacts
 │   ├── screenshots/      # App screenshots
-│   └── demo-video-link.txt  # Link to demo video
+│   └── demo-video-link.txt
 ├── presentation/         # Slide deck
 └── submission.yaml       # Structured submission metadata
 ```
@@ -122,22 +123,22 @@
 
 ## ⚡ How to Run
 
-> **Copy these exact steps from your [`docs/setup-guide.md`](docs/setup-guide.md)**
-
 ```bash
 # 1. Clone the repo
 git clone https://github.com/harshitpatilx/bob-ai-hackathon-cipher-matrix.git
 cd bob-ai-hackathon-cipher-matrix
 
-# 2. Install dependencies
-[your install command here]
+# 2. Install dependencies (optional — or use python -m cfna directly)
+pip install -e src/
 
-# 3. Configure environment
-cp .env.example .env
-# Edit .env with your values
+# 3. Generate mock trial cases
+python -m cfna.datagen
 
-# 4. Run the project
-[your run command here]
+# 4. Run a case
+python -m cfna run src/data/cases/jamtara_sim_swap -o src/output
+
+# 5. Open the report
+start src/output/jamtara_sim_swap/report.html
 ```
 
 ---
@@ -155,16 +156,17 @@ cp .env.example .env
 
 ## ⚠️ Known Limitations
 
-> Be honest — judges appreciate transparency over overclaiming.
-
-- [Limitation 1: e.g., "Authentication is mocked — not production-ready"]
-- [Limitation 2: e.g., "Only tested on Chrome"]
-- [Limitation 3: e.g., "Feature X is scaffolded but not fully implemented"]
+- All intelligence input is mock / synthetic — not connected to live banking or telecom APIs.
+- IBM Bob API endpoint is wired but not active; analysis runs on local deterministic heuristics (0 external calls).
+- The vis-network graph in `report.html` requires a CDN fetch (unpkg.com) — no network means no graph.
 
 ---
 
 ## 🏅 What We're Most Proud Of
 
-[Tell the judges what part of your submission is strongest and worth paying close attention to.]
+The fully self-contained, FIR-ready investigation pipeline — from raw CSVs and free-text to
+an interactive HTML network report, a 12-section FIR brief, and a risk-ranked entity graph —
+all in pure Python stdlib with zero dependencies and a 47-test suite that passes 3/3 trial cases
+with perfect kingpin, mule, and victim F1 scores.
 
 ---
