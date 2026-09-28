@@ -22,6 +22,7 @@ from dataclasses import asdict, dataclass, field
 from pathlib import Path
 from typing import Any, Iterable
 
+from cfna import config as cfg
 from cfna.models import CaseMeta
 
 TEXT_SUFFIXES = {".txt", ".md", ".log", ".statement"}
@@ -364,7 +365,7 @@ Every row and every sentence is traceable: the report cites the source file and 
 """
     return [
         ("case.json", json.dumps({
-            "case_id": "sample_case",
+            "case_id": cfg.TEMPLATE_CASE_ID,
             "title": "Sample SIM-swap case",
             "police_station": "Cyber Crime Police Station",
             "district": "Sample District",
@@ -383,7 +384,7 @@ Every row and every sentence is traceable: the report cites the source file and 
 
 
 def write_template(dest: Path) -> Path:
-    target = dest / "cfna_input_template"
+    target = dest / cfg.TEMPLATE_DIR_NAME
     target.mkdir(parents=True, exist_ok=True)
     for name, body in template_files():
         (target / name).write_text(body, encoding="utf-8")

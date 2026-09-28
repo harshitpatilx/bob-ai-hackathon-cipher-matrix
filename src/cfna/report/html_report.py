@@ -6,7 +6,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from cfna import __version__
+from cfna import config as cfg
 from cfna.analysis.metrics import GraphMetrics
+from cfna.bob import BOB_BACKEND
 from cfna.config import INPUT_UI_URL
 from cfna.models import ROLE_COLORS, CaseBrief, CaseGraph
 
@@ -439,7 +442,7 @@ def render_html(
                          f" ({max(risks) if risks else 0}/99)"),
         ("Mule layers", str(len({a.tier for a in assessments.values() if a.role == 'mule' and a.tier}))),
         ("Victim identifiers", str(role_counts.get("victim", 0))),
-        ("Bob backend", "bob-local-rules-v1 (0 coins)"),
+        ("Bob backend", f"{BOB_BACKEND} (0 coins)"),
     ]
     case_file = (
         '<div class="case-file"><h3>Case file snapshot</h3>'
@@ -735,7 +738,7 @@ def render_html(
         <ul>
           <li>Every entity and link traces to a source line or CSV row loaded from
               <code>{_esc(meta.case_id)}</code>.</li>
-          <li>Bob backend: <code>bob-local-rules-v1</code> &mdash; local heuristics,
+          <li>Bob backend: <code>{_esc(BOB_BACKEND)}</code> &mdash; local heuristics,
               0 external calls, 0 coins consumed. IBM hook reserved.</li>
           <li>Draft only: sections, jurisdiction and witnesses must be verified by the
               Investigating Officer before filing.</li>
@@ -748,7 +751,7 @@ def render_html(
     sections.append(f"""
 <footer>
   <div class="footer-content">
-    <p class="copyright">CFNA v0.1 &middot; deterministic extraction + network analytics &middot;
+    <p class="copyright">CFNA v{_esc(__version__)} &middot; deterministic extraction + network analytics &middot;
       Bob backend rule-assisted. &nbsp;Layout based on
       <a href="https://templatemo.com/tm-602-graph-page" rel="nofollow noopener" target="_blank">TemplateMo 602 Graph Page</a>.</p>
   </div>
@@ -761,7 +764,7 @@ def render_html(
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>{_esc(meta.title)} - Cyber Fraud Network Analyzer</title>
 <style>{CSS}</style>
-<script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
+<script src="{cfg.VIS_NETWORK_CDN}"></script>
 </head>
 <body>
 {''.join(sections)}

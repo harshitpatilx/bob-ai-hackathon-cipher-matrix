@@ -385,8 +385,8 @@ def build_parser() -> argparse.ArgumentParser:
                          help=f"bind address (default: {cfg.INPUT_UI_HOST})")
     serve_p.add_argument("--port", type=int, default=cfg.INPUT_UI_PORT,
                          help=f"port (default: {cfg.INPUT_UI_PORT})")
-    serve_p.add_argument("--dest", default=str(ROOT / "data" / "web_cases"),
-                         help="where web cases are stored (default: data/web_cases)")
+    serve_p.add_argument("--dest", default=str(ROOT / cfg.DEFAULT_WEB_CASES_SUBDIR),
+                         help=f"where web cases are stored (default: {cfg.DEFAULT_WEB_CASES_SUBDIR})")
     serve_p.add_argument("-o", "--out", help="output root directory for reports (default: ./output)")
     serve_p.add_argument("--no-browser", action="store_true", help="do not auto-open a browser tab")
     serve_p.set_defaults(func=cmd_serve)

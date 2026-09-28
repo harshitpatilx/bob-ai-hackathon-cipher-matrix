@@ -9,21 +9,21 @@
 # =============================================================================
 
 team:
-  name: ""                             # REQUIRED — e.g., "Orion Squad"
-  track: ""                            # REQUIRED — one of: AI | DevOps | Sustainability | Open
+  name: "Cipher Matrix"                             # REQUIRED — e.g., "Orion Squad"
+  track: "Cyber Forensics"                            # REQUIRED — one of: AI | DevOps | Sustainability | Open
   lead:
-    name: ""                           # REQUIRED — e.g., "Alice Chen"
-    email: ""                          # REQUIRED — e.g., "alice.chen@ibm.com"
+    name: "Preetansh Gohil"                           # REQUIRED — e.g., "Alice Chen"
+    email: "preetanshmgohil@gmail.com"                          # REQUIRED — e.g., "alice.chen@ibm.com"
   members:
-    - name: ""                         # REQUIRED — Team member 1
-      email: ""
-    - name: ""                         # Add more members by copying the two lines above
-      email: ""
-    - name: ""
-      email: ""
+    - name: "Jwalan Mantri"                         # REQUIRED — Team member 1
+      email: "jwalanmantri2@gmail.com"
+    - name: "Harshit Patil"                         # Add more members by copying the two lines above
+      email: "mailme.harshitp@gmail.com"
+    - name: "Vaibhav Tailor"
+      email: "vaibhavtailor2008@gmail.com"
 
 submission:
-  title: ""                            # REQUIRED — Project display name, e.g., "SmartOps Dashboard"
+  title: "Cyber Fraud Network Analyzer"                            # REQUIRED — Project display name, e.g., "SmartOps Dashboard"
 
   problem_statement: >                 # REQUIRED — 1-3 sentences. What problem? Who has it?
     Replace this text with a concise description of the real-world problem
@@ -34,16 +34,16 @@ submission:
     and how it addresses the problem above.
 
   key_features:                        # REQUIRED — List 3 to 5 specific features you implemented
-    - ""                               # e.g., "Real-time pipeline anomaly detection using watsonx.ai"
-    - ""
-    - ""
-    - ""                               # optional 4th
-    - ""                               # optional 5th
+    - "Multi-Source Intelligence Extraction"                               # e.g., "Real-time pipeline anomaly detection using watsonx.ai"
+    - "Automated Relationship Discovery"
+    - "Interactive Fraud Network Graph"
+    - "Fraud Pattern & Role Detection"                               # optional 4th
+    - "FIR-Ready Investigation Brief"                               # optional 5th
 
   tech_stack:
-    languages: []                      # REQUIRED — e.g., ["Python", "TypeScript"]
-    frameworks: []                     # e.g., ["FastAPI", "React"]
-    ibm_technologies: []               # e.g., ["watsonx.ai", "IBM Bob", "IBM Cloud Functions"]
+    languages: ["Python", "Javascript"]                      # REQUIRED — e.g., ["Python", "TypeScript"]
+    frameworks: ["stdlib", "vis.js"]                     # e.g., ["FastAPI", "React"]
+    ibm_technologies: ["IBMBob"]               # e.g., ["watsonx.ai", "IBM Bob", "IBM Cloud Functions"]
     databases: []                      # e.g., ["PostgreSQL", "Redis"]
     other: []                          # e.g., ["Docker", "GitHub Actions", "Slack API"]
 

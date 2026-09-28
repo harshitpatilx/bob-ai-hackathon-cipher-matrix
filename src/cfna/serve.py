@@ -266,7 +266,7 @@ def render_input_page(
     <div id="how" class="contact-info">
       <h3 class="info-title">How this works</h3>
       <ul class="info-list">
-        <li>Submit the form &rarr; a case folder is written under <code>data/web_cases/</code>.</li>
+        <li>Submit the form &rarr; a case folder is written under <code>{cfg.DEFAULT_WEB_CASES_SUBDIR}/</code>.</li>
         <li>The same pipeline runs: extract &rarr; metrics &rarr; pattern &rarr; hierarchy &rarr; risk &rarr; evidence.</li>
         <li>The generated <code>report.html</code> opens right here, with the FIR brief beside it.</li>
         <li>Re-submitting the same case id replaces it; bundled trial cases are protected.</li>
@@ -455,7 +455,7 @@ def serve(
 ) -> int:
     from cfna.cli import DEFAULT_OUT  # imported late: cli imports this module lazily too
 
-    dest = dest or Path.cwd() / "data" / "web_cases"
+    dest = dest or Path.cwd() / cfg.DEFAULT_WEB_CASES_SUBDIR
     out = out or DEFAULT_OUT
     try:
         server = create_server(host, port, dest, out)

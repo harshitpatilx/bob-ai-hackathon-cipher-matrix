@@ -9,7 +9,7 @@ from cfna.analysis.metrics import GraphMetrics
 from cfna.analysis.timeline import burst_windows, first_last
 from cfna.models import CaseBrief, CaseGraph, PatternMatch, NodeAssessment
 
-BOB_BACKEND = "bob-local-rules-v1"
+BOB_BACKEND: str = cfg.BOB_BACKEND_LABEL
 IBM_BOB_ENDPOINT: str | None = None
 IBM_BOB_CREDIT_COST = 0
 

@@ -2,11 +2,31 @@ from __future__ import annotations
 
 import re
 
-# Local input form (`cfna serve`). The report nav links to it, so keep the port in sync
-# with the `serve` sub-command defaults in cli.py.
+# ── serve / UI ────────────────────────────────────────────────────────────────
+# Local input form (`cfna serve`).  The report nav links back to it, so keep
+# INPUT_UI_PORT in sync with the `serve` sub-command default in cli.py.
 INPUT_UI_HOST = "127.0.0.1"
 INPUT_UI_PORT = 8765
 INPUT_UI_URL = f"http://{INPUT_UI_HOST}:{INPUT_UI_PORT}/"
+
+# Subdirectory under the project root that `cfna serve` writes web-submitted
+# cases into.  Relative to wherever the process is run from (normally src/).
+DEFAULT_WEB_CASES_SUBDIR = "data/web_cases"
+
+# ── report / CDN ──────────────────────────────────────────────────────────────
+# vis-network CDN script injected into every generated report.html.
+# Pin the version here so all generated reports use the same bundle.
+VIS_NETWORK_CDN = "https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"
+
+# ── Bob reasoning backend ─────────────────────────────────────────────────────
+# Display label for the local (offline) Bob heuristics backend.
+BOB_BACKEND_LABEL = "bob-local-rules-v1"
+
+# ── intake / template ─────────────────────────────────────────────────────────
+# Folder name written by `cfna template`.
+TEMPLATE_DIR_NAME = "cfna_input_template"
+# case_id used for the sample case embedded in the template.
+TEMPLATE_CASE_ID = "sample_case"
 
 UPI_RE = re.compile(r"(?<![\w@+.-])([a-z0-9][a-z0-9._-]{1,63}@[a-z]{2,32})(?![\w@])", re.I)
 EMAIL_RE = re.compile(r"\b([a-zA-Z0-9._%+-]+@[a-zA-Z0-9-]+\.[a-zA-Z]{2,})\b")
@@ -97,7 +117,11 @@ TEXT_LINK_PATTERNS: list[tuple[re.Pattern[str], str, float]] = [
     (re.compile(r"(?:operated by|controlled by|handled by)\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+){1,3})", re.I), "controlled_by", 1.4),
 ]
 
+# ── fraud-pattern keyword lists ───────────────────────────────────────────────
+# Every pattern's keyword detector lives here so all per-pattern keyword
+# changes are in one place.  KEYWORDS in analysis/patterns.py references these.
 SIM_SWAP_KW = ["sim swap", "sim swap fraud", "sim port", "ported", "reissued sim", "reissued", "replacement sim", "otp", "one time password", "sim blocked", "network went off", "no signal", "kyc update", "sim hijack", "hijacked sim", "duplicate sim", "sim cloned"]
+MULE_CHAIN_KW = ["mule", "rented account", "pass-through", "layering", "cash out", "withdrawn immediately", "benami"]
 TASK_KW = ["task", "investment", "returns", "profit", "recharge", "group", "coach", "premium plan", "refund of", "click work", "earning app", "bonus"]
 PHISH_KW = ["phishing", "vishing", "verification", "kyc", "update your", "customer care", "helpline", "fake link", "otp", "blocked account", "refund pending", "branch office"]
 LOAN_KW = ["loan app", "instant loan", "interest", "blackmail", "obscene", "morphed", "contact list", "extortion", "recover the amount"]

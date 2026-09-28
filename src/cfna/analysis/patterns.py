@@ -171,7 +171,7 @@ STRUCTURAL = {
 
 KEYWORDS = {
     "SIM_SWAP_OTP": cfg.SIM_SWAP_KW,
-    "MULE_CHAIN": ["mule", "rented account", "pass-through", "layering", "cash out", "withdrawn immediately", "benami"],
+    "MULE_CHAIN": cfg.MULE_CHAIN_KW,
     "TASK_INVESTMENT_SCAM": cfg.TASK_KW,
     "PHISH_VISH": cfg.PHISH_KW,
     "LOAN_APP_EXTORTION": cfg.LOAN_KW,
